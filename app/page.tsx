@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { categories } from '@/src/data/categories'
+import { locations } from '@/src/data/locations'
 import { getFeaturedListings } from '@/src/data/listings'
 import ListingCard from '@/src/components/ListingCard'
+import SearchForm from '@/src/components/SearchForm'
 
 export const metadata: Metadata = {
   title: 'מצאו שירותי רחפן מקצועיים בישראל | DroneDir',
@@ -68,35 +70,7 @@ export default function HomePage() {
             בתי ספר לרחפנים, חנויות ושירותי תיקון ברחבי ישראל.
           </p>
 
-          {/* Search bar — UI only */}
-          <div className="mt-9 max-w-2xl mx-auto">
-            <div className="flex flex-col sm:flex-row gap-2">
-              <input
-                type="text"
-                placeholder="מה אתם מחפשים? (למשל: צילום אווירי)"
-                className="flex-1 px-4 py-3.5 rounded-lg text-gray-900 text-base placeholder-gray-400 bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
-                readOnly
-              />
-              <select
-                className="sm:w-40 px-4 py-3.5 rounded-lg text-gray-700 bg-white focus:outline-none text-base"
-                disabled
-              >
-                <option>כל הארץ</option>
-                <option>תל אביב</option>
-                <option>חיפה</option>
-                <option>ירושלים</option>
-                <option>באר שבע</option>
-              </select>
-              <button
-                type="button"
-                disabled
-                className="px-7 py-3.5 bg-blue-500 rounded-lg font-bold text-base opacity-75 cursor-not-allowed"
-              >
-                חיפוש במדריך
-              </button>
-            </div>
-            <p className="mt-2.5 text-sm text-blue-300">חיפוש חי יופעל בקרוב</p>
-          </div>
+          <SearchForm categories={categories} locations={locations} />
 
           <div className="mt-6">
             <a
