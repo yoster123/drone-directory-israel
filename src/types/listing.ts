@@ -6,6 +6,7 @@ export interface Category {
   slug: string
   labelHe: string
   descriptionHe: string
+  emoji: string
   icon: string
   order: number
 }

@@ -312,3 +312,26 @@ export function getFeaturedListings(): Listing[] {
     .filter((l) => l.featured)
     .sort((a, b) => b.qualityScore - a.qualityScore)
 }
+
+export function getCitiesForCategory(categorySlug: string): string[] {
+  const seen = new Set<string>()
+  listings
+    .filter((l) => l.categorySlug === categorySlug)
+    .forEach((l) => seen.add(l.citySlug))
+  return Array.from(seen)
+}
+
+export function getCategoriesForCity(citySlug: string): string[] {
+  const seen = new Set<string>()
+  listings
+    .filter((l) => l.citySlug === citySlug)
+    .forEach((l) => seen.add(l.categorySlug))
+  return Array.from(seen)
+}
+
+export function getSimilarListings(listing: Listing, limit = 3): Listing[] {
+  return listings
+    .filter((l) => l.categorySlug === listing.categorySlug && l.slug !== listing.slug)
+    .sort((a, b) => b.qualityScore - a.qualityScore)
+    .slice(0, limit)
+}

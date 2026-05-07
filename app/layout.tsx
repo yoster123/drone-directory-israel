@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { Heebo } from 'next/font/google'
+import SiteHeader from '@/src/components/SiteHeader'
+import SiteFooter from '@/src/components/SiteFooter'
 import './globals.css'
 
 const heebo = Heebo({
@@ -10,14 +12,17 @@ const heebo = Heebo({
 
 export const metadata: Metadata = {
   title: 'DroneDir — מדריך שירותי הרחפן של ישראל',
-  description: 'מצאו ספקי שירותי רחפן מורשים בישראל — צילום אווירי, מיפוי, בדיקות, חקלאות, FPV ועוד.',
+  description:
+    'מצאו ספקי שירותי רחפן מורשים בישראל — צילום אווירי, מיפוי, בדיקות, חקלאות, FPV ועוד.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="he" dir="rtl" className={`${heebo.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-white text-slate-900">
+        <SiteHeader />
         {children}
+        <SiteFooter />
       </body>
     </html>
   )
