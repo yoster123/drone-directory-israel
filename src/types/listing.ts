@@ -2,6 +2,8 @@ export type ClaimedStatus = 'claimed' | 'unclaimed' | 'pending'
 
 export type Region = 'north' | 'center' | 'south' | 'jerusalem'
 
+export type ServiceAreaType = 'local' | 'regional' | 'nationwide'
+
 export interface Category {
   slug: string
   labelHe: string
@@ -32,9 +34,13 @@ export interface Listing {
   services: string[]
 
   // Location
-  citySlug: string
-  cityLabelHe: string
+  citySlug: string | null    // null when specific city is unknown
+  cityLabelHe: string        // city name, or regional label (e.g. "אזור צפון")
   region: Region
+
+  // Service reach
+  serviceAreaType: ServiceAreaType
+  serviceRegions: Region[]
 
   // Content
   shortDescriptionHe: string

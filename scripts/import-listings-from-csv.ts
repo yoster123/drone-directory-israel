@@ -5,6 +5,7 @@ import path from 'path'
 
 type ClaimedStatus = 'claimed' | 'unclaimed' | 'pending'
 type Region = 'north' | 'center' | 'south' | 'jerusalem'
+type ServiceAreaType = 'local' | 'regional' | 'nationwide'
 
 interface Listing {
   id: string
@@ -13,9 +14,11 @@ interface Listing {
   categorySlug: string
   categoryLabelHe: string
   services: string[]
-  citySlug: string
+  citySlug: string | null
   cityLabelHe: string
   region: Region
+  serviceAreaType: ServiceAreaType
+  serviceRegions: Region[]
   shortDescriptionHe: string
   longDescriptionHe: string
   phone: string | null
@@ -243,6 +246,7 @@ function validateRow(
     ? servicesRaw.split('|').map((s) => s.trim()).filter(Boolean)
     : []
 
+  const region: Region = CITY_REGIONS[citySlug] ?? 'center'
   const listing: Listing = {
     id,
     name,
@@ -250,9 +254,11 @@ function validateRow(
     categorySlug,
     categoryLabelHe: CATEGORY_LABELS[categorySlug] ?? categorySlug,
     services,
-    citySlug,
+    citySlug: citySlug || null,
     cityLabelHe: CITY_LABELS[citySlug] ?? citySlug,
-    region: CITY_REGIONS[citySlug] ?? 'center',
+    region,
+    serviceAreaType: 'local',
+    serviceRegions: [region],
     shortDescriptionHe,
     longDescriptionHe,
     phone,

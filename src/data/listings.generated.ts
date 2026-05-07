@@ -1,6 +1,6 @@
 // AUTO-GENERATED — do not edit manually
 // Source: data-import/listings.csv
-// Generated: 2026-05-07T15:46:27.947Z
+// Generated: 2026-05-07T19:32:11.408Z
 // Run: npm run import:listings
 
 import type { Listing } from '../types/listing'
@@ -21,6 +21,10 @@ export const generatedListings: Listing[] = [
         "citySlug": "tel-aviv",
         "cityLabelHe": "תל אביב",
         "region": "center",
+        "serviceAreaType": "local",
+        "serviceRegions": [
+            "center"
+        ],
         "shortDescriptionHe": "צילום אווירי מקצועי לאירועים ונדל\"ן בתל אביב והמרכז.",
         "longDescriptionHe": "Sky Vision TLV מתמחה בצילום אווירי מקצועי מזה למעלה מ-5 שנים. אנו מספקים שירות צילום לאירועים, נדל\"ן, פרסום ועוד. כל הטייסים שלנו מורשים ומנוסים.",
         "phone": "050-1234567",
@@ -49,6 +53,10 @@ export const generatedListings: Listing[] = [
         "citySlug": "haifa",
         "cityLabelHe": "חיפה",
         "region": "north",
+        "serviceAreaType": "local",
+        "serviceRegions": [
+            "north"
+        ],
         "shortDescriptionHe": "מיפוי תלת-ממדי וסקרי קרקע לקבלני בנייה ורשויות מקומיות בצפון.",
         "longDescriptionHe": "מיפוי מדויק מספקת שירותי מיפוי אווירי בדיוק גבוה לחברות בנייה, מהנדסים ורשויות מקומיות. אנו משתמשים בציוד LiDAR וצילום פוטוגרמטרי.",
         "phone": "04-8765432",
@@ -77,6 +85,10 @@ export const generatedListings: Listing[] = [
         "citySlug": "tel-aviv",
         "cityLabelHe": "תל אביב",
         "region": "center",
+        "serviceAreaType": "local",
+        "serviceRegions": [
+            "center"
+        ],
         "shortDescriptionHe": "בית ספר להכשרת טייסי רחפן מוסמך ומורשה על ידי רשות התעופה האזרחית.",
         "longDescriptionHe": "DroneSchool IL הוא בית הספר המוביל בישראל להכשרת טייסי רחפן. הקורסים שלנו מוכרים על ידי רשות התעופה האזרחית ומכשירים טייסים לרמה מסחרית.",
         "phone": "03-5551234",

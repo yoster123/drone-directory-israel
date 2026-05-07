@@ -5,7 +5,15 @@ interface Props {
   listing: Listing
 }
 
+const REGION_LABELS: Record<string, string> = {
+  north: 'צפון', center: 'מרכז', south: 'דרום', jerusalem: 'ירושלים',
+}
+
 export default function ListingCard({ listing }: Props) {
+  const locationLabel = listing.citySlug
+    ? listing.cityLabelHe
+    : listing.cityLabelHe || `אזור ${REGION_LABELS[listing.region] ?? listing.region}`
+
   return (
     <article className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3 hover:shadow-md transition-shadow">
       <div className="flex items-start justify-between gap-3">
@@ -16,7 +24,7 @@ export default function ListingCard({ listing }: Props) {
             </h3>
           </Link>
           <p className="text-sm text-gray-500 mt-0.5">
-            {listing.categoryLabelHe} · {listing.cityLabelHe}
+            {listing.categoryLabelHe} · {locationLabel}
           </p>
         </div>
         {listing.featured && (

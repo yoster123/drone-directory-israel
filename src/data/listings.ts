@@ -11,6 +11,8 @@ export const listings: Listing[] = [
     citySlug: 'tel-aviv',
     cityLabelHe: 'תל אביב',
     region: 'center',
+    serviceAreaType: 'regional',
+    serviceRegions: ['center'],
     shortDescriptionHe: 'שירותי צילום אווירי מקצועי לאירועים, שיווק ותוכן יצירתי באזור תל אביב והמרכז.',
     longDescriptionHe:
       'SkyView Israel מתמחה בצילום ווידאו אווירי ברמה גבוהה לקהל הפרטי והעסקי כאחד. הטייסים שלנו מוסמכים ומורשים על ידי רשות התעופה האזרחית ומביאים ניסיון של שנים בצילום אירועים, קמפיינים פרסומיים ותוכן דיגיטלי. אנו עובדים עם ציוד DJI מקצועי ומספקים קבצי גלם ותוצרים מעובדים בהתאם לדרישת הלקוח.',
@@ -35,6 +37,8 @@ export const listings: Listing[] = [
     citySlug: 'herzliya',
     cityLabelHe: 'הרצליה',
     region: 'center',
+    serviceAreaType: 'regional',
+    serviceRegions: ['center'],
     shortDescriptionHe: 'מומחים בצילום נדל"ן אווירי לקבלנים, סוכנויות ומשקיעים — מהרצליה עד נתניה.',
     longDescriptionHe:
       'DroneEstate IL מתמקדת אך ורק בצילום נדל"ן מהאוויר. אנו מבינים מה קונים ומשקיעים רוצים לראות ויודעים לבנות נרטיב ויזואלי משכנע לכל נכס. שירותינו כוללים צילום סטילס ברזולוציה גבוהה, סרטוני תדמית, ומודלי תלת-ממד לפרויקטי בנייה. פעילים בכל מרכז הארץ עם אפשרות לליווי פרויקט מלא.',
@@ -59,6 +63,8 @@ export const listings: Listing[] = [
     citySlug: 'tel-aviv',
     cityLabelHe: 'תל אביב',
     region: 'center',
+    serviceAreaType: 'nationwide',
+    serviceRegions: ['center', 'north', 'south', 'jerusalem'],
     shortDescriptionHe: 'צילום FPV מרגש ודינמי לקליפים, ספורט אקסטרים ותוכן ויראלי ברחבי ישראל.',
     longDescriptionHe:
       'FPV Riders TLV היא קבוצת טייסי FPV עם ניסיון בפרויקטים מסחריים ותחרותיים. אנו מביאים תנועה מהירה, זוויות בלתי אפשריות ותחושת ריגוש אמיתית לכל פריים. מתאימים במיוחד לקליפי מוזיקה, תוכן ספורט, אירועי היפ-הופ ותוכן לאינסטגרם וטיקטוק.',
@@ -83,6 +89,8 @@ export const listings: Listing[] = [
     citySlug: 'haifa',
     cityLabelHe: 'חיפה',
     region: 'north',
+    serviceAreaType: 'regional',
+    serviceRegions: ['north'],
     shortDescriptionHe: 'שירותי מיפוי ואווירמדידה מדויקים לחברות הנדסה, קבלנים ורשויות מקומיות בצפון.',
     longDescriptionHe:
       'MapAir Survey מספקת פתרונות מיפוי מתקדמים על בסיס רחפן לסקטור ההנדסאי, הקבלני והציבורי. הצוות שלנו כולל מודדים מוסמכים ומומחי GIS שמבטיחים דיוק של ס"מ בודדים. אנו עובדים עם תוכנות PhotoScan, Pix4D ו-DroneDeploy ומספקים אספקה מלאה של נתונים גיאו-מרחביים.',
@@ -107,6 +115,8 @@ export const listings: Listing[] = [
     citySlug: 'beer-sheva',
     cityLabelHe: 'באר שבע',
     region: 'south',
+    serviceAreaType: 'regional',
+    serviceRegions: ['south'],
     shortDescriptionHe: 'פתרונות רחפן לחקלאות חכמה בנגב — ריסוס, ניטור יבולים ומיפוי שדות.',
     longDescriptionHe:
       'AgriDrone Negev פועלת בחוות ומשקים ברחבי הנגב והדרום עם פתרונות אגרו-טכנולוגיים מבוססי רחפן. שירות הריסוס שלנו חוסך עד 30% בצריכת חומרי הדברה, בעוד שסריקת הצמחייה מאפשרת לזהות בעיות השקיה ומחלות בשלב מוקדם. מוסמכים לטיסות חקלאיות על ידי משרד החקלאות.',
@@ -131,6 +141,8 @@ export const listings: Listing[] = [
     citySlug: 'haifa',
     cityLabelHe: 'חיפה',
     region: 'north',
+    serviceAreaType: 'local',
+    serviceRegions: ['north'],
     shortDescriptionHe: 'בדיקות אווירי של מבנים, גגות ותשתיות תעשייתיות — ללא פיגומים, ללא סיכון.',
     longDescriptionHe:
       'InspectAir Pro מציעה חלופה בטוחה וחסכונית לבדיקות מבנה מסורתיות. באמצעות רחפנים עם מצלמות תרמיות ורגילות, אנו מספקים תמונות ווידאו מפורטים של גגות שטוחים, ממגורות, ארובות, מגדלי מתח גבוה ומתקני נמל. הדוחות שלנו תואמים את דרישות חברות הביטוח.',
@@ -155,6 +167,8 @@ export const listings: Listing[] = [
     citySlug: 'petah-tikva',
     cityLabelHe: 'פתח תקווה',
     region: 'center',
+    serviceAreaType: 'local',
+    serviceRegions: ['center'],
     shortDescriptionHe: 'שירותי אבטחה וניטור אווירי לאירועים, מתחמים ואתרי בנייה באזור המרכז.',
     longDescriptionHe:
       'SkySec Drone מספקת שירותי ניטור אווירי לחברות אבטחה, מארגני אירועים ובעלי נכסים. הרחפנים שלנו מצוידים במצלמות לילה ומאפשרים סיור מהיר ויעיל של שטחים גדולים. הצוות פועל בתיאום עם חברות אבטחה ומורשה לפי חוק השמירה והאבטחה.',
@@ -179,6 +193,8 @@ export const listings: Listing[] = [
     citySlug: 'tel-aviv',
     cityLabelHe: 'תל אביב',
     region: 'center',
+    serviceAreaType: 'nationwide',
+    serviceRegions: ['center', 'north', 'south', 'jerusalem'],
     shortDescriptionHe: 'האקדמיה המובילה להכשרת טייסי רחפן מסחריים בישראל — קורסים עם הסמכה רשמית.',
     longDescriptionHe:
       'Israel Drone Academy הוקמה על ידי טייסים מנוסים ומדריכים מוסמכים מטעם רשות התעופה האזרחית. הקורסים שלנו מכסים את כל הדרישות הרגולטוריות לקבלת רישיון טייס רחפן מסחרי, כולל תיאוריה, ניווט, רגולציה, בטיחות ועוד. הוצאנו מעל 300 טייסים מוסמכים מאז הקמתנו.',
@@ -203,6 +219,8 @@ export const listings: Listing[] = [
     citySlug: 'rishon-lezion',
     cityLabelHe: 'ראשון לציון',
     region: 'center',
+    serviceAreaType: 'local',
+    serviceRegions: ['center'],
     shortDescriptionHe: 'חנות רחפנים מובילה בראשון לציון — מגוון רחב, מחירים תחרותיים ושירות מקצועי.',
     longDescriptionHe:
       'DroneZone Store היא חנות המתמחה במכירת רחפנים, אביזרים וציוד נלווה לחובבים ולאנשי מקצוע. אנו מייצגים את מותגי DJI, Autel Robotics ו-Skydio בישראל ומציעים ייעוץ אישי להתאמת הציוד לצרכי הלקוח. מוצרים ניתנים לאיסוף עצמי או משלוח לכל הארץ.',
@@ -227,6 +245,8 @@ export const listings: Listing[] = [
     citySlug: 'tel-aviv',
     cityLabelHe: 'תל אביב',
     region: 'center',
+    serviceAreaType: 'local',
+    serviceRegions: ['center'],
     shortDescriptionHe: 'מרכז תיקון מקצועי לרחפנים בתל אביב — אבחון מהיר, חלקים מקוריים, אחריות על עבודה.',
     longDescriptionHe:
       'FlyFix Repairs הוקמה על ידי טכנאי אלקטרוניקה ותיקי DJI עם ניסיון של שנים בתיקון ושחזור רחפנים. אנו מטפלים בנזקי התרסקות, בעיות תוכנה, כיול IMU ותיקון מצלמות Gimbal. זמן טיפול ממוצע: 3–5 ימי עסקים. אחריות של 90 יום על כל עבודה.',
@@ -251,6 +271,8 @@ export const listings: Listing[] = [
     citySlug: 'haifa',
     cityLabelHe: 'חיפה',
     region: 'north',
+    serviceAreaType: 'regional',
+    serviceRegions: ['north'],
     shortDescriptionHe: 'צלם רחפן מקצועי המתמחה בצפון הארץ — נוף, טבע, תיירות ופרויקטים אזוריים.',
     longDescriptionHe:
       'Galil Sky פועלת ברחבי הצפון — מחיפה והכרמל ועד הגליל, הגולן ועמק יזרעאל. אנו מתמחים בצילום נוף ותיירותי שמשרת מועצות אזוריות, אתרי נופש ועסקים מקומיים. היכרות עמוקה עם השטח, תנאי האוויר המקומיים ומגבלות הטיסה באזורי הצפון מבדילה אותנו מספקים מהמרכז.',
@@ -275,6 +297,8 @@ export const listings: Listing[] = [
     citySlug: 'eilat',
     cityLabelHe: 'אילת',
     region: 'south',
+    serviceAreaType: 'regional',
+    serviceRegions: ['south'],
     shortDescriptionHe: 'הספק המוביל לצילום אווירי בדרום ובאילת — ים, חופים, מלונות ונופי מדבר ייחודיים.',
     longDescriptionHe:
       'Red Sea Drones מתמחה בצילום האווירי הייחודי שמציעות אילת וסביבתה — הים האדום, מפרץ אקבה, הרי אדום ושמורת הטבע הימית. אנו מספקים שירותים למלונות, סוכנויות תיירות, רשות הטבע והגנים ומפרסמים תיירותיים. בקיאים ברגולציית הטיסה המיוחדת של אזור אילת הסמוך לגבולות.',
@@ -316,8 +340,8 @@ export function getFeaturedListings(): Listing[] {
 export function getCitiesForCategory(categorySlug: string): string[] {
   const seen = new Set<string>()
   listings
-    .filter((l) => l.categorySlug === categorySlug)
-    .forEach((l) => seen.add(l.citySlug))
+    .filter((l) => l.categorySlug === categorySlug && l.citySlug !== null)
+    .forEach((l) => seen.add(l.citySlug!))
   return Array.from(seen)
 }
 
