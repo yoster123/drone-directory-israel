@@ -228,7 +228,7 @@ function calcQualityScore(opts: {
 // ── CSV parser ────────────────────────────────────────────────────────────────
 
 function parseCSV(raw: string): Record<string, string>[] {
-  const lines = raw.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n')
+  const lines = raw.replace(/^﻿/, '').replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n')
   const nonEmpty = lines.filter((l) => l.trim() !== '' && !l.trim().startsWith('#'))
   if (nonEmpty.length < 2) return []
   const headers = parseCSVRow(nonEmpty[0])
@@ -299,7 +299,7 @@ interface TransformResult {
 function transformRow(row: Record<string, string>, today: string): TransformResult {
   // Resolve fields from multiple possible column names (Apify, Outscraper, manual)
   const name = resolve(row, 'title', 'name', 'שם', 'business_name')
-  const categoryRaw = resolve(row, 'categoryName', 'category', 'categories', 'type', 'קטגוריה')
+  const categoryRaw = resolve(row, 'categories/0', 'categoryName', 'category', 'categories', 'type', 'קטגוריה')
   const addressRaw = resolve(row, 'address', 'full_address', 'כתובת', 'location')
   const cityRaw = resolve(row, 'city', 'עיר') || addressRaw
   const phoneRaw = resolve(row, 'phone', 'phoneUnformatted', 'טלפון', 'phone_number')
