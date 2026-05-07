@@ -1,8 +1,7 @@
 // AUTO-GENERATED — do not edit manually
 // Sources:
 //   apify-drone-israel.csv
-//   listings.csv
-// Generated: 2026-05-07T19:31:18.054Z
+// Generated: 2026-05-07T20:02:57.174Z
 // Run: npm run import:scraped
 
 import type { Listing } from '../types/listing'
@@ -360,33 +359,6 @@ export const generatedListings: Listing[] = [
     "lastUpdated": "2026-05-07"
   },
   {
-    "id": "g-4yitde",
-    "name": "Dronim צילומי רחפן",
-    "slug": "dronim-tsylvmy-rchpn",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
-    "phone": "0547376852",
-    "whatsapp": null,
-    "website": null,
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 10,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dronim%20%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%A8%D7%97%D7%A4%D7%9F&query_place_id=ChIJ8eGtJDOvHhUROnGOr3cCWsI",
-    "lastUpdated": "2026-05-07"
-  },
-  {
     "id": "g-91s6uf",
     "name": "כתום צלמים",
     "slug": "ktvm-tslmym-haifa",
@@ -576,33 +548,6 @@ export const generatedListings: Listing[] = [
     "lastUpdated": "2026-05-07"
   },
   {
-    "id": "g-6z9w9b",
-    "name": "נקודת רחפן",
-    "slug": "nkvdt-rchpn",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
-    "phone": null,
-    "whatsapp": null,
-    "website": null,
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 0,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A0%D7%A7%D7%95%D7%93%D7%AA%20%D7%A8%D7%97%D7%A4%D7%9F&query_place_id=ChIJEeahfgCpHRURStDDMqZNN0I",
-    "lastUpdated": "2026-05-07"
-  },
-  {
     "id": "g-ajjukk",
     "name": "DroneView - צילום הצעות נישואין, צילום רחפן",
     "slug": "droneview-tsylvm-htsavt-nyshvayn-tsylvm-",
@@ -657,33 +602,6 @@ export const generatedListings: Listing[] = [
     "lastUpdated": "2026-05-07"
   },
   {
-    "id": "g-x0rubv",
-    "name": "צלם רחפן וידאו וסטילס",
-    "slug": "tslm-rchpn-vydav-vstyls-tel-aviv",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [],
-    "citySlug": "tel-aviv",
-    "cityLabelHe": "תל אביב",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
-    "phone": "0508890626",
-    "whatsapp": null,
-    "website": null,
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 10,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%9C%D7%9D%20%D7%A8%D7%97%D7%A4%D7%9F%20%D7%95%D7%99%D7%93%D7%90%D7%95%20%D7%95%D7%A1%D7%98%D7%99%D7%9C%D7%A1&query_place_id=ChIJ-8j8jkurHRURPP5qV2gFa44",
-    "lastUpdated": "2026-05-07"
-  },
-  {
     "id": "g-hzsrib",
     "name": "SIRI Ariel Photography-סירי צילום אויר",
     "slug": "siri-ariel-photography-syry-tsylvm-avyr",
@@ -708,33 +626,6 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 78,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=SIRI%20Ariel%20Photography-%D7%A1%D7%99%D7%A8%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%99%D7%A8&query_place_id=ChIJCa-L_EpLHRURX1SppTgM4Wo",
-    "lastUpdated": "2026-05-07"
-  },
-  {
-    "id": "g-8qc4gx",
-    "name": "שני גינזבורג צילום - צלמת הריון, ניו בורן, גיל שנה, תדמית, הצעות נישואין ועוד!",
-    "slug": "shny-gynzvvrg-tsylvm-tslmt-hryvn-nyv-vvr",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
-    "phone": "0505805548",
-    "whatsapp": null,
-    "website": "https://www.instagram.com/shani.ginzburg?igsh=MWloOHR1ZjIxdTlibA==",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 84,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%A0%D7%99%20%D7%92%D7%99%D7%A0%D7%96%D7%91%D7%95%D7%A8%D7%92%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20-%20%D7%A6%D7%9C%D7%9E%D7%AA%20%D7%94%D7%A8%D7%99%D7%95%D7%9F%2C%20%D7%A0%D7%99%D7%95%20%D7%91%D7%95%D7%A8%D7%9F%2C%20%D7%92%D7%99%D7%9C%20%D7%A9%D7%A0%D7%94%2C%20%D7%AA%D7%93%D7%9E%D7%99%D7%AA%2C%20%D7%94%D7%A6%D7%A2%D7%95%D7%AA%20%D7%A0%D7%99%D7%A9%D7%95%D7%90%D7%99%D7%9F%20%D7%95%D7%A2%D7%95%D7%93!&query_place_id=ChIJv2SW93FfEk0RKX1YusNgRMI",
     "lastUpdated": "2026-05-07"
   },
   {
@@ -954,33 +845,6 @@ export const generatedListings: Listing[] = [
     "lastUpdated": "2026-05-07"
   },
   {
-    "id": "g-4kh077",
-    "name": "המאגר לוקיישנים Hamaagar locations",
-    "slug": "hmagr-lvkyyshnym-hamaagar-locations-rishon-lezion",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [],
-    "citySlug": "rishon-lezion",
-    "cityLabelHe": "ראשון לציון",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
-    "phone": "035333148",
-    "whatsapp": null,
-    "website": "http://hamaagar.co.il/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 68,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%9E%D7%90%D7%92%D7%A8%20%D7%9C%D7%95%D7%A7%D7%99%D7%99%D7%A9%D7%A0%D7%99%D7%9D%20Hamaagar%20locations&query_place_id=ChIJe-U1wlC0AhUR3p-u1dQUID4",
-    "lastUpdated": "2026-05-07"
-  },
-  {
     "id": "g-tgl940",
     "name": "דוקטור ספיי ציוד ריגול ומעקב- SPY SHOP",
     "slug": "dvktvr-spyy-tsyvd-rygvl-vmakv-spy-shop",
@@ -1059,33 +923,6 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%A0%D7%95%D7%95%D7%99%D7%96'%D7%9F%20%D7%A1%D7%99%D7%95%D7%A8%D7%99%D7%9D%20%D7%95%D7%99%D7%A8%D7%98%D7%95%D7%90%D7%9C%D7%99%D7%99%D7%9D%20Panovision%20virtual%20tours&query_place_id=ChIJfRcnyfgzHRURMNdmvawFk6c",
-    "lastUpdated": "2026-05-07"
-  },
-  {
-    "id": "g-22qj6u",
-    "name": "גאדג'ט-ליין - מימד חדש של מתנות",
-    "slug": "gadg-t-lyyn-mymd-chdsh-shl-mtnvt-tel-aviv",
-    "categorySlug": "drone-stores",
-    "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
-    "citySlug": "tel-aviv",
-    "cityLabelHe": "תל אביב",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
-    "phone": "035744086",
-    "whatsapp": null,
-    "website": "https://www.gadgetline.co.il/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 88,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%92%D7%90%D7%93%D7%92'%D7%98-%D7%9C%D7%99%D7%99%D7%9F%20-%20%D7%9E%D7%99%D7%9E%D7%93%20%D7%97%D7%93%D7%A9%20%D7%A9%D7%9C%20%D7%9E%D7%AA%D7%A0%D7%95%D7%AA&query_place_id=ChIJ57Vg1L5LHRURDs0T_G6ZaxI",
     "lastUpdated": "2026-05-07"
   },
   {
@@ -1251,60 +1088,6 @@ export const generatedListings: Listing[] = [
     "lastUpdated": "2026-05-07"
   },
   {
-    "id": "g-vt6y3f",
-    "name": "HOOP",
-    "slug": "hoop-tel-aviv",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [],
-    "citySlug": "tel-aviv",
-    "cityLabelHe": "תל אביב",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
-    "phone": null,
-    "whatsapp": null,
-    "website": null,
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 0,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=HOOP&query_place_id=ChIJleYPJNNNHRURobqsOJ6KA4o",
-    "lastUpdated": "2026-05-07"
-  },
-  {
-    "id": "g-uz4sy5",
-    "name": "שקם אלקטריק דיוטי פרי",
-    "slug": "shkm-alktryk-dyvty-pry",
-    "categorySlug": "drone-stores",
-    "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
-    "citySlug": null,
-    "cityLabelHe": "אזור מרכז",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
-    "phone": "01700555489",
-    "whatsapp": null,
-    "website": "https://shekem-df.co.il/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 73,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%A7%D7%9D%20%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%99%D7%A7%20%D7%93%D7%99%D7%95%D7%98%D7%99%20%D7%A4%D7%A8%D7%99&query_place_id=ChIJ2dK9hRfLAhURSvgJ1-Ss74Y",
-    "lastUpdated": "2026-05-07"
-  },
-  {
     "id": "g-1aoh0z",
     "name": "איתמר שגב צלם ארועים",
     "slug": "aytmr-shgv-tslm-arvaym-jerusalem",
@@ -1356,87 +1139,6 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 95,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A1%D7%98%D7%99%D7%A7%20%D7%94%D7%A4%D7%A7%D7%95%D7%AA%20-%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%D7%99%D7%9D&query_place_id=ChIJRUkXYPSRAhURuNz_2u636ps",
-    "lastUpdated": "2026-05-07"
-  },
-  {
-    "id": "g-9kkz28",
-    "name": "Sky Vision TLV",
-    "slug": "sky-vision-tlv",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
-    "phone": "0501234567",
-    "whatsapp": null,
-    "website": "https://skyvision-tlv.example.co.il",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 20,
-    "sourceUrl": null,
-    "lastUpdated": "2026-05-07"
-  },
-  {
-    "id": "g-7ujqdk",
-    "name": "מיפוי מדויק",
-    "slug": "mypvy-mdvyk",
-    "categorySlug": "mapping-surveying",
-    "categoryLabelHe": "מיפוי וסקר",
-    "services": [],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "מיפוי וסקר בישראל.",
-    "longDescriptionHe": "מיפוי וסקר בישראל.",
-    "phone": "048765432",
-    "whatsapp": null,
-    "website": "https://miyup-meduyak.example.co.il",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 20,
-    "sourceUrl": null,
-    "lastUpdated": "2026-05-07"
-  },
-  {
-    "id": "g-0sv8yx",
-    "name": "DroneSchool IL",
-    "slug": "droneschool-il",
-    "categorySlug": "training-schools",
-    "categoryLabelHe": "בתי ספר והכשרה",
-    "services": [],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "בתי ספר והכשרה בישראל.",
-    "longDescriptionHe": "בתי ספר והכשרה בישראל.",
-    "phone": "035551234",
-    "whatsapp": null,
-    "website": "https://droneschool-il.example.co.il",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 20,
-    "sourceUrl": null,
     "lastUpdated": "2026-05-07"
   }
 ]

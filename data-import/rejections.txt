@@ -1,0 +1,15 @@
+# Rejected listings — one ID or slug per line. Lines starting with # are ignored.
+# The importer skips any listing whose id OR slug appears here.
+
+# Non-drone businesses scraped from Google Maps
+g-8qc4gx  # שני גינזבורג — pregnancy/newborn photographer, not a drone business
+g-4kh077  # המאגר לוקיישנים — film location scouting agency, not drone
+g-22qj6u  # גאדג'ט-ליין — generic gadget/gift store, not drone-specific
+g-uz4sy5  # שקם אלקטריק — general duty-free electronics chain
+g-vt6y3f  # HOOP — no contact info, unclear relevance to drones
+
+# Template / example entries (also excluded by the apify*/scraped* file filter,
+# but listed here as a safety net in case listings.csv is accidentally re-added)
+g-9kkz28  # Sky Vision TLV — template placeholder
+g-7ujqdk  # מיפוי מדויק — template placeholder
+g-0sv8yx  # DroneSchool IL — template placeholder

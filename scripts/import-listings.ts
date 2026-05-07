@@ -626,13 +626,26 @@ function main() {
   const OUTPUT = path.join(ROOT, 'src', 'data', 'generated-listings.ts')
   const TODAY = new Date().toISOString().slice(0, 10)
 
+  // Load rejections list
+  const REJECTIONS_FILE = path.join(INPUT_DIR, 'rejections.txt')
+  const rejectedIds = new Set<string>()
+  if (fs.existsSync(REJECTIONS_FILE)) {
+    fs.readFileSync(REJECTIONS_FILE, 'utf-8')
+      .split('\n')
+      .map((l) => l.replace(/#.*$/, '').trim())
+      .filter(Boolean)
+      .forEach((entry) => rejectedIds.add(entry))
+    console.log(`🚫  rejections.txt: ${rejectedIds.size} entries loaded`)
+  }
+
+  // Only process real scraper exports (apify*.csv, scraped*.csv)
   const csvFiles = fs
     .readdirSync(INPUT_DIR)
-    .filter((f) => f.endsWith('.csv') && f !== 'listings-template.csv')
+    .filter((f) => f.endsWith('.csv') && (f.startsWith('apify') || f.startsWith('scraped')))
     .sort()
 
   if (csvFiles.length === 0) {
-    console.error(`❌  לא נמצאו קבצי CSV ב-${INPUT_DIR}`)
+    console.error(`❌  לא נמצאו קבצי CSV ב-${INPUT_DIR} (מחפש apify*.csv / scraped*.csv)`)
     process.exit(1)
   }
 
@@ -644,6 +657,8 @@ function main() {
   const regionOnly: string[] = []
   let totalRows = 0
   let skippedRows = 0
+  let rejectedCount = 0
+  let lowQualityDropped = 0
 
   for (const file of csvFiles) {
     const raw = fs.readFileSync(path.join(INPUT_DIR, file), 'utf-8')
@@ -659,6 +674,17 @@ function main() {
       }
 
       const { listing, categoryConfidence, categoryScore, locationStatus, rawCity } = result
+
+      if (rejectedIds.has(listing.id) || rejectedIds.has(listing.slug)) {
+        rejectedCount++
+        continue
+      }
+
+      if (listing.qualityScore < 15) {
+        lowQualityDropped++
+        continue
+      }
+
       allListings.push(listing)
 
       if (categoryConfidence === 'low') {
@@ -712,6 +738,8 @@ function main() {
    קבצי CSV:          ${csvFiles.length}
    שורות סה"כ:        ${totalRows}
    דולגו (ללא שם):   ${skippedRows}
+   נדחו (rejections): ${rejectedCount}
+   נפסלו (quality<15):${lowQualityDropped}
    כפולות הוסרו:      ${removed}
    עסקים יובאו:       ${listings.length}
    ─────────────────────────────────
