@@ -9,7 +9,8 @@
       "Bash(git -C /home/yoel/projects/drone-directory-website config user.email \"yoelhalach@gmail.com\")",
       "Bash(git -C /home/yoel/projects/drone-directory-website config user.name \"Yoel Halach\")",
       "Bash(npx tsc *)",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(npm run *)"
     ]
   }
 }
