@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "import:listings": "npx tsx scripts/import-listings-from-csv.ts"
+    "import:listings": "npx tsx scripts/import-listings-from-csv.ts",
+    "import:scraped": "npx tsx scripts/import-listings.ts"
   },
   "dependencies": {
     "next": "16.2.5",
