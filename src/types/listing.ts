@@ -64,3 +64,8 @@ export interface Listing {
   sourceUrl: string | null   // where this listing was originally found
   lastUpdated: string        // ISO date string
 }
+
+export interface EnrichedListing extends Listing {
+  badges: string[]
+  specialties: string[]
+}

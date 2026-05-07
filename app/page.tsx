@@ -48,7 +48,7 @@ const HOW_IT_WORKS = [
 ]
 
 const STATS = [
-  { value: '12+', label: 'ספקים רשומים' },
+  { value: '36+', label: 'ספקים רשומים' },
   { value: '10', label: 'קטגוריות שירות' },
   { value: '10', label: 'ערים ואזורים' },
   { value: '100%', label: 'ספקים מורשים' },

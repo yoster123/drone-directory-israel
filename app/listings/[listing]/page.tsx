@@ -73,9 +73,11 @@ export default async function ListingPage({
             {listing.categoryLabelHe}
           </Link>
           {' · '}
-          <Link href={`/cities/${listing.citySlug}`} className="hover:text-blue-600 transition-colors">
-            {listing.cityLabelHe}
-          </Link>
+          {listing.citySlug ? (
+            <Link href={`/cities/${listing.citySlug}`} className="hover:text-blue-600 transition-colors">
+              {listing.cityLabelHe}
+            </Link>
+          ) : listing.cityLabelHe}
         </p>
       </div>
 
@@ -106,6 +108,38 @@ export default async function ListingPage({
             </div>
           </section>
 
+          {listing.specialties.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-lg font-bold text-gray-900 mb-3">התמחויות</h2>
+              <div className="flex flex-wrap gap-2">
+                {listing.specialties.map((specialty) => (
+                  <span
+                    key={specialty}
+                    className="px-3 py-1.5 bg-purple-50 text-purple-700 text-sm font-medium rounded-full"
+                  >
+                    {specialty}
+                  </span>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {listing.badges.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-lg font-bold text-gray-900 mb-3">אמינות ואיכות</h2>
+              <div className="flex flex-wrap gap-2">
+                {listing.badges.map((badge) => (
+                  <span
+                    key={badge}
+                    className="px-3 py-1.5 bg-green-50 text-green-700 text-sm font-semibold rounded-full border border-green-200"
+                  >
+                    ✓ {badge}
+                  </span>
+                ))}
+              </div>
+            </section>
+          )}
+
           <section>
             <h2 className="text-lg font-bold text-gray-900 mb-3">פרטים נוספים</h2>
             <dl className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-sm">
@@ -120,9 +154,13 @@ export default async function ListingPage({
               <div className="flex gap-2">
                 <dt className="font-medium text-gray-500 shrink-0">עיר:</dt>
                 <dd>
-                  <Link href={`/cities/${listing.citySlug}`} className="text-gray-700 hover:text-blue-600 transition-colors">
-                    {listing.cityLabelHe}
-                  </Link>
+                  {listing.citySlug ? (
+                    <Link href={`/cities/${listing.citySlug}`} className="text-gray-700 hover:text-blue-600 transition-colors">
+                      {listing.cityLabelHe}
+                    </Link>
+                  ) : (
+                    <span className="text-gray-700">{listing.cityLabelHe}</span>
+                  )}
                 </dd>
               </div>
               <div className="flex gap-2">

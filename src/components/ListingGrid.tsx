@@ -1,8 +1,8 @@
-import type { Listing } from '@/src/types/listing'
+import type { EnrichedListing } from '@/src/types/listing'
 import ListingCard from '@/src/components/ListingCard'
 
 interface Props {
-  listings: Listing[]
+  listings: EnrichedListing[]
   emptyMessage?: string
 }
 

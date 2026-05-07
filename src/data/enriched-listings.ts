@@ -1,19 +1,21 @@
 // AUTO-GENERATED — do not edit manually
-// Sources:
-//   apify-drone-israel.csv
-// Generated: 2026-05-07T20:11:42.643Z
-// Run: npm run import:scraped
+// Source: src/data/generated-listings.ts
+// Generated: 2026-05-07T20:29:21.488Z
+// Run: npm run enrich:listings
 
-import type { Listing } from '../types/listing'
+import type { EnrichedListing } from '../types/listing'
 
-export const generatedListings: Listing[] = [
+export const enrichedListings: EnrichedListing[] = [
   {
     "id": "g-8jip5g",
     "name": "יאיר צרפתי צילום אווירי",
     "slug": "yayr-tsrpty-tsylvm-avvyry",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור צפון",
     "region": "north",
@@ -21,8 +23,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "north"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צלם רחפן מקצועי באזור צפון. מתמחה בצילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר באזור צפון. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. מדורג גבוה על ידי לקוחות.",
     "phone": "0525289686",
     "whatsapp": null,
     "website": null,
@@ -32,7 +34,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 82,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%99%D7%90%D7%99%D7%A8%20%D7%A6%D7%A8%D7%A4%D7%AA%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99&query_place_id=ChIJvVQV4UXPHRURUjs4nPyEKng",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-am51xv",
@@ -40,7 +46,10 @@ export const generatedListings: Listing[] = [
     "slug": "fly-photo-tsylvm-vamtsavt-rchpnym-tsylvm",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -48,8 +57,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צלם רחפן מקצועי בישראל. מתמחה בצילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בישראל. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. זמינות גבוהה לכל פרויקט.",
     "phone": "0525717975",
     "whatsapp": null,
     "website": null,
@@ -59,7 +68,9 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 72,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fly%20photo%20%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D%20%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20%D7%A4%D7%9C%D7%99%D7%99%20%D7%A4%D7%95%D7%98%D7%95&query_place_id=ChIJXRNkB-M1HRURUm2wpcJxTQg",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [],
+    "specialties": []
   },
   {
     "id": "g-unf9fo",
@@ -67,7 +78,10 @@ export const generatedListings: Listing[] = [
     "slug": "skyyshvt-tsylvm-avvyry-vazrt-rchpnym-tel-aviv",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "tel-aviv",
     "cityLabelHe": "תל אביב",
     "region": "center",
@@ -75,8 +89,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צלם רחפן מקצועי בתל אביב. מתמחה בצילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "צלם רחפן מקצועי בתל אביב המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
     "phone": "0522687951",
     "whatsapp": null,
     "website": "http://www.skyshot.co.il/",
@@ -86,7 +100,12 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%A7%D7%99%D7%99%D7%A9%D7%95%D7%98%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%20%D7%91%D7%A2%D7%96%D7%A8%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D&query_place_id=ChIJr-qG52azAhUR9KPGPrFVLjE",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-9kg39q",
@@ -94,7 +113,10 @@ export const generatedListings: Listing[] = [
     "slug": "rvaym-mlmalh-mtslmym-mkl-zvvyt-haifa",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "haifa",
     "cityLabelHe": "חיפה",
     "region": "north",
@@ -102,8 +124,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "north"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בחיפה.",
+    "longDescriptionHe": "צילום אווירי בחיפה — צילום אווירי, וידאו אווירי ועוד. שירות אישי, מהיר ומקצועי. זמינים לשיחה בכל שעה.",
     "phone": "0529439913",
     "whatsapp": null,
     "website": "http://rm-photos.co.il/",
@@ -113,7 +135,13 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 90,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%95%D7%90%D7%99%D7%9D%20%D7%9E%D7%9C%D7%9E%D7%A2%D7%9C%D7%94%20%D7%9E%D7%A6%D7%9C%D7%9E%D7%99%D7%9D%20%D7%9E%D7%9B%D7%9C%20%D7%96%D7%95%D7%95%D7%99%D7%AA&query_place_id=ChIJ0xdV_yO7HRURysSw9RFs3NA",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": []
   },
   {
     "id": "g-tvjnbr",
@@ -121,7 +149,10 @@ export const generatedListings: Listing[] = [
     "slug": "tsylvmy-rchpn-gya-shmvaly",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -129,8 +160,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צלם רחפן מקצועי באזור מרכז. מתמחה בצילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "פעיל באזור מרכז בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
     "phone": "0526091126",
     "whatsapp": null,
     "website": "https://guyshmueli.wixsite.com/guyshphotography",
@@ -140,7 +171,12 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 78,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%A8%D7%97%D7%A4%D7%9F%20%7C%20%D7%92%D7%99%D7%90%20%D7%A9%D7%9E%D7%95%D7%90%D7%9C%D7%99&query_place_id=ChIJV2EO-D4VHRURvALGNVHzYvE",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-xyanbh",
@@ -148,7 +184,11 @@ export const generatedListings: Listing[] = [
     "slug": "lvl-ty-vy",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -156,8 +196,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "shortDescriptionHe": "ציוד רחפנים בישראל — מכירת רחפנים ואביזרים ורכיבים.",
+    "longDescriptionHe": "מומחי ציוד רחפנים בישראל. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
     "phone": "036565500",
     "whatsapp": null,
     "website": "http://www.looltv.com/",
@@ -167,7 +207,15 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 97,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%95%D7%9C%20%D7%98%D7%99%20%D7%95%D7%99&query_place_id=ChIJ5UiVCmA5HRURifxYEutdsuw",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "מעל 100 ביקורות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-sbkzqk",
@@ -175,7 +223,10 @@ export const generatedListings: Listing[] = [
     "slug": "creative-mind-hpkvt-vydav-tsylvmy-rchpn-",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -183,8 +234,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צילום אווירי עם רחפן באזור מרכז — צילום אווירי, וידאו אווירי ועוד.",
+    "longDescriptionHe": "פעיל באזור מרכז בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
     "phone": "0545720989",
     "whatsapp": null,
     "website": "http://creative-mind.co.il/",
@@ -194,7 +245,12 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 80,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Creative%20Mind%20%D7%94%D7%A4%D7%A7%D7%95%D7%AA%20%D7%95%D7%99%D7%93%D7%90%D7%95%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%A8%D7%97%D7%A4%D7%9F%20%D7%95%D7%91%D7%A0%D7%99%D7%99%D7%AA%20%D7%9B%D7%A8%D7%98%D7%99%D7%A1%20%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99&query_place_id=ChIJi-7I60trHBUR5zGCwVnQwt8",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-gltfto",
@@ -202,7 +258,11 @@ export const generatedListings: Listing[] = [
     "slug": "tsylvmy-avvyr-kvrsym-vhdrkvt-rchpnym-nvd-netanya",
     "categorySlug": "training-schools",
     "categoryLabelHe": "בתי ספר והכשרה",
-    "services": [],
+    "services": [
+      "קורסי טיס",
+      "הדרכת רחפנים",
+      "רישיון טיס"
+    ],
     "citySlug": "netanya",
     "cityLabelHe": "נתניה",
     "region": "center",
@@ -210,8 +270,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "בית ספר לרחפנים בנתניה. קורסי טיס והדרכת רחפנים.",
+    "longDescriptionHe": "הכשרת טייסי רחפנים מקצועיים בנתניה. קורסי טיס, הדרכת רחפנים ועוד. כל מה שצריך לדרך ברחפנות.",
     "phone": "0502471444",
     "whatsapp": null,
     "website": null,
@@ -221,7 +281,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 72,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20%D7%A7%D7%95%D7%A8%D7%A1%D7%99%D7%9D%20%D7%95%D7%94%D7%93%D7%A8%D7%9B%D7%95%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D%20-%20NVDF&query_place_id=ChIJi4XoWAs_HRUR8LCbuu2Lg0Q",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [],
+    "specialties": [
+      "הדרכה ורישיון"
+    ]
   },
   {
     "id": "g-robhtw",
@@ -229,7 +293,10 @@ export const generatedListings: Listing[] = [
     "slug": "tvhr-znty-shyrvty-tsylvm-varykh",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -237,8 +304,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר, מרחפן בישראל.",
+    "longDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בישראל. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. זמינות גבוהה לכל פרויקט.",
     "phone": "0545644366",
     "whatsapp": null,
     "website": null,
@@ -248,7 +315,9 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 64,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%95%D7%94%D7%A8%20%D7%96%D7%A0%D7%AA%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%95%D7%A2%D7%A8%D7%99%D7%9B%D7%94&query_place_id=ChIJUdaRBgHPHRURNPYLp-h06ic",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [],
+    "specialties": []
   },
   {
     "id": "g-u32rup",
@@ -256,7 +325,10 @@ export const generatedListings: Listing[] = [
     "slug": "may-fly-shyrvty-tsylvm-avvyryym",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -264,8 +336,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בישראל.",
+    "longDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בישראל. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. מדורג גבוה על ידי לקוחות.",
     "phone": "0528795365",
     "whatsapp": null,
     "website": "http://maydfly.com/",
@@ -275,7 +347,12 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=May%20Fly%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%D7%99%D7%9D&query_place_id=ChIJHx1sbYYNHRUR0oTKaAbNtno",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-vbdlk6",
@@ -283,7 +360,11 @@ export const generatedListings: Listing[] = [
     "slug": "aygl-tsylvmym-tsylvm-avvyry-tsylvm-avyry",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי",
+      "סיורים וירטואליים"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור דרום",
     "region": "south",
@@ -291,8 +372,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "south"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צלם רחפן מקצועי באזור דרום. מתמחה בצילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "פעיל באזור דרום בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
     "phone": "0503355336",
     "whatsapp": null,
     "website": "http://www.eagle-eye.co.il/",
@@ -302,7 +383,13 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 74,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%99%D7%92%D7%9C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%D7%9D%20-%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%20%7C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%99%D7%A8%D7%99%20%7C%20%D7%A1%D7%99%D7%95%D7%A8%D7%99%D7%9D%20%D7%95%D7%99%D7%A8%D7%98%D7%95%D7%90%D7%9C%D7%99%D7%99%D7%9D&query_place_id=ChIJbSaVB7o1HRURMy66BvM1mEU",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [
+      "סיורים וירטואליים"
+    ]
   },
   {
     "id": "g-axvmro",
@@ -310,7 +397,10 @@ export const generatedListings: Listing[] = [
     "slug": "drone-options-rishon-lezion",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "rishon-lezion",
     "cityLabelHe": "ראשון לציון",
     "region": "center",
@@ -318,8 +408,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צלם רחפן מקצועי בראשון לציון. מתמחה בצילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "צילום אווירי בראשון לציון — צילום אווירי, וידאו אווירי ועוד. שירות אישי, מהיר ומקצועי. זמינים לשיחה בכל שעה.",
     "phone": "0523771361",
     "whatsapp": null,
     "website": "http://www.drone-options.com/",
@@ -329,7 +419,13 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 96,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Drone-Options&query_place_id=ChIJASZjTLxNiqwR3w2_9_hn3vc",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "מעל 100 ביקורות"
+    ],
+    "specialties": []
   },
   {
     "id": "g-v90fnf",
@@ -337,7 +433,11 @@ export const generatedListings: Listing[] = [
     "slug": "avlm-hrchpnym",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -345,8 +445,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "חנות רחפנים באזור מרכז. מכירת רחפנים, אביזרים ורכיבים ועוד.",
+    "longDescriptionHe": "מומחי ציוד רחפנים באזור מרכז. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
     "phone": "0526653331",
     "whatsapp": null,
     "website": "http://www.bargad.co.il/",
@@ -356,7 +456,15 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 92,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A2%D7%95%D7%9C%D7%9D%20%D7%94%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D&query_place_id=ChIJSSdVZmw2HRUR_j0On7cbIaE",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-91s6uf",
@@ -364,7 +472,10 @@ export const generatedListings: Listing[] = [
     "slug": "ktvm-tslmym-haifa",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "haifa",
     "cityLabelHe": "חיפה",
     "region": "north",
@@ -372,8 +483,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "north"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "פעיל בחיפה בתחום צילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "צילום אווירי בחיפה — צילום אווירי, וידאו אווירי ועוד. שירות אישי, מהיר ומקצועי. זמינים לשיחה בכל שעה.",
     "phone": "048551441",
     "whatsapp": null,
     "website": "http://www.catom.net/",
@@ -383,7 +494,13 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 96,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9B%D7%AA%D7%95%D7%9D%20%D7%A6%D7%9C%D7%9E%D7%99%D7%9D&query_place_id=ChIJQTmc9AO7HRURhTNO_TJ2-Dw",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "מעל 100 ביקורות"
+    ],
+    "specialties": []
   },
   {
     "id": "g-tc9j4o",
@@ -391,7 +508,11 @@ export const generatedListings: Listing[] = [
     "slug": "hvvyz-va-m",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -399,8 +520,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים באזור מרכז. מבחר ציוד מקצועי.",
+    "longDescriptionHe": "מומחי ציוד רחפנים באזור מרכז. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
     "phone": "0723845200",
     "whatsapp": null,
     "website": "http://www.hobbiz.co.il/",
@@ -410,7 +531,14 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 82,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%95%D7%91%D7%99%D7%96%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJUTEclMKiAhURB24vhhCVAdg",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-hi8drx",
@@ -418,7 +546,10 @@ export const generatedListings: Listing[] = [
     "slug": "lvya-ttslvmy-avvyr-rishon-lezion",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "rishon-lezion",
     "cityLabelHe": "ראשון לציון",
     "region": "center",
@@ -426,8 +557,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בראשון לציון.",
+    "longDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר בראשון לציון. ניסיון עם לקוחות עסקיים, יזמים ותקשורת. ניתן לצפות בגלריית עבודות באתר.",
     "phone": "0773459805",
     "whatsapp": null,
     "website": "https://laviuav.com/",
@@ -437,7 +568,12 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 76,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%91%D7%99%D7%90%20%D7%AA%D7%A6%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8&query_place_id=ChIJJWDmsve1AhURcSatOYQFMD0",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-btnhcv",
@@ -445,7 +581,10 @@ export const generatedListings: Listing[] = [
     "slug": "top-visual-tsylvm-avvyry",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -453,8 +592,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צלם רחפן מקצועי באזור מרכז. מתמחה בצילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "צלם רחפן מקצועי באזור מרכז המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. פנו לקבלת הצעת מחיר.",
     "phone": "0537524556",
     "whatsapp": null,
     "website": null,
@@ -464,7 +603,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 77,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Top%20Visual%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99&query_place_id=ChIJbwheV7JLHRUReye98cAtzQc",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-qmu4nz",
@@ -472,7 +615,11 @@ export const generatedListings: Listing[] = [
     "slug": "spotlight-drone-solutions",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור דרום",
     "region": "south",
@@ -480,8 +627,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "south"
     ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "shortDescriptionHe": "חנות רחפנים באזור דרום. מכירת רחפנים, אביזרים ורכיבים ועוד.",
+    "longDescriptionHe": "חנות רחפנים באזור דרום עם מגוון רחב של ציוד מקצועי ובידורי. מכירת רחפנים, אביזרים ורכיבים ועוד. צוות מנוסה לסיוע בבחירה.",
     "phone": "0515100532",
     "whatsapp": null,
     "website": null,
@@ -491,7 +638,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 69,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=SPOTLIGHT%20Drone%20Solutions&query_place_id=ChIJS0wQ6kVFAhURzlQ37s9FLKU",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-481k4j",
@@ -499,7 +650,11 @@ export const generatedListings: Listing[] = [
     "slug": "rchpny-tl-avyv-tlvdrones",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -507,8 +662,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "shortDescriptionHe": "ציוד רחפנים באזור מרכז — מכירת רחפנים ואביזרים ורכיבים.",
+    "longDescriptionHe": "מומחי ציוד רחפנים באזור מרכז. מכירת רחפנים ואביזרים ורכיבים. בואו לחנות לייעוץ אישי.",
     "phone": "0505112127",
     "whatsapp": null,
     "website": null,
@@ -518,7 +673,13 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 84,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%97%D7%A4%D7%A0%D7%99%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20Tlvdrones&query_place_id=ChIJwZuO70FLHRURzvo8jz9jaz0",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "דירוג גבוה"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-03n8qj",
@@ -526,7 +687,11 @@ export const generatedListings: Listing[] = [
     "slug": "dji-israel-herzliya",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": "herzliya",
     "cityLabelHe": "הרצליה",
     "region": "center",
@@ -534,8 +699,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "shortDescriptionHe": "מומחי רחפנים בהרצליה. מכירת רחפנים, אביזרים ורכיבים ויועצים מנוסים.",
+    "longDescriptionHe": "חנות רחפנים בהרצליה עם מגוון רחב של ציוד מקצועי ובידורי. מכירת רחפנים, אביזרים ורכיבים ועוד. צוות מנוסה לסיוע בבחירה.",
     "phone": "0732660699",
     "whatsapp": null,
     "website": "https://www.djistore.benda.co.il/",
@@ -545,7 +710,15 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 92,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=DJI%20Israel&query_place_id=ChIJo5dgSmRJHRURNIccpfdGpkI",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-ajjukk",
@@ -553,7 +726,10 @@ export const generatedListings: Listing[] = [
     "slug": "droneview-tsylvm-htsavt-nyshvayn-tsylvm-",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -561,8 +737,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר, מרחפן בישראל.",
+    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
     "phone": "0543153488",
     "whatsapp": null,
     "website": "https://droneview.co.il/",
@@ -572,7 +748,12 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 82,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=DroneView%20-%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%94%D7%A6%D7%A2%D7%95%D7%AA%20%D7%A0%D7%99%D7%A9%D7%95%D7%90%D7%99%D7%9F%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%A8%D7%97%D7%A4%D7%9F&query_place_id=ChIJIec9o-QOym4RYF3ss6gKC64",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-9buv44",
@@ -580,7 +761,10 @@ export const generatedListings: Listing[] = [
     "slug": "al-dy-ayy-hpkvt-vydav-tel-aviv",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "tel-aviv",
     "cityLabelHe": "תל אביב",
     "region": "center",
@@ -588,8 +772,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "פעיל בתל אביב בתחום צילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר בתל אביב. ניסיון עם לקוחות עסקיים, יזמים ותקשורת. ניתן לצפות בגלריית עבודות באתר.",
     "phone": "0543313165",
     "whatsapp": null,
     "website": "https://www.lda-air.com/",
@@ -599,7 +783,13 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 89,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%9C%20%D7%93%D7%99%20%D7%90%D7%99%D7%99%20%D7%94%D7%A4%D7%A7%D7%95%D7%AA%20%D7%95%D7%99%D7%93%D7%90%D7%95&query_place_id=ChIJ-cyDjIKfAhURCMz3Lyg5yl0",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה",
+      "ביקורות רבות"
+    ],
+    "specialties": []
   },
   {
     "id": "g-hzsrib",
@@ -607,7 +797,10 @@ export const generatedListings: Listing[] = [
     "slug": "siri-ariel-photography-syry-tsylvm-avyr",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -615,8 +808,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "פעיל בישראל בתחום צילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "פעיל בישראל בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
     "phone": "0548111385",
     "whatsapp": null,
     "website": "https://siriap.com/",
@@ -626,7 +819,12 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 78,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=SIRI%20Ariel%20Photography-%D7%A1%D7%99%D7%A8%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%99%D7%A8&query_place_id=ChIJCa-L_EpLHRURX1SppTgM4Wo",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-hn3g0a",
@@ -634,7 +832,10 @@ export const generatedListings: Listing[] = [
     "slug": "yshral-gvk-i-g-drone",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -642,8 +843,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר, מרחפן באזור מרכז.",
+    "longDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר באזור מרכז. ניסיון עם לקוחות עסקיים, יזמים ותקשורת. ניתן לצפות בגלריית עבודות באתר.",
     "phone": "0546149361",
     "whatsapp": null,
     "website": "https://sites.google.com/view/igdrone/%D7%91%D7%99%D7%AA?authuser=3",
@@ -653,7 +854,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 20,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%92%D7%95%D7%9A%20I.G%20DRONE&query_place_id=ChIJM0QoNN9LHRURBCsVNWPrDHg",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": []
   },
   {
     "id": "g-ub8a9j",
@@ -661,7 +866,11 @@ export const generatedListings: Listing[] = [
     "slug": "hachym-yvgnd-tel-aviv",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": "tel-aviv",
     "cityLabelHe": "תל אביב",
     "region": "center",
@@ -669,8 +878,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "shortDescriptionHe": "חנות רחפנים בתל אביב. מכירת רחפנים, אביזרים ורכיבים ועוד.",
+    "longDescriptionHe": "חנות רחפנים בתל אביב עם מגוון רחב של ציוד מקצועי ובידורי. מכירת רחפנים, אביזרים ורכיבים ועוד. צוות מנוסה לסיוע בבחירה.",
     "phone": "037969000",
     "whatsapp": null,
     "website": "http://www.j-sale.co.il/",
@@ -680,7 +889,15 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 96,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%90%D7%97%D7%99%D7%9D%20%D7%99%D7%95%D7%92%D7%A0%D7%93&query_place_id=ChIJpb_yq2RLHRURcQU-slqX_8M",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "מעל 100 ביקורות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-tiurmx",
@@ -688,7 +905,10 @@ export const generatedListings: Listing[] = [
     "slug": "tslm-vydyav-yvvl-asf",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -696,8 +916,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "פעיל בישראל בתחום צילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בישראל. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. מדורג גבוה על ידי לקוחות.",
     "phone": "0528499007",
     "whatsapp": null,
     "website": null,
@@ -707,7 +927,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%9C%D7%9D%20%D7%95%D7%99%D7%93%D7%99%D7%90%D7%95%20%D7%99%D7%95%D7%91%D7%9C%20%D7%90%D7%A1%D7%A3&query_place_id=ChIJEYoUzRG7AhUR_8hQGtqG0nA",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-te4jey",
@@ -715,7 +939,10 @@ export const generatedListings: Listing[] = [
     "slug": "ysavr-dvrvn",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -723,8 +950,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר, מרחפן בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל — צילום אווירי, וידאו אווירי ועוד. שירות אישי, מהיר ומקצועי. זמינים לשיחה בכל שעה.",
     "phone": "0542555900",
     "whatsapp": null,
     "website": "http://www.crt-media.com/",
@@ -734,7 +961,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 71,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%99%D7%A1%D7%A2%D7%95%D7%A8%20%D7%93%D7%95%D7%A8%D7%95%D7%9F&query_place_id=ChIJYwIgtpo1HRURTDOOVYXZQE8",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": []
   },
   {
     "id": "g-wqk72n",
@@ -742,7 +973,11 @@ export const generatedListings: Listing[] = [
     "slug": "ayy-rnt",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -750,8 +985,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "shortDescriptionHe": "מומחי רחפנים באזור מרכז. מכירת רחפנים, אביזרים ורכיבים ויועצים מנוסים.",
+    "longDescriptionHe": "חנות רחפנים באזור מרכז עם מגוון רחב של ציוד מקצועי ובידורי. מכירת רחפנים, אביזרים ורכיבים ועוד. צוות מנוסה לסיוע בבחירה.",
     "phone": "036763366",
     "whatsapp": null,
     "website": "https://i-rent.co.il/",
@@ -761,7 +996,14 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 84,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%99%D7%99%20%D7%A8%D7%A0%D7%98&query_place_id=ChIJz49c9bRLHRURmsf-rc0qNdI",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-g2kxik",
@@ -769,7 +1011,10 @@ export const generatedListings: Listing[] = [
     "slug": "tsylvm-varykt-vydav-stvdyv-edital",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -777,8 +1022,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל — צילום אווירי, וידאו אווירי ועוד. שירות אישי, מהיר ומקצועי. זמינים לשיחה בכל שעה.",
     "phone": "0548042251",
     "whatsapp": null,
     "website": "http://www.edital.co.il/",
@@ -788,7 +1033,13 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 93,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%95%D7%A2%D7%A8%D7%99%D7%9B%D7%AA%20%D7%95%D7%99%D7%93%D7%90%D7%95%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20ediTal&query_place_id=ChIJcy88pXlKHRURn3AIfDQ0SiA",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": []
   },
   {
     "id": "g-028v0n",
@@ -796,7 +1047,11 @@ export const generatedListings: Listing[] = [
     "slug": "arlyk-mrkz-htsylvm-tel-aviv",
     "categorySlug": "drone-stores",
     "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
     "citySlug": "tel-aviv",
     "cityLabelHe": "תל אביב",
     "region": "center",
@@ -804,8 +1059,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "shortDescriptionHe": "מומחי רחפנים בתל אביב. מכירת רחפנים, אביזרים ורכיבים ויועצים מנוסים.",
+    "longDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים בתל אביב. מבחר רחפנים ואביזרים ממותגים מובילים. שירות לפני ואחרי המכירה.",
     "phone": "035627292",
     "whatsapp": null,
     "website": "http://www.erlich.co.il/",
@@ -815,7 +1070,15 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 95,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%A8%D7%9C%D7%99%D7%9A%20%D7%9E%D7%A8%D7%9B%D7%96%20%D7%94%D7%A6%D7%99%D7%9C%D7%95%D7%9D&query_place_id=ChIJH7T057hMHRURajg0R_9mR78",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "מעל 100 ביקורות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ]
   },
   {
     "id": "g-tf7pc7",
@@ -823,7 +1086,11 @@ export const generatedListings: Listing[] = [
     "slug": "pnvvyz-n-syvrym-vyrtvalyym-panovision-vi",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי",
+      "סיורים וירטואליים"
+    ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
     "region": "center",
@@ -831,8 +1098,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר, מרחפן בישראל.",
+    "longDescriptionHe": "פעיל בישראל בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
     "phone": "039099336",
     "whatsapp": null,
     "website": "http://www.panovision.co.il/",
@@ -842,7 +1109,14 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%A0%D7%95%D7%95%D7%99%D7%96'%D7%9F%20%D7%A1%D7%99%D7%95%D7%A8%D7%99%D7%9D%20%D7%95%D7%99%D7%A8%D7%98%D7%95%D7%90%D7%9C%D7%99%D7%99%D7%9D%20Panovision%20virtual%20tours&query_place_id=ChIJfRcnyfgzHRURMNdmvawFk6c",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [
+      "סיורים וירטואליים"
+    ]
   },
   {
     "id": "g-049prr",
@@ -850,7 +1124,10 @@ export const generatedListings: Listing[] = [
     "slug": "tsylvm-avvyry-digitalsky-tel-aviv",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "tel-aviv",
     "cityLabelHe": "תל אביב",
     "region": "center",
@@ -858,8 +1135,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר, מרחפן בתל אביב.",
+    "longDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בתל אביב. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. זמינות גבוהה לכל פרויקט.",
     "phone": "0587417411",
     "whatsapp": null,
     "website": "https://www.digital-sky.co.il/",
@@ -869,7 +1146,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 20,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%20%7C%20DigitalSky&query_place_id=ChIJd4J2KVBLHRURtfp3-Fu13wA",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": []
   },
   {
     "id": "g-8kj2yx",
@@ -877,7 +1158,10 @@ export const generatedListings: Listing[] = [
     "slug": "tsylvmy-avvyr-ornir-jerusalem",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "jerusalem",
     "cityLabelHe": "ירושלים",
     "region": "jerusalem",
@@ -885,8 +1169,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "jerusalem"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "פעיל בירושלים בתחום צילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר בירושלים. ניסיון עם לקוחות עסקיים, יזמים ותקשורת. ניתן לצפות בגלריית עבודות באתר.",
     "phone": "0523381763",
     "whatsapp": null,
     "website": "http://www.ornir.co.il/aerial-photography-c20jw",
@@ -896,7 +1180,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 74,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20-%20ORNIR&query_place_id=ChIJ2UN7D2oqAxURosEbGhnAzP8",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": []
   },
   {
     "id": "g-suq77i",
@@ -904,7 +1192,10 @@ export const generatedListings: Listing[] = [
     "slug": "tsvykh-lyvrmn-tsylvm-arykh-vhpkh",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור מרכז",
     "region": "center",
@@ -912,8 +1203,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "צילום אווירי עם רחפן באזור מרכז — צילום אווירי, וידאו אווירי ועוד.",
+    "longDescriptionHe": "צלם רחפן מקצועי באזור מרכז המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
     "phone": "0526276665",
     "whatsapp": null,
     "website": "http://www.zpro.co.il/",
@@ -923,7 +1214,12 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 84,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%91%D7%99%D7%A7%D7%94%20%D7%9C%D7%99%D7%91%D7%A8%D7%9E%D7%9F%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%2C%20%D7%A2%D7%A8%D7%99%D7%9B%D7%94%20%D7%95%D7%94%D7%A4%D7%A7%D7%94&query_place_id=ChIJZaRbGpPNAhURuWRnbAIeWlI",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-mzotmv",
@@ -931,7 +1227,10 @@ export const generatedListings: Listing[] = [
     "slug": "tsylvm-varykt-vydav-styv-gtnyv-rishon-lezion",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": "rishon-lezion",
     "cityLabelHe": "ראשון לציון",
     "region": "center",
@@ -939,8 +1238,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בראשון לציון.",
+    "longDescriptionHe": "צלם רחפן מקצועי בראשון לציון המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. פנו לקבלת הצעת מחיר.",
     "phone": "0504557400",
     "whatsapp": null,
     "website": null,
@@ -950,7 +1249,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 79,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%95%D7%A2%D7%A8%D7%99%D7%9B%D7%AA%20%D7%95%D7%99%D7%93%D7%90%D7%95%20%D7%A1%D7%AA%D7%99%D7%95%20%D7%92%D7%98%D7%A0%D7%99%D7%95&query_place_id=ChIJq-n8Q6dx4qMR0KbnifzP0-Y",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "דירוג גבוה"
+    ],
+    "specialties": []
   },
   {
     "id": "g-rja2nb",
@@ -958,7 +1261,10 @@ export const generatedListings: Listing[] = [
     "slug": "shmavn-kts-vydav-shimon-katz-videography",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
-    "services": [],
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
     "citySlug": null,
     "cityLabelHe": "אזור ירושלים",
     "region": "jerusalem",
@@ -966,8 +1272,8 @@ export const generatedListings: Listing[] = [
     "serviceRegions": [
       "jerusalem"
     ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
+    "shortDescriptionHe": "פעיל באזור ירושלים בתחום צילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "פעיל באזור ירושלים בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
     "phone": "0542458190",
     "whatsapp": null,
     "website": "http://www.shimonkatz.co.il/",
@@ -977,6 +1283,11 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 82,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%9B%D7%A5%20%D7%95%D7%99%D7%93%D7%90%D7%95%20-%20Shimon%20Katz%20videography&query_place_id=ChIJEcc8s_nDAhURHV6kYG9dub8",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-07",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": []
   }
 ]

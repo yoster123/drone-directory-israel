@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import type { Listing } from '@/src/types/listing'
+import type { EnrichedListing } from '@/src/types/listing'
 
 interface Props {
-  listing: Listing
+  listing: EnrichedListing
 }
 
 const REGION_LABELS: Record<string, string> = {
@@ -34,9 +34,35 @@ export default function ListingCard({ listing }: Props) {
         )}
       </div>
 
+      {listing.badges.length > 0 && (
+        <div className="flex flex-wrap gap-1.5">
+          {listing.badges.map((badge) => (
+            <span
+              key={badge}
+              className="text-xs font-semibold bg-green-50 text-green-700 px-2 py-0.5 rounded-full border border-green-200"
+            >
+              ✓ {badge}
+            </span>
+          ))}
+        </div>
+      )}
+
       <p className="text-sm text-gray-600 leading-relaxed line-clamp-2">
         {listing.shortDescriptionHe}
       </p>
+
+      {listing.specialties.length > 0 && (
+        <div className="flex flex-wrap gap-1.5">
+          {listing.specialties.map((specialty) => (
+            <span
+              key={specialty}
+              className="text-xs bg-purple-50 text-purple-700 px-2.5 py-0.5 rounded-full font-medium"
+            >
+              {specialty}
+            </span>
+          ))}
+        </div>
+      )}
 
       <div className="flex flex-wrap gap-1.5">
         {listing.services.slice(0, 2).map((service) => (
