@@ -1,0 +1,19 @@
+id,name,slug,categorySlug,citySlug,shortDescriptionHe,longDescriptionHe,services,phone,whatsapp,website,email,imageUrl,claimedStatus,featured,qualityScore,sourceUrl,lastUpdated
+# עמודות חובה: id, name, slug, categorySlug, citySlug, shortDescriptionHe, longDescriptionHe, claimedStatus, qualityScore, lastUpdated
+# עמודות אופציונליות: services (מופרדות ב-|), phone, whatsapp, website, email, imageUrl, sourceUrl
+# qualityScore: מספר בין 1 ל-5 (1=נמוך, 5=גבוה)
+# claimedStatus: claimed / unclaimed / pending
+# featured: true / false
+# slug: ייחודי, אותיות קטנות, מקפים במקום רווחים (לדוגמה: sky-vision-tel-aviv)
+#
+# קטגוריות תקינות:
+#   aerial-photography, real-estate-photography, fpv-filming, mapping-surveying,
+#   agriculture, inspections, security, training-schools, drone-stores, repairs
+#
+# ערים תקינות:
+#   tel-aviv, jerusalem, haifa, beer-sheva, herzliya, netanya,
+#   rishon-lezion, petah-tikva, ashdod, eilat
+#
+gen-001,Sky Vision TLV,sky-vision-tlv,aerial-photography,tel-aviv,צילום אווירי מקצועי לאירועים ונדל"ן בתל אביב והמרכז.,"Sky Vision TLV מתמחה בצילום אווירי מקצועי מזה למעלה מ-5 שנים. אנו מספקים שירות צילום לאירועים, נדל""ן, פרסום ועוד. כל הטייסים שלנו מורשים ומנוסים.",צילום אירועים|צילום נדל"ן|צילום פרסומי|סרטוני תדמית,050-1234567,050-1234567,https://skyvision-tlv.example.co.il,info@skyvision-tlv.example.co.il,,unclaimed,false,4,,2026-05-01
+gen-002,מיפוי מדויק,miyup-meduyak,mapping-surveying,haifa,"מיפוי תלת-ממדי וסקרי קרקע לקבלני בנייה ורשויות מקומיות בצפון.","מיפוי מדויק מספקת שירותי מיפוי אווירי בדיוק גבוה לחברות בנייה, מהנדסים ורשויות מקומיות. אנו משתמשים בציוד LiDAR וצילום פוטוגרמטרי.",מיפוי תלת-ממדי|סקרי קרקע|תוכניות טופוגרפיות|דוחות GIS,04-8765432,,https://miyup-meduyak.example.co.il,survey@miyup-meduyak.example.co.il,,unclaimed,false,5,,2026-05-01
+gen-003,DroneSchool IL,droneschool-il,training-schools,tel-aviv,בית ספר להכשרת טייסי רחפן מוסמך ומורשה על ידי רשות התעופה האזרחית.,"DroneSchool IL הוא בית הספר המוביל בישראל להכשרת טייסי רחפן. הקורסים שלנו מוכרים על ידי רשות התעופה האזרחית ומכשירים טייסים לרמה מסחרית.",קורס בסיסי לרחפן|קורס מסחרי|חידוש רישיון|קורס FPV,03-5551234,052-5551234,https://droneschool-il.example.co.il,learn@droneschool-il.example.co.il,,unclaimed,true,5,,2026-05-01
