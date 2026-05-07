@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git -C /home/yoel/projects/drone-directory-website add .)",
+      "Bash(git -C /home/yoel/projects/drone-directory-website commit -m \"Add core project documentation\")",
+      "Bash(git -C /home/yoel/projects/drone-directory-website config user.email \"yoelhalach@gmail.com\")",
+      "Bash(git -C /home/yoel/projects/drone-directory-website config user.name \"Yoel Halach\")"
+    ]
+  }
+}
