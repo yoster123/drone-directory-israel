@@ -10,7 +10,10 @@
       "Bash(git -C /home/yoel/projects/drone-directory-website config user.name \"Yoel Halach\")",
       "Bash(npx tsc *)",
       "Bash(git *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(curl *)",
+      "Bash(node *)",
+      "WebFetch(domain:localhost)"
     ]
   }
 }

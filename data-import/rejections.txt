@@ -7,6 +7,11 @@ g-4kh077  # המאגר לוקיישנים — film location scouting agency, not
 g-22qj6u  # גאדג'ט-ליין — generic gadget/gift store, not drone-specific
 g-uz4sy5  # שקם אלקטריק — general duty-free electronics chain
 g-vt6y3f  # HOOP — no contact info, unclear relevance to drones
+g-pnkfk9  # צילום אירועים פוטושוט — events photographer, no drone signal
+g-uj8oy6  # מסטיק הפקות — events production company, no drone signal
+g-1aoh0z  # איתמר שגב צלם ארועים — events photographer, no drone signal
+g-04s0br  # גליץ בית הספר לצילום — general photography school, not drone-specific
+g-tgl940  # דוקטור ספיי SPY SHOP — spy gadget shop, not a drone services business
 
 # Template / example entries (also excluded by the apify*/scraped* file filter,
 # but listed here as a safety net in case listings.csv is accidentally re-added)

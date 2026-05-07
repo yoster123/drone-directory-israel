@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "import:listings": "npx tsx scripts/import-listings-from-csv.ts",
-    "import:scraped": "npx tsx scripts/import-listings.ts"
+    "import:scraped": "npx tsx scripts/import-listings.ts",
+    "enrich:listings": "npx tsx scripts/enrich-listings.ts"
   },
   "dependencies": {
     "next": "16.2.5",

@@ -172,6 +172,8 @@ const CATEGORY_WEIGHTS: Array<{
   },
 ]
 
+const CATEGORY_LABEL_BY_SLUG = new Map(CATEGORY_WEIGHTS.map((c) => [c.slug, c.labelHe]))
+
 type Confidence = 'high' | 'medium' | 'low'
 
 function normalizeCategory(
@@ -423,6 +425,26 @@ function normalizePhone(raw: string): string | null {
   return digits
 }
 
+// ── Website cleanup ───────────────────────────────────────────────────────────
+
+const SOCIAL_DOMAINS = [
+  'instagram.com', 'youtube.com', 'youtu.be', 'facebook.com',
+  'linktr.ee', 'linktree.com', 'twitter.com', 'tiktok.com',
+]
+
+function cleanWebsite(raw: string): string | null {
+  if (!raw) return null
+  // Decode %20 and split to find concatenated URLs (common Apify artifact)
+  const decoded = raw.replace(/%20/gi, ' ')
+  const tokens = decoded.split(/\s+/).filter(Boolean)
+  const urls = tokens.filter((t) => t.startsWith('http://') || t.startsWith('https://'))
+  if (urls.length === 0) return null
+  const nonSocial = urls.filter(
+    (url) => !SOCIAL_DOMAINS.some((d) => url.toLowerCase().includes(d)),
+  )
+  return nonSocial[0] ?? null
+}
+
 // ── CSV parser ────────────────────────────────────────────────────────────────
 
 function parseCSV(raw: string): Record<string, string>[] {
@@ -499,7 +521,7 @@ function transformRow(row: Record<string, string>, today: string): TransformResu
   const reviewsCountRaw = resolve(row, 'reviewsCount', 'reviews', 'reviewCount', 'user_ratings_total')
 
   const phone = normalizePhone(phoneRaw)
-  const website = websiteRaw || null
+  const website = cleanWebsite(websiteRaw)
   const totalScore = parseFloat(totalScoreRaw) || 0
   const reviewsCount = parseInt(reviewsCountRaw, 10) || 0
 
@@ -638,6 +660,16 @@ function main() {
     console.log(`🚫  rejections.txt: ${rejectedIds.size} entries loaded`)
   }
 
+  // Load category overrides
+  const OVERRIDES_FILE = path.join(INPUT_DIR, 'category-overrides.json')
+  const categoryOverrides: Record<string, string> = fs.existsSync(OVERRIDES_FILE)
+    ? JSON.parse(fs.readFileSync(OVERRIDES_FILE, 'utf-8'))
+    : {}
+  const overridesCount = Object.keys(categoryOverrides).length
+  if (overridesCount > 0) {
+    console.log(`📝  category-overrides.json: ${overridesCount} overrides loaded`)
+  }
+
   // Only process real scraper exports (apify*.csv, scraped*.csv)
   const csvFiles = fs
     .readdirSync(INPUT_DIR)
@@ -659,6 +691,8 @@ function main() {
   let skippedRows = 0
   let rejectedCount = 0
   let lowQualityDropped = 0
+  let overriddenCount = 0
+  const overriddenLog: string[] = []
 
   for (const file of csvFiles) {
     const raw = fs.readFileSync(path.join(INPUT_DIR, file), 'utf-8')
@@ -685,6 +719,15 @@ function main() {
         continue
       }
 
+      const catOverride = categoryOverrides[listing.id]
+      if (catOverride) {
+        const label = CATEGORY_LABEL_BY_SLUG.get(catOverride) ?? catOverride
+        overriddenLog.push(`  "${listing.name}": ${listing.categorySlug} → ${catOverride}`)
+        listing.categorySlug = catOverride
+        listing.categoryLabelHe = label
+        overriddenCount++
+      }
+
       allListings.push(listing)
 
       if (categoryConfidence === 'low') {
@@ -706,6 +749,11 @@ function main() {
   }
 
   const { listings, removed } = deduplicate(allListings)
+
+  if (overriddenLog.length > 0) {
+    console.log(`\n📝  עקיפות קטגוריה (${overriddenLog.length}):`)
+    overriddenLog.forEach((w) => console.log(w))
+  }
 
   if (uncertainCategory.length > 0) {
     console.log(`\n⚠️   סיווג קטגוריה לא בטוח (${uncertainCategory.length}):`)
@@ -740,6 +788,7 @@ function main() {
    דולגו (ללא שם):   ${skippedRows}
    נדחו (rejections): ${rejectedCount}
    נפסלו (quality<15):${lowQualityDropped}
+   עקיפות קטגוריה:    ${overriddenCount}
    כפולות הוסרו:      ${removed}
    עסקים יובאו:       ${listings.length}
    ─────────────────────────────────
