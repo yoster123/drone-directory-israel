@@ -59,17 +59,27 @@ export default function ListingCard({ listing }: Props) {
       )}
 
       <div className="flex items-center justify-between pt-3 mt-auto border-t border-gray-100">
-        {listing.phone ? (
-          <a
-            href={`tel:${listing.phone.replace(/-/g, '')}`}
-            className="text-sm font-medium text-black hover:text-blue-600 transition-colors"
-            dir="ltr"
-          >
-            {listing.phone}
-          </a>
-        ) : (
-          <span />
-        )}
+        <div className="flex flex-col gap-0.5">
+          {listing.phone ? (
+            <a
+              href={`tel:${listing.phone.replace(/-/g, '')}`}
+              className="text-sm font-medium text-black hover:text-blue-600 transition-colors"
+              dir="ltr"
+            >
+              {listing.phone}
+            </a>
+          ) : null}
+          {listing.whatsapp && (
+            <a
+              href={listing.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[11px] text-green-600 hover:text-green-700 transition-colors"
+            >
+              וואטסאפ ↗
+            </a>
+          )}
+        </div>
         {listing.website && (
           <a
             href={listing.website}

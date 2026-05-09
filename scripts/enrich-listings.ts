@@ -178,13 +178,61 @@ function buildLongDesc(listing: Listing, services: string[], loc: string): strin
   return opts[pick(listing.id, 'long', opts.length)]
 }
 
+// ── City slug normalization ───────────────────────────────────────────────────
+
+const CITY_LABEL_TO_SLUG: Record<string, string> = {
+  'תל אביב':      'tel-aviv',
+  'ירושלים':       'jerusalem',
+  'חיפה':          'haifa',
+  'באר שבע':       'beer-sheva',
+  'הרצליה':        'herzliya',
+  'נתניה':         'netanya',
+  'ראשון לציון':   'rishon-lezion',
+  'פתח תקווה':     'petah-tikva',
+  'אשדוד':         'ashdod',
+  'אילת':          'eilat',
+}
+
+function normalizeCitySlug(listing: Listing): string | null {
+  if (listing.citySlug) return listing.citySlug
+  return CITY_LABEL_TO_SLUG[listing.cityLabelHe] ?? null
+}
+
+// ── WhatsApp derivation ───────────────────────────────────────────────────────
+
+function deriveWhatsApp(phone: string | null, existing: string | null): string | null {
+  if (existing) return existing
+  if (!phone) return null
+
+  const digits = phone.replace(/\D/g, '')
+
+  // Normalise to E.164 without the leading +
+  let e164: string
+  if (digits.startsWith('972')) {
+    e164 = digits
+  } else if (digits.startsWith('0')) {
+    e164 = '972' + digits.slice(1)
+  } else {
+    return null
+  }
+
+  // Israeli mobile: 972 + 5X + 7 more digits = 12 digits total
+  if (!/^9725\d{8}$/.test(e164)) return null
+
+  return `https://wa.me/${e164}`
+}
+
 // ── Core enrichment ───────────────────────────────────────────────────────────
 
 function enrich(listing: Listing): EnrichedListing {
+  const citySlug = normalizeCitySlug(listing)
+  const whatsapp = deriveWhatsApp(listing.phone, listing.whatsapp)
   const services = inferServices(listing)
-  const loc = locLabel(listing)
+  const loc = locLabel({ ...listing, citySlug })
   return {
     ...listing,
+    citySlug,
+    whatsapp,
     services,
     shortDescriptionHe: buildShortDesc(listing, services, loc),
     longDescriptionHe:  buildLongDesc(listing, services, loc),
@@ -232,10 +280,21 @@ function main() {
   const withSpecialties = enriched.filter((l) => l.specialties.length > 0).length
   const avgServices     = (enriched.reduce((acc, l) => acc + l.services.length, 0) / enriched.length).toFixed(1)
   const avgBadges       = (enriched.reduce((acc, l) => acc + l.badges.length, 0) / enriched.length).toFixed(1)
+  const withCitySlug    = enriched.filter((l) => l.citySlug !== null).length
+  const wasNormalized   = enriched.filter((l) => {
+    const orig = (generatedListings as unknown as Listing[]).find((g) => g.id === l.id)
+    return !orig?.citySlug && !!l.citySlug
+  }).length
+  const withWhatsApp    = enriched.filter((l) => !!l.whatsapp).length
+  const skippedPhone    = (generatedListings as unknown as Listing[]).filter(
+    (l) => l.phone && !deriveWhatsApp(l.phone, l.whatsapp),
+  ).length
 
   console.log(`
 📊  סיכום:
    עסקים עובדו:      ${enriched.length}
+   עם וואטסאפ:      ${withWhatsApp} (מספרים לא-נייד שדולגו: ${skippedPhone})
+   עם עיר מזוהה:    ${withCitySlug} (נורמל חדש: ${wasNormalized})
    עם תגיות אמון:   ${withBadges} (ממוצע ${avgBadges} לעסק)
    עם התמחויות:     ${withSpecialties}
    ממוצע שירותים:   ${avgServices} לעסק
