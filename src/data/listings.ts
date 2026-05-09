@@ -19,10 +19,15 @@ export function getListingsByCategoryAndCity(categorySlug: string, citySlug: str
   return listings.filter((l) => l.categorySlug === categorySlug && l.citySlug === citySlug)
 }
 
-export function getFeaturedListings(): EnrichedListing[] {
-  return listings
+export function getFeaturedListings(limit = 6): EnrichedListing[] {
+  const featured = listings
     .filter((l) => l.featured)
     .sort((a, b) => b.qualityScore - a.qualityScore)
+  if (featured.length >= limit) return featured.slice(0, limit)
+  // Fall back to highest quality score when no listings are manually featured
+  return [...listings]
+    .sort((a, b) => b.qualityScore - a.qualityScore)
+    .slice(0, limit)
 }
 
 export function getCitiesForCategory(categorySlug: string): string[] {

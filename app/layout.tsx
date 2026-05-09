@@ -11,7 +11,7 @@ const heebo = Heebo({
 })
 
 export const metadata: Metadata = {
-  title: 'DroneDir — מדריך שירותי הרחפן של ישראל',
+  title: 'ALTIV — מדריך שירותי הרחפן של ישראל',
   description:
     'מצאו ספקי שירותי רחפן מורשים בישראל — צילום אווירי, מיפוי, בדיקות, חקלאות, FPV ועוד.',
 }

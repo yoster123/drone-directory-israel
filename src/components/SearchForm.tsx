@@ -7,9 +7,10 @@ import type { Category, Location } from '@/src/types/listing'
 interface Props {
   categories: Category[]
   locations: Location[]
+  className?: string
 }
 
-export default function SearchForm({ categories, locations }: Props) {
+export default function SearchForm({ categories, locations, className }: Props) {
   const router = useRouter()
   const [isPending, startTransition] = useTransition()
   const [service, setService] = useState('')
@@ -31,44 +32,39 @@ export default function SearchForm({ categories, locations }: Props) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mt-9 max-w-2xl mx-auto"
+      className={className ?? 'w-full'}
       role="search"
       aria-label="חיפוש שירותי רחפן"
     >
-      <div className="flex flex-col sm:flex-row gap-2">
-        <label htmlFor="search-service" className="sr-only">
-          בחרו שירות
-        </label>
+      <div className="flex flex-col sm:flex-row items-stretch rounded-2xl border border-gray-200 bg-white overflow-hidden shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
+
+        <label htmlFor="search-service" className="sr-only">בחרו שירות</label>
         <select
           id="search-service"
           value={service}
           onChange={(e) => setService(e.target.value)}
           disabled={isPending}
-          className="flex-1 px-4 py-3.5 rounded-lg text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-400 text-base disabled:opacity-60"
+          className="flex-1 px-5 py-4 bg-transparent text-gray-700 text-[15px] focus:outline-none focus:bg-gray-50/50 disabled:opacity-60 border-b sm:border-b-0 border-gray-100 cursor-pointer appearance-none"
         >
-          <option value="">כל השירותים</option>
+          <option value="">בחרו שירות</option>
           {categories.map((c) => (
-            <option key={c.slug} value={c.slug}>
-              {c.labelHe}
-            </option>
+            <option key={c.slug} value={c.slug}>{c.labelHe}</option>
           ))}
         </select>
 
-        <label htmlFor="search-city" className="sr-only">
-          בחרו עיר
-        </label>
+        <span className="hidden sm:block w-px bg-gray-100 self-stretch" aria-hidden="true" />
+
+        <label htmlFor="search-city" className="sr-only">בחרו עיר</label>
         <select
           id="search-city"
           value={city}
           onChange={(e) => setCity(e.target.value)}
           disabled={isPending}
-          className="sm:w-44 px-4 py-3.5 rounded-lg text-gray-700 bg-white focus:outline-none focus:ring-2 focus:ring-blue-400 text-base disabled:opacity-60"
+          className="sm:w-44 px-5 py-4 bg-transparent text-gray-500 text-[15px] focus:outline-none focus:bg-gray-50/50 disabled:opacity-60 border-b sm:border-b-0 border-gray-100 cursor-pointer appearance-none"
         >
           <option value="">כל הארץ</option>
           {locations.map((l) => (
-            <option key={l.slug} value={l.slug}>
-              {l.labelHe}
-            </option>
+            <option key={l.slug} value={l.slug}>{l.labelHe}</option>
           ))}
         </select>
 
@@ -76,10 +72,11 @@ export default function SearchForm({ categories, locations }: Props) {
           type="submit"
           disabled={isPending}
           aria-busy={isPending}
-          className="px-7 py-3.5 bg-blue-500 hover:bg-blue-400 rounded-lg font-bold text-base transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+          className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold text-[15px] transition-colors disabled:opacity-60 disabled:cursor-not-allowed whitespace-nowrap"
         >
-          {isPending ? 'טוען...' : 'חיפוש במדריך'}
+          {isPending ? 'טוען...' : 'חפש ספקים'}
         </button>
+
       </div>
     </form>
   )
