@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { listings, getListingBySlug, getSimilarListings } from '@/src/data/listings'
 import Breadcrumbs from '@/src/components/Breadcrumbs'
+import CategoryIcon from '@/src/components/CategoryIcon'
 import ListingGrid from '@/src/components/ListingGrid'
 import CTABox from '@/src/components/CTABox'
 import { SITE_URL } from '@/src/lib/config'
@@ -29,6 +30,10 @@ export async function generateMetadata({
   }
 }
 
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('he-IL', { year: 'numeric', month: 'long' })
+}
+
 export default async function ListingPage({
   params,
 }: {
@@ -39,12 +44,6 @@ export default async function ListingPage({
   if (!listing) notFound()
 
   const similar = getSimilarListings(listing)
-
-  const CLAIMED_LABEL: Record<string, string> = {
-    claimed: 'מאומת',
-    unclaimed: 'לא נדרש',
-    pending: 'בבדיקה',
-  }
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -61,10 +60,7 @@ export default async function ListingPage({
       addressLocality: listing.cityLabelHe,
       addressCountry: 'IL',
     },
-    areaServed: {
-      '@type': 'Country',
-      name: 'Israel',
-    },
+    areaServed: { '@type': 'Country', name: 'Israel' },
     knowsAbout: listing.categoryLabelHe,
   }
 
@@ -74,6 +70,7 @@ export default async function ListingPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+
       <Breadcrumbs
         items={[
           { label: 'ראשי', href: '/' },
@@ -83,41 +80,48 @@ export default async function ListingPage({
         ]}
       />
 
-      {/* Title row */}
-      <div className="mb-8">
-        <div className="flex flex-wrap items-center gap-2 mb-2">
-          {listing.featured && (
-            <span className="text-xs font-semibold bg-amber-100 text-amber-700 px-2.5 py-1 rounded-full">
-              מומלץ
-            </span>
-          )}
-          {listing.claimedStatus === 'claimed' && (
-            <span className="text-xs font-semibold bg-green-100 text-green-700 px-2.5 py-1 rounded-full">
-              ✓ מאומת
-            </span>
-          )}
+      {/* Page header card */}
+      <div className="rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100 px-6 py-7 mb-8 flex items-start gap-5">
+        <div className="shrink-0 w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white">
+          <CategoryIcon slug={listing.categorySlug} className="w-7 h-7" />
         </div>
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-900">{listing.name}</h1>
-        <p className="text-gray-500 mt-1">
-          <Link href={`/services/${listing.categorySlug}`} className="hover:text-blue-600 transition-colors">
-            {listing.categoryLabelHe}
-          </Link>
-          {' · '}
-          {listing.citySlug ? (
-            <Link href={`/cities/${listing.citySlug}`} className="hover:text-blue-600 transition-colors">
-              {listing.cityLabelHe}
+        <div className="min-w-0 flex-1">
+          {(listing.featured || listing.claimedStatus === 'claimed') && (
+            <div className="flex flex-wrap items-center gap-2 mb-2">
+              {listing.featured && (
+                <span className="text-xs font-semibold bg-amber-100 text-amber-700 px-2.5 py-1 rounded-full">
+                  מומלץ
+                </span>
+              )}
+              {listing.claimedStatus === 'claimed' && (
+                <span className="text-xs font-semibold bg-green-100 text-green-700 px-2.5 py-1 rounded-full">
+                  ✓ מאומת
+                </span>
+              )}
+            </div>
+          )}
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-900 leading-tight">
+            {listing.name}
+          </h1>
+          <p className="text-gray-500 mt-1.5 text-[15px]">
+            <Link href={`/services/${listing.categorySlug}`} className="hover:text-blue-600 transition-colors">
+              {listing.categoryLabelHe}
             </Link>
-          ) : listing.cityLabelHe}
-        </p>
+            {' · '}
+            {listing.citySlug ? (
+              <Link href={`/cities/${listing.citySlug}`} className="hover:text-blue-600 transition-colors">
+                {listing.cityLabelHe}
+              </Link>
+            ) : listing.cityLabelHe}
+          </p>
+        </div>
       </div>
 
       {/* Two-column layout */}
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
+
         {/* Main content */}
         <div className="flex-1 min-w-0">
-          <p className="text-lg text-gray-700 font-medium leading-relaxed mb-8">
-            {listing.shortDescriptionHe}
-          </p>
 
           <section className="mb-8">
             <h2 className="text-lg font-bold text-gray-900 mb-3">אודות</h2>
@@ -163,7 +167,7 @@ export default async function ListingPage({
                     key={badge}
                     className="px-3 py-1.5 bg-green-50 text-green-700 text-sm font-semibold rounded-full border border-green-200"
                   >
-                    ✓ {badge}
+                    {badge}
                   </span>
                 ))}
               </div>
@@ -194,31 +198,32 @@ export default async function ListingPage({
                 </dd>
               </div>
               <div className="flex gap-2">
-                <dt className="font-medium text-gray-500 shrink-0">עדכון אחרון:</dt>
-                <dd className="text-gray-700">{listing.lastUpdated}</dd>
-              </div>
-              <div className="flex gap-2">
-                <dt className="font-medium text-gray-500 shrink-0">סטטוס:</dt>
-                <dd className="text-gray-700">{CLAIMED_LABEL[listing.claimedStatus]}</dd>
+                <dt className="font-medium text-gray-500 shrink-0">עודכן:</dt>
+                <dd className="text-gray-700">{formatDate(listing.lastUpdated)}</dd>
               </div>
             </dl>
           </section>
+
         </div>
 
         {/* Sidebar — contact card */}
         <aside className="lg:w-76 shrink-0">
-          <div className="bg-white border border-gray-200 rounded-xl p-6 sticky top-24">
+          <div className="bg-white border border-gray-200 rounded-xl p-6 sticky top-20">
             <h2 className="font-bold text-gray-900 text-lg mb-5">פרטי קשר</h2>
             <div className="flex flex-col gap-3">
+
               {listing.phone && (
                 <a
                   href={`tel:${listing.phone.replace(/-/g, '')}`}
                   className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-bold transition-colors"
                 >
-                  <span>📞</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.6 3.4 2 2 0 0 1 3.57 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.54a16 16 0 0 0 6.55 6.55l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
                   <span dir="ltr">{listing.phone}</span>
                 </a>
               )}
+
               {listing.whatsapp && (
                 <a
                   href={listing.whatsapp}
@@ -232,6 +237,7 @@ export default async function ListingPage({
                   <span>דברו עכשיו</span>
                 </a>
               )}
+
               {listing.website && (
                 <a
                   href={listing.website}
@@ -239,38 +245,51 @@ export default async function ListingPage({
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-gray-300 hover:bg-gray-50 text-gray-700 rounded-lg font-medium transition-colors"
                 >
-                  <span>🌐</span>
-                  <span>אתר האינטרנט</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="2" y1="12" x2="22" y2="12"/>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                  </svg>
+                  <span>אתר האינטרנט ↗</span>
                 </a>
               )}
+
               {listing.email && (
                 <a
                   href={`mailto:${listing.email}`}
                   className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-gray-300 hover:bg-gray-50 text-gray-700 rounded-lg font-medium transition-colors"
                 >
-                  <span>✉️</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
                   <span className="truncate text-sm">{listing.email}</span>
                 </a>
               )}
+
             </div>
 
             {listing.claimedStatus !== 'claimed' && (
-              <p className="mt-5 text-xs text-gray-400 text-center">
-                בעל העסק?{' '}
-                <a href="/claim-listing" className="text-blue-600 hover:underline">
-                  דרשו פרופיל זה
+              <div className="mt-5 pt-5 border-t border-gray-100 text-center">
+                <p className="text-[13px] text-gray-500 mb-1">בעל העסק?</p>
+                <a
+                  href="/claim-listing"
+                  className="text-[13px] font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+                >
+                  דרשו את הפרופיל שלכם ←
                 </a>
-              </p>
+              </div>
             )}
           </div>
         </aside>
+
       </div>
 
       {/* Similar listings */}
       {similar.length > 0 && (
         <section className="mt-16">
           <h2 className="text-xl font-bold text-gray-900 mb-6">
-            ספקים דומים ב{listing.categoryLabelHe}
+            ספקים דומים בתחום {listing.categoryLabelHe}
           </h2>
           <ListingGrid listings={similar} />
         </section>

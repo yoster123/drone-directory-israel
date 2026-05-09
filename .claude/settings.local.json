@@ -13,7 +13,8 @@
       "Bash(npm run *)",
       "Bash(curl *)",
       "Bash(node *)",
-      "WebFetch(domain:localhost)"
+      "WebFetch(domain:localhost)",
+      "Bash(awk '{sum+=$1; n++} END {print \"count:\", n, \"min:\", min, \"max:\", max, \"avg:\", sum/n} NR==1{min=$1} {max=$1}')"
     ]
   }
 }
