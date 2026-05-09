@@ -12,6 +12,7 @@ import PageHeader from '@/src/components/PageHeader'
 import ListingGrid from '@/src/components/ListingGrid'
 import Breadcrumbs from '@/src/components/Breadcrumbs'
 import CTABox from '@/src/components/CTABox'
+import { SITE_URL } from '@/src/lib/config'
 
 export async function generateStaticParams() {
   const params: { service: string; city: string }[] = []
@@ -40,6 +41,9 @@ export async function generateMetadata({
   return {
     title: `${category.labelHe} ב${location.labelHe} | ${count} ספקים | ALTIV`,
     description: `מצאו ספקי ${category.labelHe} מורשים ב${location.labelHe}. ${count} ספקים רשומים.`,
+    alternates: {
+      canonical: `${SITE_URL}/services/${service}/${city}`,
+    },
     robots: count < 3 ? { index: false, follow: true } : undefined,
   }
 }

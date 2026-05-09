@@ -5,6 +5,7 @@ import { listings, getListingBySlug, getSimilarListings } from '@/src/data/listi
 import Breadcrumbs from '@/src/components/Breadcrumbs'
 import ListingGrid from '@/src/components/ListingGrid'
 import CTABox from '@/src/components/CTABox'
+import { SITE_URL } from '@/src/lib/config'
 
 export async function generateStaticParams() {
   return listings.map((l) => ({ listing: l.slug }))
@@ -22,6 +23,9 @@ export async function generateMetadata({
   return {
     title: `${listing.name} | ${listing.categoryLabelHe} ב${listing.cityLabelHe} | ALTIV`,
     description: listing.shortDescriptionHe,
+    alternates: {
+      canonical: `${SITE_URL}/listings/${slug}`,
+    },
   }
 }
 
@@ -42,8 +46,34 @@ export default async function ListingPage({
     pending: 'בבדיקה',
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: listing.name,
+    description: listing.shortDescriptionHe,
+    url: `${SITE_URL}/listings/${listing.slug}`,
+    ...(listing.phone && {
+      telephone: listing.phone.replace(/^0/, '+972'),
+    }),
+    ...(listing.website && { sameAs: [listing.website] }),
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: listing.cityLabelHe,
+      addressCountry: 'IL',
+    },
+    areaServed: {
+      '@type': 'Country',
+      name: 'Israel',
+    },
+    knowsAbout: listing.categoryLabelHe,
+  }
+
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Breadcrumbs
         items={[
           { label: 'ראשי', href: '/' },

@@ -8,6 +8,7 @@ import PageHeader from '@/src/components/PageHeader'
 import ListingGrid from '@/src/components/ListingGrid'
 import Breadcrumbs from '@/src/components/Breadcrumbs'
 import CTABox from '@/src/components/CTABox'
+import { SITE_URL } from '@/src/lib/config'
 
 export async function generateStaticParams() {
   return locations.map((l) => ({ city: l.slug }))
@@ -27,6 +28,9 @@ export async function generateMetadata({
   return {
     title: `שירותי רחפן ב${location.labelHe} | ${count} ספקים | ALTIV`,
     description: `מצאו ספקי שירותי רחפן מורשים ב${location.labelHe} — צילום אווירי, מיפוי, בדיקות ועוד.`,
+    alternates: {
+      canonical: `${SITE_URL}/cities/${city}`,
+    },
   }
 }
 

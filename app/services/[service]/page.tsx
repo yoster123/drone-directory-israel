@@ -8,6 +8,7 @@ import PageHeader from '@/src/components/PageHeader'
 import ListingGrid from '@/src/components/ListingGrid'
 import Breadcrumbs from '@/src/components/Breadcrumbs'
 import CTABox from '@/src/components/CTABox'
+import { SITE_URL } from '@/src/lib/config'
 
 export async function generateStaticParams() {
   return categories.map((c) => ({ service: c.slug }))
@@ -27,6 +28,9 @@ export async function generateMetadata({
   return {
     title: `${category.labelHe} בישראל | ${count} ספקים | ALTIV`,
     description: `מצאו ספקי ${category.labelHe} מורשים בישראל. ${category.descriptionHe}`,
+    alternates: {
+      canonical: `${SITE_URL}/services/${service}`,
+    },
   }
 }
 
