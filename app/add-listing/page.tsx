@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'הוסיפו את העסק שלכם | DroneDir',
-  description: 'בעלי עסק בתחום הרחפנים? הוסיפו את העסק שלכם למדריך DroneDir.',
+  title: 'הוסיפו את העסק שלכם | ALTIV',
+  description: 'בעלי עסק בתחום הרחפנים? הוסיפו את העסק שלכם למדריך ALTIV.',
 }
 
 const STEPS = [
@@ -76,8 +76,8 @@ export default function AddListingPage() {
 
         <div className="mb-5 px-4 py-3 bg-blue-50 border border-blue-200 rounded-lg text-sm text-blue-800">
           הגשה עצמית תהיה זמינה בקרוב. בינתיים שלחו פרטים ל-{' '}
-          <a href="mailto:listings@dronedir.co.il" className="underline font-medium">
-            listings@dronedir.co.il
+          <a href="mailto:listings@altiv.co.il" className="underline font-medium">
+            listings@altiv.co.il
           </a>
         </div>
 

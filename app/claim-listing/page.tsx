@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'דרשו את הפרופיל שלכם | DroneDir',
+  title: 'דרשו את הפרופיל שלכם | ALTIV',
   description: 'מצאתם את העסק שלכם במדריך? דרשו את הפרופיל כדי לנהל ולעדכן אותו.',
 }
 
@@ -19,7 +19,7 @@ export default function ClaimListingPage() {
     <main className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
       <h1 className="text-3xl font-extrabold text-gray-900 mb-2">דרשו את הפרופיל שלכם</h1>
       <p className="text-gray-500 text-lg mb-10">
-        מצאתם את העסק שלכם ב-DroneDir? אמתו את הפרופיל ותקבלו שליטה מלאה עליו.
+        מצאתם את העסק שלכם ב-ALTIV? אמתו את הפרופיל ותקבלו שליטה מלאה עליו.
       </p>
 
       {/* Benefits */}
@@ -63,8 +63,8 @@ export default function ClaimListingPage() {
 
         <div className="mb-5 px-4 py-3 bg-blue-50 border border-blue-200 rounded-lg text-sm text-blue-800">
           דרישת פרופיל עצמית תהיה זמינה בקרוב. בינתיים שלחו פנייה ל{' '}
-          <a href="mailto:claim@dronedir.co.il" className="underline font-medium">
-            claim@dronedir.co.il
+          <a href="mailto:claim@altiv.co.il" className="underline font-medium">
+            claim@altiv.co.il
           </a>
         </div>
 

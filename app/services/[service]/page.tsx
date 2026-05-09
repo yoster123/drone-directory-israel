@@ -20,12 +20,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { service } = await params
   const category = getCategoryBySlug(service)
-  if (!category) return { title: 'לא נמצא | DroneDir' }
+  if (!category) return { title: 'לא נמצא | ALTIV' }
 
   const count = getListingsByCategory(service).length
 
   return {
-    title: `${category.labelHe} בישראל | ${count} ספקים | DroneDir`,
+    title: `${category.labelHe} בישראל | ${count} ספקים | ALTIV`,
     description: `מצאו ספקי ${category.labelHe} מורשים בישראל. ${category.descriptionHe}`,
   }
 }

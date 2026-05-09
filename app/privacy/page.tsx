@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'מדיניות פרטיות | DroneDir',
-  description: 'מדיניות הפרטיות של DroneDir — כיצד אנו מטפלים במידע.',
+  title: 'מדיניות פרטיות | ALTIV',
+  description: 'מדיניות הפרטיות של ALTIV — כיצד אנו מטפלים במידע.',
 }
 
 const LAST_UPDATED = '1 במאי 2026'
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-bold text-gray-900 mb-2">1. כללי</h2>
           <p>
-            DroneDir (&quot;אנחנו&quot;, &quot;האתר&quot;) מכבד את פרטיות המשתמשים. מסמך זה מסביר
+            ALTIV (&quot;אנחנו&quot;, &quot;האתר&quot;) מכבד את פרטיות המשתמשים. מסמך זה מסביר
             אילו נתונים נאספים, כיצד הם מאוחסנים ואיך הם מוגנים.
           </p>
         </section>
@@ -65,8 +65,8 @@ export default function PrivacyPage() {
           <p>
             ניתן לפנות אלינו לבקשת מחיקת מידע, עדכון פרטים או כל שאלה אחרת בנושא פרטיות
             דרך כתובת האימייל:{' '}
-            <a href="mailto:privacy@dronedir.co.il" className="text-blue-600 hover:underline">
-              privacy@dronedir.co.il
+            <a href="mailto:privacy@altiv.co.il" className="text-blue-600 hover:underline">
+              privacy@altiv.co.il
             </a>
           </p>
         </section>

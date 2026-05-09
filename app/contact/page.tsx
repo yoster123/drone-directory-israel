@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'צור קשר | DroneDir',
-  description: 'צרו קשר עם צוות DroneDir — שאלות, הצעות, דיווחים או בקשות.',
+  title: 'צור קשר | ALTIV',
+  description: 'צרו קשר עם צוות ALTIV — שאלות, הצעות, דיווחים או בקשות.',
 }
 
 export default function ContactPage() {
@@ -19,10 +19,10 @@ export default function ContactPage() {
             <li>
               <p className="font-medium text-gray-800">אימייל</p>
               <a
-                href="mailto:contact@dronedir.co.il"
+                href="mailto:contact@altiv.co.il"
                 className="text-blue-600 hover:underline"
               >
-                contact@dronedir.co.il
+                contact@altiv.co.il
               </a>
             </li>
             <li>

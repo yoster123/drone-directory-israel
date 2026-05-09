@@ -33,12 +33,12 @@ export async function generateMetadata({
   const { service, city } = await params
   const category = getCategoryBySlug(service)
   const location = getLocationBySlug(city)
-  if (!category || !location) return { title: 'לא נמצא | DroneDir' }
+  if (!category || !location) return { title: 'לא נמצא | ALTIV' }
 
   const count = getListingsByCategoryAndCity(service, city).length
 
   return {
-    title: `${category.labelHe} ב${location.labelHe} | ${count} ספקים | DroneDir`,
+    title: `${category.labelHe} ב${location.labelHe} | ${count} ספקים | ALTIV`,
     description: `מצאו ספקי ${category.labelHe} מורשים ב${location.labelHe}. ${count} ספקים רשומים.`,
     robots: count < 3 ? { index: false, follow: true } : undefined,
   }

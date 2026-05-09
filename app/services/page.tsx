@@ -5,7 +5,7 @@ import { getListingsByCategory } from '@/src/data/listings'
 import PageHeader from '@/src/components/PageHeader'
 
 export const metadata: Metadata = {
-  title: 'כל שירותי הרחפן בישראל | DroneDir',
+  title: 'כל שירותי הרחפן בישראל | ALTIV',
   description:
     'עיינו בכל קטגוריות שירותי הרחפן בישראל — צילום אווירי, מיפוי, בדיקות, חקלאות, FPV ועוד.',
 }

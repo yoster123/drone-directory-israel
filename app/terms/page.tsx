@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'תנאי שימוש | DroneDir',
-  description: 'תנאי השימוש של DroneDir — מדריך שירותי הרחפן של ישראל.',
+  title: 'תנאי שימוש | ALTIV',
+  description: 'תנאי השימוש של ALTIV — מדריך שירותי הרחפן של ישראל.',
 }
 
 const LAST_UPDATED = '1 במאי 2026'
@@ -17,7 +17,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-bold text-gray-900 mb-2">1. קבלת התנאים</h2>
           <p>
-            השימוש באתר DroneDir מהווה הסכמה לתנאי שימוש אלה. אם אינכם מסכימים לתנאים,
+            השימוש באתר ALTIV מהווה הסכמה לתנאי שימוש אלה. אם אינכם מסכימים לתנאים,
             אנא הפסיקו את השימוש באתר.
           </p>
         </section>
@@ -25,7 +25,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-bold text-gray-900 mb-2">2. תיאור השירות</h2>
           <p>
-            DroneDir הוא מדריך עסקי המרכז ספקי שירותי רחפן בישראל. האתר משמש לצורכי
+            ALTIV הוא מדריך עסקי המרכז ספקי שירותי רחפן בישראל. האתר משמש לצורכי
             איתור מידע בלבד ואינו מהווה המלצה, אחריות או ייצוג של אף ספק.
           </p>
         </section>
@@ -41,7 +41,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-bold text-gray-900 mb-2">4. אחריות</h2>
           <p className="mb-2">
-            DroneDir אינו אחראי לכל נזק שנגרם כתוצאה מ:
+            ALTIV אינו אחראי לכל נזק שנגרם כתוצאה מ:
           </p>
           <ul className="list-disc list-inside space-y-1 text-sm">
             <li>שימוש במידע המוצג באתר.</li>
@@ -62,7 +62,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-bold text-gray-900 mb-2">6. קניין רוחני</h2>
           <p>
-            כל תוכן מקורי באתר (מלל, עיצוב, קוד) שייך ל-DroneDir. אין להעתיק, להפיץ
+            כל תוכן מקורי באתר (מלל, עיצוב, קוד) שייך ל-ALTIV. אין להעתיק, להפיץ
             או לעשות שימוש מסחרי בתוכן ללא אישור מפורש.
           </p>
         </section>
@@ -79,8 +79,8 @@ export default function TermsPage() {
           <h2 className="text-lg font-bold text-gray-900 mb-2">8. יצירת קשר</h2>
           <p>
             לשאלות בנוגע לתנאי השימוש:{' '}
-            <a href="mailto:legal@dronedir.co.il" className="text-blue-600 hover:underline">
-              legal@dronedir.co.il
+            <a href="mailto:legal@altiv.co.il" className="text-blue-600 hover:underline">
+              legal@altiv.co.il
             </a>
           </p>
         </section>

@@ -17,10 +17,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { listing: slug } = await params
   const listing = getListingBySlug(slug)
-  if (!listing) return { title: 'לא נמצא | DroneDir' }
+  if (!listing) return { title: 'לא נמצא | ALTIV' }
 
   return {
-    title: `${listing.name} | ${listing.categoryLabelHe} ב${listing.cityLabelHe} | DroneDir`,
+    title: `${listing.name} | ${listing.categoryLabelHe} ב${listing.cityLabelHe} | ALTIV`,
     description: listing.shortDescriptionHe,
   }
 }

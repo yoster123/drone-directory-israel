@@ -2,23 +2,23 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'אודות DroneDir | מדריך שירותי הרחפן של ישראל',
+  title: 'אודות ALTIV | מדריך שירותי הרחפן של ישראל',
   description:
-    'DroneDir הוא מדריך שירותי הרחפן המוביל בישראל — פלטפורמה שמחברת בין לקוחות לספקים מורשים.',
+    'ALTIV הוא מדריך שירותי הרחפן המוביל בישראל — פלטפורמה שמחברת בין לקוחות לספקים מורשים.',
 }
 
 export default function AboutPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
-      <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">אודות DroneDir</h1>
+      <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">אודות ALTIV</h1>
       <p className="text-xl text-gray-500 mb-12 leading-relaxed">
         המדריך הראשון בישראל לאיתור ספקי שירותי רחפן מורשים.
       </p>
 
       <section className="mb-10">
-        <h2 className="text-xl font-bold text-gray-900 mb-3">מה זה DroneDir?</h2>
+        <h2 className="text-xl font-bold text-gray-900 mb-3">מה זה ALTIV?</h2>
         <p className="text-gray-600 leading-relaxed">
-          DroneDir הוא מדריך עסקי ממוקד לתחום הרחפנים בישראל. אנו מרכזים ספקים מורשים ממגוון
+          ALTIV הוא מדריך עסקי ממוקד לתחום הרחפנים בישראל. אנו מרכזים ספקים מורשים ממגוון
           תחומים — צילום אווירי, מיפוי וסקר, בדיקות תשתית, חקלאות חכמה, FPV, הכשרה, חנויות
           ותיקונים — ומאפשרים ללקוחות פרטיים ועסקיים למצוא את הספק הנכון לצרכיהם במהירות.
         </p>
@@ -32,7 +32,7 @@ export default function AboutPage() {
           לבדוק רישיון או לקרוא על ניסיון.
         </p>
         <p className="text-gray-600 leading-relaxed">
-          DroneDir נוצר כדי לפתור בדיוק את הבעיה הזו: מקום אחד, מרוכז, עם ספקים שעברו
+          ALTIV נוצר כדי לפתור בדיוק את הבעיה הזו: מקום אחד, מרוכז, עם ספקים שעברו
           סינון בסיסי ובעלי פרטי קשר ישירים.
         </p>
       </section>

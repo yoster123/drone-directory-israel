@@ -20,12 +20,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { city } = await params
   const location = getLocationBySlug(city)
-  if (!location) return { title: 'לא נמצא | DroneDir' }
+  if (!location) return { title: 'לא נמצא | ALTIV' }
 
   const count = getListingsByCity(city).length
 
   return {
-    title: `שירותי רחפן ב${location.labelHe} | ${count} ספקים | DroneDir`,
+    title: `שירותי רחפן ב${location.labelHe} | ${count} ספקים | ALTIV`,
     description: `מצאו ספקי שירותי רחפן מורשים ב${location.labelHe} — צילום אווירי, מיפוי, בדיקות ועוד.`,
   }
 }
