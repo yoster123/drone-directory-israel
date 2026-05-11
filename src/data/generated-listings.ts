@@ -4,7 +4,8 @@
 //   apify-fpv-and-drone-suppliers.csv
 //   apify-mapping-professional.csv
 //   apify-mapping-surveying-1.csv
-// Generated: 2026-05-11T12:20:45.284Z
+//   scraped-ayalon-drone-companies.csv
+// Generated: 2026-05-11T16:22:26.035Z
 // Run: npm run import:scraped
 
 import type { Listing } from '../types/listing'
@@ -1847,33 +1848,6 @@ export const generatedListings: Listing[] = [
     "lastUpdated": "2026-05-11"
   },
   {
-    "id": "g-fli8mv",
-    "name": "תחפושות לפורים 2026 - בית הצעצוע",
-    "slug": "tchpvshvt-lpvrym-2026-vyt-htsatsva-jerusalem",
-    "categorySlug": "drone-stores",
-    "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
-    "citySlug": "jerusalem",
-    "cityLabelHe": "ירושלים",
-    "region": "jerusalem",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "jerusalem"
-    ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
-    "phone": "026718282",
-    "whatsapp": null,
-    "website": "https://www.toyhouse.co.il/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 98,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%AA%D7%97%D7%A4%D7%95%D7%A9%D7%95%D7%AA%20%D7%9C%D7%A4%D7%95%D7%A8%D7%99%D7%9D%202026%20-%20%D7%91%D7%99%D7%AA%20%D7%94%D7%A6%D7%A2%D7%A6%D7%95%D7%A2&query_place_id=ChIJK6ydRx4oAxURTlUTXqOnSJo",
-    "lastUpdated": "2026-05-11"
-  },
-  {
     "id": "g-5qmygq",
     "name": "ארסיזון",
     "slug": "arsyzvn-jerusalem",
@@ -2039,8 +2013,8 @@ export const generatedListings: Listing[] = [
     "id": "g-64qnov",
     "name": "רובוטיכאן",
     "slug": "rvvvtykan",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
     "services": [],
     "citySlug": null,
     "cityLabelHe": "ישראל",
@@ -2114,33 +2088,6 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 91,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%98%D7%9F%20%D7%98%D7%95%D7%99%20-%20kepten%20toy&query_place_id=ChIJvWaLYH-6AhURBCSDtflWu68",
-    "lastUpdated": "2026-05-11"
-  },
-  {
-    "id": "g-xb5rup",
-    "name": "לימור צבעים בע\"מ",
-    "slug": "lymvr-tsvaym-va-m-rishon-lezion",
-    "categorySlug": "drone-stores",
-    "categoryLabelHe": "חנויות רחפנים",
-    "services": [],
-    "citySlug": "rishon-lezion",
-    "cityLabelHe": "ראשון לציון",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "חנויות רחפנים בישראל.",
-    "longDescriptionHe": "חנויות רחפנים בישראל.",
-    "phone": "039690843",
-    "whatsapp": null,
-    "website": "http://www.limor.biz/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 91,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%99%D7%9E%D7%95%D7%A8%20%D7%A6%D7%91%D7%A2%D7%99%D7%9D%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJcx4CvS5KHRURADWxu8us8rc",
     "lastUpdated": "2026-05-11"
   },
   {
@@ -2306,33 +2253,6 @@ export const generatedListings: Listing[] = [
     "lastUpdated": "2026-05-11"
   },
   {
-    "id": "g-d7rkkh",
-    "name": "אלעד אוהב עצים",
-    "slug": "alad-avhv-atsym",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי בישראל.",
-    "longDescriptionHe": "צילום אווירי בישראל.",
-    "phone": "0524375574",
-    "whatsapp": null,
-    "website": "https://www.eladlovetrees.co.il/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 92,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%9C%D7%A2%D7%93%20%D7%90%D7%95%D7%94%D7%91%20%D7%A2%D7%A6%D7%99%D7%9D&query_place_id=ChIJd_kg9P-lFawRQNswJ46rQbQ",
-    "lastUpdated": "2026-05-11"
-  },
-  {
     "id": "g-3hag8j",
     "name": "הפיראט האדום",
     "slug": "hpyrat-hadvm-jerusalem",
@@ -2387,11 +2307,11 @@ export const generatedListings: Listing[] = [
     "lastUpdated": "2026-05-11"
   },
   {
-    "id": "g-hhs25j",
-    "name": "נמל התעופה ראש פינה",
-    "slug": "nml-htavph-rash-pynh",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
+    "id": "g-w4skh2",
+    "name": "Cando Drones",
+    "slug": "cando-drones",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
     "services": [],
     "citySlug": null,
     "cityLabelHe": "ישראל",
@@ -2404,13 +2324,148 @@ export const generatedListings: Listing[] = [
     "longDescriptionHe": "צילום אווירי בישראל.",
     "phone": null,
     "whatsapp": null,
-    "website": "https://www.iaa.gov.il/en/airports/rosh-pina/",
+    "website": "https://cando.co.il",
     "email": null,
     "imageUrl": null,
     "claimedStatus": "unclaimed",
     "featured": false,
-    "qualityScore": 79,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A0%D7%9E%D7%9C%20%D7%94%D7%AA%D7%A2%D7%95%D7%A4%D7%94%20%D7%A8%D7%90%D7%A9%20%D7%A4%D7%99%D7%A0%D7%94&query_place_id=ChIJHZtOWFkfHBURliyCErkbISw",
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-m6ruvb",
+    "name": "Airwayz",
+    "slug": "airwayz",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://airwayz.co",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-iubany",
+    "name": "High Lander",
+    "slug": "high-lander",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://highlander.io",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-cu29s6",
+    "name": "Kronos Group",
+    "slug": "kronos-group",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://www.kronos-ap.com",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-qq923y",
+    "name": "Flytech",
+    "slug": "flytech",
+    "categorySlug": "mapping-surveying",
+    "categoryLabelHe": "מיפוי וסקר",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "מיפוי וסקר בישראל.",
+    "longDescriptionHe": "מיפוי וסקר בישראל.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://www.flytechil.com",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-3wrdkn",
+    "name": "DefenSync",
+    "slug": "defensync",
+    "categorySlug": "security",
+    "categoryLabelHe": "אבטחה וניטור",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "אבטחה וניטור בישראל.",
+    "longDescriptionHe": "אבטחה וניטור בישראל.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://www.defensync.com",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
     "lastUpdated": "2026-05-11"
   }
 ]

@@ -81,6 +81,14 @@ export const categories: Category[] = [
     icon: 'wrench',
     order: 10,
   },
+  {
+    slug: 'drone-technology',
+    labelHe: 'טכנולוגיות רחפן ומערכות אוטונומיות',
+    descriptionHe: 'חברות המפתחות מערכות רחפן, תפעול אוטונומי, ניהול ציי רחפנים, UTM, מערכות שליטה, תשתיות תוכנה וטכנולוגיות מתקדמות לתעשיית הרחפנים.',
+    emoji: '🤖',
+    icon: 'cpu',
+    order: 11,
+  },
 ]
 
 export function getCategoryBySlug(slug: string): Category | undefined {

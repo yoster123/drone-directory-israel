@@ -155,6 +155,16 @@ const CATEGORY_WEIGHTS: Array<{
     ],
   },
   {
+    slug: 'drone-technology',
+    labelHe: 'טכנולוגיות רחפן ומערכות אוטונומיות',
+    keywords: [
+      { term: 'autonomous', weight: 9 }, { term: 'utm', weight: 10 },
+      { term: 'fleet management', weight: 10 }, { term: 'mission control', weight: 10 },
+      { term: 'אוטונומי', weight: 9 }, { term: 'ניהול צי', weight: 10 },
+      { term: 'counter-uas', weight: 8 }, { term: 'c-uas', weight: 8 },
+    ],
+  },
+  {
     slug: 'aerial-photography',
     labelHe: 'צילום אווירי',
     keywords: [

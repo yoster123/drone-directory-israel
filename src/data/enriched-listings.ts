@@ -1,6 +1,6 @@
 // AUTO-GENERATED — do not edit manually
 // Source: src/data/generated-listings.ts
-// Generated: 2026-05-11T15:05:52.097Z
+// Generated: 2026-05-11T16:28:52.951Z
 // Run: npm run enrich:listings
 
 import type { EnrichedListing } from '../types/listing'
@@ -4681,7 +4681,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "logoUrl": "/listing-logos/copterpix-pro.png",
+    "logoSource": "favicon",
+    "logoConfidence": "medium"
   },
   {
     "id": "g-b5o1nz",
@@ -4876,11 +4879,12 @@ export const enrichedListings: EnrichedListing[] = [
     "id": "g-64qnov",
     "name": "רובוטיכאן",
     "slug": "rvvvtykan",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
     "services": [
-      "צילום אווירי",
-      "וידאו אווירי"
+      "פיתוח מערכות רחפן",
+      "תפעול אוטונומי",
+      "ניהול צי רחפנים"
     ],
     "citySlug": null,
     "cityLabelHe": "ישראל",
@@ -4889,8 +4893,8 @@ export const enrichedListings: EnrichedListing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "צילום אווירי עם רחפן בישראל — צילום אווירי, וידאו אווירי ועוד.",
-    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
+    "shortDescriptionHe": "צילום אווירי עם רחפן בישראל — פיתוח מערכות רחפן, תפעול אוטונומי ועוד.",
+    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בפיתוח מערכות רחפן ותפעול אוטונומי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
     "phone": "086609234",
     "whatsapp": null,
     "website": "http://www.robotican.net/",
@@ -4907,28 +4911,29 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [],
     "equipment": [
-      "רחפן צילום מקצועי"
+      "מערכת ניהול רחפנים",
+      "תוכנת UTM"
     ],
     "industriesServed": [
-      "נדל\"ן ובנייה",
-      "מדיה ופרסום",
-      "אירועים"
+      "תעשיית הרחפנים",
+      "לוגיסטיקה ומשלוחים",
+      "ביטחון ותשתיות"
     ],
     "deliverables": [
-      "וידאו 4K",
-      "תמונות ברזולוציה גבוהה",
-      "תוכן לרשתות חברתיות"
+      "ממשק ניהול",
+      "API לאינטגרציה",
+      "דוחות תפעוליים"
     ],
     "certifications": [],
     "coverageArea": "מרכז הארץ",
     "operationalStrengths": [
-      "צילום אווירי מקצועי",
-      "ציוד מתקדם"
+      "טכנולוגיה מתקדמת",
+      "פתרון end-to-end"
     ],
     "projectTypes": [
-      "סרטוני תדמית",
-      "צילום אירועים",
-      "תוכן לרשתות"
+      "ניהול צי רחפנים",
+      "פיתוח מערכות UTM",
+      "אינטגרציה תפעולית"
     ],
     "verificationSignals": [
       "אתר אינטרנט רשמי",
@@ -5567,5 +5572,394 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ]
+  },
+  {
+    "id": "g-w4skh2",
+    "name": "Cando Drones",
+    "slug": "cando-drones",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
+    "services": [
+      "פיתוח מערכות רחפן",
+      "תפעול אוטונומי",
+      "ניהול צי רחפנים"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "פעיל בישראל בתחום פיתוח מערכות רחפן ותפעול אוטונומי.",
+    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בפיתוח מערכות רחפן ותפעול אוטונומי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://cando.co.il",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [],
+    "equipment": [
+      "מערכת ניהול רחפנים",
+      "תוכנת UTM"
+    ],
+    "industriesServed": [
+      "תעשיית הרחפנים",
+      "לוגיסטיקה ומשלוחים",
+      "ביטחון ותשתיות"
+    ],
+    "deliverables": [
+      "ממשק ניהול",
+      "API לאינטגרציה",
+      "דוחות תפעוליים"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "טכנולוגיה מתקדמת",
+      "פתרון end-to-end"
+    ],
+    "projectTypes": [
+      "ניהול צי רחפנים",
+      "פיתוח מערכות UTM",
+      "אינטגרציה תפעולית"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי"
+    ],
+    "logoUrl": "/listing-logos/cando-drones.jpg",
+    "logoSource": "favicon",
+    "logoConfidence": "high"
+  },
+  {
+    "id": "g-m6ruvb",
+    "name": "Airwayz",
+    "slug": "airwayz",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
+    "services": [
+      "פיתוח מערכות רחפן",
+      "תפעול אוטונומי",
+      "ניהול צי רחפנים"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "פעיל בישראל בתחום פיתוח מערכות רחפן ותפעול אוטונומי.",
+    "longDescriptionHe": "שירותי פיתוח מערכות רחפן ותפעול אוטונומי מהאוויר בישראל. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. זמינות גבוהה לכל פרויקט.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://airwayz.co",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [],
+    "equipment": [
+      "מערכת ניהול רחפנים",
+      "תוכנת UTM"
+    ],
+    "industriesServed": [
+      "תעשיית הרחפנים",
+      "לוגיסטיקה ומשלוחים",
+      "ביטחון ותשתיות"
+    ],
+    "deliverables": [
+      "ממשק ניהול",
+      "API לאינטגרציה",
+      "דוחות תפעוליים"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "טכנולוגיה מתקדמת",
+      "פתרון end-to-end"
+    ],
+    "projectTypes": [
+      "ניהול צי רחפנים",
+      "פיתוח מערכות UTM",
+      "אינטגרציה תפעולית"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי"
+    ]
+  },
+  {
+    "id": "g-iubany",
+    "name": "High Lander",
+    "slug": "high-lander",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
+    "services": [
+      "פיתוח מערכות רחפן",
+      "תפעול אוטונומי",
+      "ניהול צי רחפנים"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "שירותי פיתוח מערכות רחפן ותפעול אוטונומי מהאוויר בישראל.",
+    "longDescriptionHe": "פיתוח מערכות רחפן ותפעול אוטונומי מהאוויר בישראל. ניסיון עם לקוחות עסקיים, יזמים ותקשורת. ניתן לצפות בגלריית עבודות באתר.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://highlander.io",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [],
+    "equipment": [
+      "מערכת ניהול רחפנים",
+      "תוכנת UTM"
+    ],
+    "industriesServed": [
+      "תעשיית הרחפנים",
+      "לוגיסטיקה ומשלוחים",
+      "ביטחון ותשתיות"
+    ],
+    "deliverables": [
+      "ממשק ניהול",
+      "API לאינטגרציה",
+      "דוחות תפעוליים"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "טכנולוגיה מתקדמת",
+      "פתרון end-to-end"
+    ],
+    "projectTypes": [
+      "ניהול צי רחפנים",
+      "פיתוח מערכות UTM",
+      "אינטגרציה תפעולית"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי"
+    ],
+    "logoUrl": "/listing-logos/high-lander.png",
+    "logoSource": "favicon",
+    "logoConfidence": "high"
+  },
+  {
+    "id": "g-cu29s6",
+    "name": "Kronos Group",
+    "slug": "kronos-group",
+    "categorySlug": "drone-technology",
+    "categoryLabelHe": "טכנולוגיות רחפן ומערכות אוטונומיות",
+    "services": [
+      "פיתוח מערכות רחפן",
+      "תפעול אוטונומי",
+      "ניהול צי רחפנים"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "שירותי פיתוח מערכות רחפן ותפעול אוטונומי מהאוויר בישראל.",
+    "longDescriptionHe": "פיתוח מערכות רחפן ותפעול אוטונומי מהאוויר בישראל. ניסיון עם לקוחות עסקיים, יזמים ותקשורת. ניתן לצפות בגלריית עבודות באתר.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://www.kronos-ap.com",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [],
+    "equipment": [
+      "מערכת ניהול רחפנים",
+      "תוכנת UTM"
+    ],
+    "industriesServed": [
+      "תעשיית הרחפנים",
+      "לוגיסטיקה ומשלוחים",
+      "ביטחון ותשתיות"
+    ],
+    "deliverables": [
+      "ממשק ניהול",
+      "API לאינטגרציה",
+      "דוחות תפעוליים"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "טכנולוגיה מתקדמת",
+      "פתרון end-to-end"
+    ],
+    "projectTypes": [
+      "ניהול צי רחפנים",
+      "פיתוח מערכות UTM",
+      "אינטגרציה תפעולית"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי"
+    ],
+    "logoUrl": "/listing-logos/kronos-group.ico",
+    "logoSource": "favicon",
+    "logoConfidence": "high"
+  },
+  {
+    "id": "g-qq923y",
+    "name": "Flytech",
+    "slug": "flytech",
+    "categorySlug": "mapping-surveying",
+    "categoryLabelHe": "מיפוי וסקר",
+    "services": [
+      "מיפוי שטחים",
+      "סקר קרקע",
+      "פוטוגרמטריה"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "מיפוי שטחים וסקר קרקע מדויקים בישראל.",
+    "longDescriptionHe": "שירותי מיפוי שטחים וסקר קרקע בישראל באמצעות טכנולוגיית רחפן מתקדמת. מדויק, מהיר וחסכוני בהשוואה לשיטות מסורתיות.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://www.flytechil.com",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [],
+    "equipment": [
+      "ציוד מיפוי אווירי",
+      "תוכנת עיבוד נתונים"
+    ],
+    "industriesServed": [
+      "בנייה ותשתיות",
+      "ממשלה ורשויות",
+      "ניהול קרקעות"
+    ],
+    "deliverables": [
+      "מפת אורתופוטו",
+      "מודל תלת-ממדי",
+      "נתוני GIS"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "דיוק גבוה",
+      "עיבוד נתונים מהיר"
+    ],
+    "projectTypes": [
+      "תכנון עירוני",
+      "סקרי קרקע",
+      "פרויקטי בנייה"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי"
+    ]
+  },
+  {
+    "id": "g-3wrdkn",
+    "name": "DefenSync",
+    "slug": "defensync",
+    "categorySlug": "security",
+    "categoryLabelHe": "אבטחה וניטור",
+    "services": [
+      "ניטור אבטחה",
+      "מעקב אווירי",
+      "סיור ביטחוני"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "ניטור אבטחה ומעקב אווירי מהאוויר, מרחפן בישראל.",
+    "longDescriptionHe": "פעיל בישראל בתחום ניטור אבטחה ומעקב אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://www.defensync.com",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 60,
+    "sourceUrl": "https://www.ayalonhw.co.il/projects/the-drone-project/the-drone-companies/",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [],
+    "equipment": [
+      "רחפן ניטור"
+    ],
+    "industriesServed": [
+      "ביטחון ואבטחה",
+      "שמירה",
+      "רשויות"
+    ],
+    "deliverables": [
+      "וידאו סיור",
+      "תמונות לתיעוד",
+      "דוח ניטור"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "ניטור רציף",
+      "תגובה מהירה"
+    ],
+    "projectTypes": [
+      "אבטחת אירועים",
+      "ניטור שטחים",
+      "מעקב"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי"
+    ],
+    "logoUrl": "/listing-logos/defensync.png",
+    "logoSource": "favicon",
+    "logoConfidence": "high"
   }
 ]

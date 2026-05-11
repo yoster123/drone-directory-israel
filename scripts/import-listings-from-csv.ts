@@ -46,6 +46,7 @@ const VALID_CATEGORY_SLUGS = new Set([
   'training-schools',
   'drone-stores',
   'repairs',
+  'drone-technology',
 ])
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -59,6 +60,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   'training-schools': 'בתי ספר והכשרה',
   'drone-stores': 'חנויות רחפנים',
   'repairs': 'תיקון ושירות',
+  'drone-technology': 'טכנולוגיות רחפן ומערכות אוטונומיות',
 }
 
 const VALID_CITY_SLUGS = new Set([

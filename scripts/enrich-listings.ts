@@ -16,6 +16,7 @@ import type { Listing, EnrichedListing } from '../src/types/listing'
 // ── Service inference ─────────────────────────────────────────────────────────
 
 const BASE_SERVICES: Record<string, string[]> = {
+  'drone-technology':        ['פיתוח מערכות רחפן', 'תפעול אוטונומי', 'ניהול צי רחפנים'],
   'aerial-photography':      ['צילום אווירי', 'וידאו אווירי'],
   'real-estate-photography': ['צילום נדל"ן', 'צילום אווירי', 'תצלומי נכסים'],
   'fpv-filming':             ['FPV', 'צילום ספורט', 'וידאו אקרובטי'],
@@ -225,6 +226,7 @@ function deriveWhatsApp(phone: string | null, existing: string | null): string |
 // ── Operational profile inference ─────────────────────────────────────────────
 
 const EQUIPMENT_BY_CATEGORY: Record<string, string[]> = {
+  'drone-technology':        ['מערכת ניהול רחפנים', 'תוכנת UTM'],
   'aerial-photography':      ['רחפן צילום מקצועי'],
   'real-estate-photography': ['רחפן צילום מקצועי'],
   'fpv-filming':             ['רחפן FPV'],
@@ -250,6 +252,7 @@ function inferEquipment(listing: Listing): string[] {
 }
 
 const INDUSTRIES_BY_CATEGORY: Record<string, string[]> = {
+  'drone-technology':        ['תעשיית הרחפנים', 'לוגיסטיקה ומשלוחים', 'ביטחון ותשתיות'],
   'aerial-photography':      ['נדל"ן ובנייה', 'מדיה ופרסום', 'אירועים'],
   'real-estate-photography': ['נדל"ן ובנייה', 'קבלנות', 'שיווק נכסים'],
   'fpv-filming':             ['ספורט ואקסטרים', 'מוזיקה ובידור', 'פרסום'],
@@ -272,6 +275,7 @@ function inferIndustriesServed(listing: Listing): string[] {
 }
 
 const DELIVERABLES_BY_CATEGORY: Record<string, string[]> = {
+  'drone-technology':        ['ממשק ניהול', 'API לאינטגרציה', 'דוחות תפעוליים'],
   'aerial-photography':      ['וידאו 4K', 'תמונות ברזולוציה גבוהה', 'תוכן לרשתות חברתיות'],
   'real-estate-photography': ['תמונות נכס', 'וידאו שיווקי', 'סיור וירטואלי'],
   'fpv-filming':             ['קליפ FPV דינמי', 'פוטג\'ים גולמיים', 'עריכה מוכנה לפרסום'],
@@ -308,6 +312,7 @@ function inferCoverageArea(listing: Listing): string {
 }
 
 const STRENGTHS_BY_CATEGORY: Record<string, string[]> = {
+  'drone-technology':        ['טכנולוגיה מתקדמת', 'פתרון end-to-end'],
   'aerial-photography':      ['צילום אווירי מקצועי', 'ציוד מתקדם'],
   'real-estate-photography': ['הצגת נכסים מהאוויר', 'שיווק חזותי'],
   'fpv-filming':             ['טיסה דינמית ואקרובטית', 'פוטג\' קינמטי'],
@@ -328,6 +333,7 @@ function inferOperationalStrengths(listing: Listing): string[] {
 }
 
 const PROJECT_TYPES_BY_CATEGORY: Record<string, string[]> = {
+  'drone-technology':        ['ניהול צי רחפנים', 'פיתוח מערכות UTM', 'אינטגרציה תפעולית'],
   'aerial-photography':      ['סרטוני תדמית', 'צילום אירועים', 'תוכן לרשתות'],
   'real-estate-photography': ['ליסטינג נדל"ן', 'פרויקטי בנייה', 'פרסום נכסים'],
   'fpv-filming':             ['קליפים מוזיקליים', 'ספורט ואקסטרים', 'פרסומות'],
@@ -387,6 +393,24 @@ function enrich(listing: Listing): EnrichedListing {
   }
 }
 
+// ── Logo overrides ────────────────────────────────────────────────────────────
+
+interface LogoOverride {
+  logoUrl: string
+  logoSource: 'official-site' | 'favicon' | 'manual' | 'claimed-profile' | 'generated'
+  logoConfidence?: 'high' | 'medium' | 'low'
+}
+
+function loadLogoOverrides(root: string): Record<string, LogoOverride> {
+  const file = path.join(root, 'data-import', 'logo-overrides.json')
+  if (!fs.existsSync(file)) return {}
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf-8')) as Record<string, LogoOverride>
+  } catch {
+    return {}
+  }
+}
+
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 function main() {
@@ -395,7 +419,17 @@ function main() {
 
   console.log(`📥  Loaded ${generatedListings.length} listings from generated-listings.ts`)
 
-  const enriched = (generatedListings as unknown as Listing[]).map(enrich)
+  const logoOverrides = loadLogoOverrides(ROOT)
+  const logoOverrideCount = Object.keys(logoOverrides).length
+  if (logoOverrideCount > 0) {
+    console.log(`🖼️   logo-overrides.json: ${logoOverrideCount} entries loaded`)
+  }
+
+  const enriched = (generatedListings as unknown as Listing[]).map(enrich).map((l) => {
+    const override = logoOverrides[l.id] ?? logoOverrides[l.slug]
+    if (override) return { ...l, logoUrl: override.logoUrl, logoSource: override.logoSource, logoConfidence: override.logoConfidence }
+    return l
+  })
 
   const timestamp = new Date().toISOString()
   const body = enriched

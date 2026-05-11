@@ -248,5 +248,30 @@
     "logoUrl": "/listing-logos/nystk-tspvn.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
+  },
+  "g-h31qo5": {
+    "logoUrl": "/listing-logos/copterpix-pro.png",
+    "logoSource": "favicon",
+    "logoConfidence": "medium"
+  },
+  "g-w4skh2": {
+    "logoUrl": "/listing-logos/cando-drones.jpg",
+    "logoSource": "favicon",
+    "logoConfidence": "high"
+  },
+  "g-iubany": {
+    "logoUrl": "/listing-logos/high-lander.png",
+    "logoSource": "favicon",
+    "logoConfidence": "high"
+  },
+  "g-cu29s6": {
+    "logoUrl": "/listing-logos/kronos-group.ico",
+    "logoSource": "favicon",
+    "logoConfidence": "high"
+  },
+  "g-3wrdkn": {
+    "logoUrl": "/listing-logos/defensync.png",
+    "logoSource": "favicon",
+    "logoConfidence": "high"
   }
 }
