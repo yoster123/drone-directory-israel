@@ -1,7 +1,8 @@
 // AUTO-GENERATED — do not edit manually
 // Sources:
 //   apify-drone-israel.csv
-// Generated: 2026-05-07T20:11:42.643Z
+//   apify-fpv-and-drone-suppliers.csv
+// Generated: 2026-05-11T09:58:50.011Z
 // Run: npm run import:scraped
 
 import type { Listing } from '../types/listing'
@@ -32,7 +33,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 82,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%99%D7%90%D7%99%D7%A8%20%D7%A6%D7%A8%D7%A4%D7%AA%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99&query_place_id=ChIJvVQV4UXPHRURUjs4nPyEKng",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-am51xv",
@@ -59,7 +60,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 72,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fly%20photo%20%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D%20%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20%D7%A4%D7%9C%D7%99%D7%99%20%D7%A4%D7%95%D7%98%D7%95&query_place_id=ChIJXRNkB-M1HRURUm2wpcJxTQg",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-unf9fo",
@@ -86,7 +87,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%A7%D7%99%D7%99%D7%A9%D7%95%D7%98%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%20%D7%91%D7%A2%D7%96%D7%A8%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D&query_place_id=ChIJr-qG52azAhUR9KPGPrFVLjE",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-9kg39q",
@@ -113,7 +114,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 90,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%95%D7%90%D7%99%D7%9D%20%D7%9E%D7%9C%D7%9E%D7%A2%D7%9C%D7%94%20%D7%9E%D7%A6%D7%9C%D7%9E%D7%99%D7%9D%20%D7%9E%D7%9B%D7%9C%20%D7%96%D7%95%D7%95%D7%99%D7%AA&query_place_id=ChIJ0xdV_yO7HRURysSw9RFs3NA",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-tvjnbr",
@@ -140,7 +141,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 78,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%A8%D7%97%D7%A4%D7%9F%20%7C%20%D7%92%D7%99%D7%90%20%D7%A9%D7%9E%D7%95%D7%90%D7%9C%D7%99&query_place_id=ChIJV2EO-D4VHRURvALGNVHzYvE",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-xyanbh",
@@ -167,7 +168,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 97,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%95%D7%9C%20%D7%98%D7%99%20%D7%95%D7%99&query_place_id=ChIJ5UiVCmA5HRURifxYEutdsuw",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-sbkzqk",
@@ -194,7 +195,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 80,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Creative%20Mind%20%D7%94%D7%A4%D7%A7%D7%95%D7%AA%20%D7%95%D7%99%D7%93%D7%90%D7%95%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%A8%D7%97%D7%A4%D7%9F%20%D7%95%D7%91%D7%A0%D7%99%D7%99%D7%AA%20%D7%9B%D7%A8%D7%98%D7%99%D7%A1%20%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99&query_place_id=ChIJi-7I60trHBUR5zGCwVnQwt8",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-gltfto",
@@ -221,7 +222,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 72,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20%D7%A7%D7%95%D7%A8%D7%A1%D7%99%D7%9D%20%D7%95%D7%94%D7%93%D7%A8%D7%9B%D7%95%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D%20-%20NVDF&query_place_id=ChIJi4XoWAs_HRUR8LCbuu2Lg0Q",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-robhtw",
@@ -248,7 +249,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 64,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%95%D7%94%D7%A8%20%D7%96%D7%A0%D7%AA%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%95%D7%A2%D7%A8%D7%99%D7%9B%D7%94&query_place_id=ChIJUdaRBgHPHRURNPYLp-h06ic",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-u32rup",
@@ -275,7 +276,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=May%20Fly%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%D7%99%D7%9D&query_place_id=ChIJHx1sbYYNHRUR0oTKaAbNtno",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-vbdlk6",
@@ -302,7 +303,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 74,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%99%D7%92%D7%9C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%D7%9D%20-%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%20%7C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%99%D7%A8%D7%99%20%7C%20%D7%A1%D7%99%D7%95%D7%A8%D7%99%D7%9D%20%D7%95%D7%99%D7%A8%D7%98%D7%95%D7%90%D7%9C%D7%99%D7%99%D7%9D&query_place_id=ChIJbSaVB7o1HRURMy66BvM1mEU",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-axvmro",
@@ -329,7 +330,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 96,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Drone-Options&query_place_id=ChIJASZjTLxNiqwR3w2_9_hn3vc",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-v90fnf",
@@ -356,7 +357,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 92,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A2%D7%95%D7%9C%D7%9D%20%D7%94%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D&query_place_id=ChIJSSdVZmw2HRUR_j0On7cbIaE",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-91s6uf",
@@ -383,7 +384,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 96,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9B%D7%AA%D7%95%D7%9D%20%D7%A6%D7%9C%D7%9E%D7%99%D7%9D&query_place_id=ChIJQTmc9AO7HRURhTNO_TJ2-Dw",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-tc9j4o",
@@ -410,7 +411,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 82,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%95%D7%91%D7%99%D7%96%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJUTEclMKiAhURB24vhhCVAdg",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-hi8drx",
@@ -437,7 +438,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 76,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%91%D7%99%D7%90%20%D7%AA%D7%A6%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8&query_place_id=ChIJJWDmsve1AhURcSatOYQFMD0",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-btnhcv",
@@ -464,7 +465,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 77,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Top%20Visual%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99&query_place_id=ChIJbwheV7JLHRUReye98cAtzQc",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-qmu4nz",
@@ -491,7 +492,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 69,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=SPOTLIGHT%20Drone%20Solutions&query_place_id=ChIJS0wQ6kVFAhURzlQ37s9FLKU",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-481k4j",
@@ -518,7 +519,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 84,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%97%D7%A4%D7%A0%D7%99%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20Tlvdrones&query_place_id=ChIJwZuO70FLHRURzvo8jz9jaz0",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-03n8qj",
@@ -545,7 +546,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 92,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=DJI%20Israel&query_place_id=ChIJo5dgSmRJHRURNIccpfdGpkI",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-ajjukk",
@@ -572,7 +573,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 82,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=DroneView%20-%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%94%D7%A6%D7%A2%D7%95%D7%AA%20%D7%A0%D7%99%D7%A9%D7%95%D7%90%D7%99%D7%9F%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%A8%D7%97%D7%A4%D7%9F&query_place_id=ChIJIec9o-QOym4RYF3ss6gKC64",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-9buv44",
@@ -599,7 +600,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 89,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%9C%20%D7%93%D7%99%20%D7%90%D7%99%D7%99%20%D7%94%D7%A4%D7%A7%D7%95%D7%AA%20%D7%95%D7%99%D7%93%D7%90%D7%95&query_place_id=ChIJ-cyDjIKfAhURCMz3Lyg5yl0",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-hzsrib",
@@ -626,7 +627,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 78,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=SIRI%20Ariel%20Photography-%D7%A1%D7%99%D7%A8%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%99%D7%A8&query_place_id=ChIJCa-L_EpLHRURX1SppTgM4Wo",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-hn3g0a",
@@ -653,7 +654,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 20,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%92%D7%95%D7%9A%20I.G%20DRONE&query_place_id=ChIJM0QoNN9LHRURBCsVNWPrDHg",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-ub8a9j",
@@ -680,7 +681,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 96,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%90%D7%97%D7%99%D7%9D%20%D7%99%D7%95%D7%92%D7%A0%D7%93&query_place_id=ChIJpb_yq2RLHRURcQU-slqX_8M",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-tiurmx",
@@ -707,7 +708,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%9C%D7%9D%20%D7%95%D7%99%D7%93%D7%99%D7%90%D7%95%20%D7%99%D7%95%D7%91%D7%9C%20%D7%90%D7%A1%D7%A3&query_place_id=ChIJEYoUzRG7AhUR_8hQGtqG0nA",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-te4jey",
@@ -734,7 +735,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 71,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%99%D7%A1%D7%A2%D7%95%D7%A8%20%D7%93%D7%95%D7%A8%D7%95%D7%9F&query_place_id=ChIJYwIgtpo1HRURTDOOVYXZQE8",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-wqk72n",
@@ -761,7 +762,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 84,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%99%D7%99%20%D7%A8%D7%A0%D7%98&query_place_id=ChIJz49c9bRLHRURmsf-rc0qNdI",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-g2kxik",
@@ -788,7 +789,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 93,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%95%D7%A2%D7%A8%D7%99%D7%9B%D7%AA%20%D7%95%D7%99%D7%93%D7%90%D7%95%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20ediTal&query_place_id=ChIJcy88pXlKHRURn3AIfDQ0SiA",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-028v0n",
@@ -815,7 +816,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 95,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%A8%D7%9C%D7%99%D7%9A%20%D7%9E%D7%A8%D7%9B%D7%96%20%D7%94%D7%A6%D7%99%D7%9C%D7%95%D7%9D&query_place_id=ChIJH7T057hMHRURajg0R_9mR78",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-tf7pc7",
@@ -842,7 +843,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 85,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%A0%D7%95%D7%95%D7%99%D7%96'%D7%9F%20%D7%A1%D7%99%D7%95%D7%A8%D7%99%D7%9D%20%D7%95%D7%99%D7%A8%D7%98%D7%95%D7%90%D7%9C%D7%99%D7%99%D7%9D%20Panovision%20virtual%20tours&query_place_id=ChIJfRcnyfgzHRURMNdmvawFk6c",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-049prr",
@@ -869,7 +870,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 20,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%20%7C%20DigitalSky&query_place_id=ChIJd4J2KVBLHRURtfp3-Fu13wA",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-8kj2yx",
@@ -896,7 +897,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 74,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20-%20ORNIR&query_place_id=ChIJ2UN7D2oqAxURosEbGhnAzP8",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-suq77i",
@@ -923,7 +924,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 84,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%91%D7%99%D7%A7%D7%94%20%D7%9C%D7%99%D7%91%D7%A8%D7%9E%D7%9F%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%2C%20%D7%A2%D7%A8%D7%99%D7%9B%D7%94%20%D7%95%D7%94%D7%A4%D7%A7%D7%94&query_place_id=ChIJZaRbGpPNAhURuWRnbAIeWlI",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-mzotmv",
@@ -950,7 +951,7 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 79,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%95%D7%A2%D7%A8%D7%99%D7%9B%D7%AA%20%D7%95%D7%99%D7%93%D7%90%D7%95%20%D7%A1%D7%AA%D7%99%D7%95%20%D7%92%D7%98%D7%A0%D7%99%D7%95&query_place_id=ChIJq-n8Q6dx4qMR0KbnifzP0-Y",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
   },
   {
     "id": "g-rja2nb",
@@ -977,6 +978,789 @@ export const generatedListings: Listing[] = [
     "featured": false,
     "qualityScore": 82,
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%9B%D7%A5%20%D7%95%D7%99%D7%93%D7%90%D7%95%20-%20Shimon%20Katz%20videography&query_place_id=ChIJEcc8s_nDAhURHV6kYG9dub8",
-    "lastUpdated": "2026-05-07"
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-024fim",
+    "name": "בנד-פרו פילם וידאו אינק",
+    "slug": "vnd-prv-pylm-vydav-aynk-tel-aviv",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "tel-aviv",
+    "cityLabelHe": "תל אביב",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "035621631",
+    "whatsapp": null,
+    "website": "http://www.bandpro.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 91,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%A0%D7%93-%D7%A4%D7%A8%D7%95%20%D7%A4%D7%99%D7%9C%D7%9D%20%D7%95%D7%99%D7%93%D7%90%D7%95%20%D7%90%D7%99%D7%A0%D7%A7&query_place_id=ChIJe5lQXJ9LHRUR8lA3pmdXuyQ",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-3rp8sz",
+    "name": "Race Drones - רחפני FPV",
+    "slug": "race-drones-rchpny-fpv",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "0555564596",
+    "whatsapp": null,
+    "website": "https://race-drones.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 80,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Race%20Drones%20-%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%20FPV&query_place_id=ChIJ5XgJEeA5HRURHFtdqfZyTZU",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-xfxiga",
+    "name": "Propeller Drones - פרופלור דרונס",
+    "slug": "propeller-drones-prvplvr-drvns",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "0776048588",
+    "whatsapp": null,
+    "website": "http://www.propeller-drones.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 91,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Propeller%20Drones%20-%20%D7%A4%D7%A8%D7%95%D7%A4%D7%9C%D7%95%D7%A8%20%D7%93%D7%A8%D7%95%D7%A0%D7%A1&query_place_id=ChIJAR-Yck49HRUR2GJE3ceMWjw",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-4hpgh4",
+    "name": "Airobotics",
+    "slug": "airobotics-petah-tikva",
+    "categorySlug": "inspections",
+    "categoryLabelHe": "בדיקות ובדק בית",
+    "services": [],
+    "citySlug": "petah-tikva",
+    "cityLabelHe": "פתח תקווה",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "035374946",
+    "whatsapp": null,
+    "website": "http://www.airoboticsdrones.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 92,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Airobotics&query_place_id=ChIJI8qvaEg2HRURQm22ebHoPbo",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-xvjujz",
+    "name": "טיסני חולון",
+    "slug": "tysny-chvlvn-jerusalem",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "jerusalem",
+    "cityLabelHe": "ירושלים",
+    "region": "jerusalem",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "jerusalem"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "036521878",
+    "whatsapp": null,
+    "website": "http://www.tholon.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 92,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%A1%D7%A0%D7%99%20%D7%97%D7%95%D7%9C%D7%95%D7%9F&query_place_id=ChIJuyyt6jZLHRURJKKk961uM04",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-7hv1wg",
+    "name": "הארגון הישראלי לרב להב רחפנים",
+    "slug": "hargvn-hyshraly-lrv-lhv-rchpnym-netanya",
+    "categorySlug": "training-schools",
+    "categoryLabelHe": "בתי ספר והכשרה",
+    "services": [],
+    "citySlug": "netanya",
+    "cityLabelHe": "נתניה",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "0525076677",
+    "whatsapp": null,
+    "website": "http://www.icd.org.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 81,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%90%D7%A8%D7%92%D7%95%D7%9F%20%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%20%D7%9C%D7%A8%D7%91%20%D7%9C%D7%94%D7%91%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D&query_place_id=ChIJFYM4f1I_HRURUnqVCLY7W4Q",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-zaruzs",
+    "name": "הטיסן נתניה",
+    "slug": "htysn-ntnyh-netanya",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "netanya",
+    "cityLabelHe": "נתניה",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "098859282",
+    "whatsapp": null,
+    "website": null,
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 82,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%98%D7%99%D7%A1%D7%9F%20%D7%A0%D7%AA%D7%A0%D7%99%D7%94&query_place_id=ChIJq-58voA_HRURslah5jOQCKc",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-roxsg2",
+    "name": "פריפלייט | Preflight",
+    "slug": "pryplyyt-preflight",
+    "categorySlug": "training-schools",
+    "categoryLabelHe": "בתי ספר והכשרה",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "בתי ספר והכשרה בישראל.",
+    "longDescriptionHe": "בתי ספר והכשרה בישראל.",
+    "phone": "0545656521",
+    "whatsapp": null,
+    "website": "https://www.preflight.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 78,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%A8%D7%99%D7%A4%D7%9C%D7%99%D7%99%D7%98%20%7C%20Preflight&query_place_id=ChIJ5QnZt0S3AhUROiusvysK3qQ",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-98sp0l",
+    "name": "פלייסייף Flysafe",
+    "slug": "plyysyyf-flysafe",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "0505992222",
+    "whatsapp": null,
+    "website": null,
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 80,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%9C%D7%99%D7%99%D7%A1%D7%99%D7%99%D7%A3%20Flysafe&query_place_id=ChIJe0W4g5NnAhURAFbIMtsPapc",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-ivth6f",
+    "name": "א.מ אלומות פתרונות אווירים בע\"מ",
+    "slug": "a-m-alvmvt-ptrvnvt-avvyrym-va-m",
+    "categorySlug": "agriculture",
+    "categoryLabelHe": "חקלאות",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "0773611966",
+    "whatsapp": null,
+    "website": "http://www.alumotsprayers.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 64,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90.%D7%9E%20%D7%90%D7%9C%D7%95%D7%9E%D7%95%D7%AA%20%D7%A4%D7%AA%D7%A8%D7%95%D7%A0%D7%95%D7%AA%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99%D7%9D%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJD-BrQZ0_HBUR-urihC93zqE",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-9uk0dt",
+    "name": "סיטידרונס רחפנים City Drones UAV",
+    "slug": "sytydrvns-rchpnym-city-drones-uav",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "0722587788",
+    "whatsapp": null,
+    "website": "http://www.citydronesuav.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 76,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%99%D7%98%D7%99%D7%93%D7%A8%D7%95%D7%A0%D7%A1%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D%20City%20Drones%20UAV&query_place_id=ChIJGTRJQbDJAhURv23-0IQv_ns",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-p9ifk1",
+    "name": "פטקום",
+    "slug": "ptkvm-eilat",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "eilat",
+    "cityLabelHe": "אילת",
+    "region": "south",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "south"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "0545258942",
+    "whatsapp": null,
+    "website": "https://www.petcom.co.il/checkout/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 71,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%98%D7%A7%D7%95%D7%9D&query_place_id=ChIJVyMx_b5xABURzRf8yHm185w",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-7xpqn5",
+    "name": "פטקום אקספרס",
+    "slug": "ptkvm-aksprs-eilat",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "eilat",
+    "cityLabelHe": "אילת",
+    "region": "south",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "south"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "086378877",
+    "whatsapp": null,
+    "website": "https://www.petcom.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 61,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%98%D7%A7%D7%95%D7%9D%20%D7%90%D7%A7%D7%A1%D7%A4%D7%A8%D7%A1&query_place_id=ChIJ6TFKlkpxABURpsZq2K8brlw",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-t9qnu2",
+    "name": "Camera City יבוא ושיווק ציוד צילום",
+    "slug": "camera-city-yvva-vshyvvk-tsyvd-tsylvm-petah-tikva",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "petah-tikva",
+    "cityLabelHe": "פתח תקווה",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "039011900",
+    "whatsapp": null,
+    "website": "http://www.cameracity.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 97,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Camera%20City%20%D7%99%D7%91%D7%95%D7%90%20%D7%95%D7%A9%D7%99%D7%95%D7%95%D7%A7%20%D7%A6%D7%99%D7%95%D7%93%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D&query_place_id=ChIJ_T-K2QI2HRURjFLkZ93TdZo",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-14e35g",
+    "name": "אירו סול-פתרונות תעופתיים/AeroSol Composite Materials",
+    "slug": "ayrv-svl-ptrvnvt-tavptyym-aerosol-compos-petah-tikva",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [],
+    "citySlug": "petah-tikva",
+    "cityLabelHe": "פתח תקווה",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "035444102",
+    "whatsapp": null,
+    "website": "https://www.aerosol.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 80,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%99%D7%A8%D7%95%20%D7%A1%D7%95%D7%9C-%D7%A4%D7%AA%D7%A8%D7%95%D7%A0%D7%95%D7%AA%20%D7%AA%D7%A2%D7%95%D7%A4%D7%AA%D7%99%D7%99%D7%9D%2FAeroSol%20Composite%20Materials&query_place_id=ChIJeyqUAk42HRURHQulZNZhwyM",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-tb3tlc",
+    "name": "טיסני דור (דור המחשוב)",
+    "slug": "tysny-dvr-dvr-hmchshvv-petah-tikva",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "petah-tikva",
+    "cityLabelHe": "פתח תקווה",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "039033395",
+    "whatsapp": null,
+    "website": "https://dorhm.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 88,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%A1%D7%A0%D7%99%20%D7%93%D7%95%D7%A8%20(%D7%93%D7%95%D7%A8%20%D7%94%D7%9E%D7%97%D7%A9%D7%95%D7%91)&query_place_id=ChIJ43RaBWE2HRURYOv8TvupAm4",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-b1h1iq",
+    "name": "ג'י. אמ. אקס מערכות בע\"מ",
+    "slug": "g-y-am-aks-markvt-va-m",
+    "categorySlug": "mapping-surveying",
+    "categoryLabelHe": "מיפוי וסקר",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "מיפוי וסקר בישראל.",
+    "longDescriptionHe": "מיפוי וסקר בישראל.",
+    "phone": "097409554",
+    "whatsapp": null,
+    "website": "https://gmxsys.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 86,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%92'%D7%99.%20%D7%90%D7%9E.%20%D7%90%D7%A7%D7%A1%20%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJrz4ZFgU5HRUR9rUNZEdYuAs",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-9dapiv",
+    "name": "DRONZ צילום אווירי",
+    "slug": "dronz-tsylvm-avvyry",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "0722836666",
+    "whatsapp": null,
+    "website": null,
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 67,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=DRONZ%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99&query_place_id=ChIJ5_wrpt8THRURxIvBVZsCpk8",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-tag225",
+    "name": "רואים עולם - צילום ואלקטרוניקה בע\"מ",
+    "slug": "rvaym-avlm-tsylvm-valktrvnykh-va-m-petah-tikva",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "petah-tikva",
+    "cityLabelHe": "פתח תקווה",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "039045805",
+    "whatsapp": null,
+    "website": "http://video.org.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 97,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%95%D7%90%D7%99%D7%9D%20%D7%A2%D7%95%D7%9C%D7%9D%20-%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%95%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%A0%D7%99%D7%A7%D7%94%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJu_XRV1s2HRURznKbYVLvJdo",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-b1jln6",
+    "name": "קאמרה פלוס",
+    "slug": "kamrh-plvs",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "097408858",
+    "whatsapp": null,
+    "website": "http://www.cameraplus.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 92,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%90%D7%9E%D7%A8%D7%94%20%D7%A4%D7%9C%D7%95%D7%A1&query_place_id=ChIJ_7pyn2E4HRURmQpnH_7-_9Y",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-ryesgp",
+    "name": "ZDRONE Race Drone Shop",
+    "slug": "zdrone-race-drone-shop",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "0507747477",
+    "whatsapp": null,
+    "website": "https://zdrone.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 71,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=ZDRONE%20Race%20Drone%20Shop&query_place_id=ChIJF_YeiAgTHRURZKY81PZltL8",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-7t69vo",
+    "name": "Rc Pilot",
+    "slug": "rc-pilot",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "אזור צפון",
+    "region": "north",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "north"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "048747313",
+    "whatsapp": null,
+    "website": "http://www.rcpilot.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 86,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rc%20Pilot&query_place_id=ChIJG0OVQka2HRURnDdE33Ijgyc",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-8f0tpd",
+    "name": "טיסן חיפה",
+    "slug": "tysn-chyph-haifa",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": "haifa",
+    "cityLabelHe": "חיפה",
+    "region": "north",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "north"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "048645076",
+    "whatsapp": null,
+    "website": "http://www.tissanhaifa.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 95,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%A1%D7%9F%20%D7%97%D7%99%D7%A4%D7%94&query_place_id=ChIJYUZ9YHi6HRURTYXKOEXzhcM",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-e5uml3",
+    "name": "מנחת הבונים",
+    "slug": "mncht-hvvnym",
+    "categorySlug": "fpv-filming",
+    "categoryLabelHe": "צילום FPV",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": null,
+    "whatsapp": null,
+    "website": null,
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 58,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A0%D7%97%D7%AA%20%D7%94%D7%91%D7%95%D7%A0%D7%99%D7%9D&query_place_id=ChIJaXtfasOgHRURwnIDD7fs60Q",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-k2ds9k",
+    "name": "פורטל החקלאות הישראלי",
+    "slug": "pvrtl-hchklavt-hyshraly",
+    "categorySlug": "agriculture",
+    "categoryLabelHe": "חקלאות",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חקלאות בישראל.",
+    "longDescriptionHe": "חקלאות בישראל.",
+    "phone": "0539446765",
+    "whatsapp": null,
+    "website": "https://www.israel.agrisupportonline.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 81,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%95%D7%A8%D7%98%D7%9C%20%D7%94%D7%97%D7%A7%D7%9C%D7%90%D7%95%D7%AA%20%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99&query_place_id=ChIJZwmN4aGkHRURFYAB8ZgeeP8",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-uh5um9",
+    "name": "Fix Drone צפון - מעבדת רחפנים DJI",
+    "slug": "fix-drone-tspvn-mavdt-rchpnym-dji",
+    "categorySlug": "repairs",
+    "categoryLabelHe": "תיקון ושירות",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "אזור צפון",
+    "region": "north",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "north"
+    ],
+    "shortDescriptionHe": "תיקון ושירות בישראל.",
+    "longDescriptionHe": "תיקון ושירות בישראל.",
+    "phone": "0522613173",
+    "whatsapp": null,
+    "website": "https://fixdrone.coi.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 48,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fix%20Drone%20%D7%A6%D7%A4%D7%95%D7%9F%20-%20%D7%9E%D7%A2%D7%91%D7%93%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D%20DJI&query_place_id=ChIJHcAYALtNHBURdpbfemx2p3Q",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-strefy",
+    "name": "אלטה אינוביישן",
+    "slug": "alth-aynvvyyshn",
+    "categorySlug": "training-schools",
+    "categoryLabelHe": "בתי ספר והכשרה",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "037744383",
+    "whatsapp": null,
+    "website": "http://www.alta.team/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 85,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%9C%D7%98%D7%94%20%D7%90%D7%99%D7%A0%D7%95%D7%91%D7%99%D7%99%D7%A9%D7%9F&query_place_id=ChIJKZEbBGdLHRUR3LzEmZqLexE",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-8db1q8",
+    "name": "XFLIGHT",
+    "slug": "xflight",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "אזור צפון",
+    "region": "north",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "north"
+    ],
+    "shortDescriptionHe": "חנויות רחפנים בישראל.",
+    "longDescriptionHe": "חנויות רחפנים בישראל.",
+    "phone": "0549988774",
+    "whatsapp": null,
+    "website": "http://xflight-fpv.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 87,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=XFLIGHT&query_place_id=ChIJRegxi3rPHRUReBgEs683WZA",
+    "lastUpdated": "2026-05-11"
+  },
+  {
+    "id": "g-pcm1fa",
+    "name": "S.A צילום אוויר והדרכת מטיסים",
+    "slug": "s-a-tsylvm-avvyr-vhdrkt-mtysym",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי בישראל.",
+    "longDescriptionHe": "צילום אווירי בישראל.",
+    "phone": "0507336218",
+    "whatsapp": null,
+    "website": "https://sa-drone.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 84,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=S.A%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20%D7%95%D7%94%D7%93%D7%A8%D7%9B%D7%AA%20%D7%9E%D7%98%D7%99%D7%A1%D7%99%D7%9D&query_place_id=ChIJP4f62Uc1mGkRnVcoSSQA5mA",
+    "lastUpdated": "2026-05-11"
   }
 ]
