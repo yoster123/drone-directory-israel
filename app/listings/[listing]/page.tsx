@@ -142,32 +142,93 @@ export default async function ListingPage({
             </div>
           </section>
 
-          {listing.specialties.length > 0 && (
+          {listing.equipment.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">התמחויות</h2>
+              <h2 className="text-lg font-bold text-gray-900 mb-3">ציוד ויכולות</h2>
               <div className="flex flex-wrap gap-2">
-                {listing.specialties.map((specialty) => (
+                {listing.equipment.map((item) => (
                   <span
-                    key={specialty}
-                    className="px-3 py-1.5 bg-purple-50 text-purple-700 text-sm font-medium rounded-full"
+                    key={item}
+                    className="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200"
                   >
-                    {specialty}
+                    {item}
                   </span>
                 ))}
               </div>
             </section>
           )}
 
-          {listing.badges.length > 0 && (
+          {listing.operationalStrengths.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">אמינות ואיכות</h2>
+              <h2 className="text-lg font-bold text-gray-900 mb-3">תחומי התמחות</h2>
               <div className="flex flex-wrap gap-2">
-                {listing.badges.map((badge) => (
+                {listing.operationalStrengths.map((strength) => (
                   <span
-                    key={badge}
+                    key={strength}
+                    className="px-3 py-1.5 bg-indigo-50 text-indigo-700 text-sm font-medium rounded-full"
+                  >
+                    {strength}
+                  </span>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {listing.deliverables.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-lg font-bold text-gray-900 mb-3">תוצרים אפשריים</h2>
+              <div className="flex flex-wrap gap-2">
+                {listing.deliverables.map((item) => (
+                  <span
+                    key={item}
+                    className="px-3 py-1.5 bg-teal-50 text-teal-700 text-sm font-medium rounded-full"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {listing.industriesServed.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-lg font-bold text-gray-900 mb-3">תעשיות רלוונטיות</h2>
+              <div className="flex flex-wrap gap-2">
+                {listing.industriesServed.map((industry) => (
+                  <span
+                    key={industry}
+                    className="px-3 py-1.5 bg-amber-50 text-amber-700 text-sm font-medium rounded-full"
+                  >
+                    {industry}
+                  </span>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <section className="mb-8">
+            <h2 className="text-lg font-bold text-gray-900 mb-3">אזור פעילות</h2>
+            <p className="text-gray-600 text-sm">{listing.coverageArea}</p>
+          </section>
+
+          {(listing.verificationSignals.length > 0 || listing.certifications.length > 0) && (
+            <section className="mb-8">
+              <h2 className="text-lg font-bold text-gray-900 mb-3">אמון ואימות</h2>
+              <div className="flex flex-wrap gap-2">
+                {listing.certifications.map((cert) => (
+                  <span
+                    key={cert}
                     className="px-3 py-1.5 bg-green-50 text-green-700 text-sm font-semibold rounded-full border border-green-200"
                   >
-                    {badge}
+                    ✓ {cert}
+                  </span>
+                ))}
+                {listing.verificationSignals.map((signal) => (
+                  <span
+                    key={signal}
+                    className="px-3 py-1.5 bg-gray-50 text-gray-600 text-sm font-medium rounded-full border border-gray-200"
+                  >
+                    {signal}
                   </span>
                 ))}
               </div>
@@ -209,7 +270,8 @@ export default async function ListingPage({
         {/* Sidebar — contact card */}
         <aside className="lg:w-76 shrink-0">
           <div className="bg-white border border-gray-200 rounded-xl p-6 sticky top-20">
-            <h2 className="font-bold text-gray-900 text-lg mb-5">פרטי קשר</h2>
+            <h2 className="font-bold text-gray-900 text-lg mb-1">בקשת שירות מספק זה</h2>
+            <p className="text-[13px] text-gray-500 mb-5">פנו ישירות לספק לתיאום ומחיר</p>
             <div className="flex flex-col gap-3">
 
               {listing.phone && (

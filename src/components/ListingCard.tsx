@@ -9,6 +9,16 @@ const REGION_LABELS: Record<string, string> = {
   north: 'צפון', center: 'מרכז', south: 'דרום', jerusalem: 'ירושלים',
 }
 
+// One concise chip for categories whose operational use-case is non-obvious from the label alone
+const CATEGORY_OP_CHIP: Record<string, string> = {
+  'mapping-surveying':       'מיפוי',
+  'agriculture':             'חקלאות',
+  'inspections':             'בדיקות תשתית',
+  'security':                'אבטחה',
+  'real-estate-photography': 'נדל"ן',
+  'repairs':                 'תיקונים',
+}
+
 const AVATAR_COLORS = [
   'bg-blue-100 text-blue-700',
   'bg-violet-100 text-violet-700',
@@ -35,6 +45,7 @@ export default function ListingCard({ listing }: Props) {
   const locationLabel = listing.citySlug
     ? listing.cityLabelHe
     : listing.cityLabelHe || `אזור ${REGION_LABELS[listing.region] ?? listing.region}`
+  const opChip = CATEGORY_OP_CHIP[listing.categorySlug] ?? null
 
   return (
     <article className="relative bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3 hover:border-blue-200 hover:shadow-sm transition-all cursor-pointer">
@@ -71,9 +82,8 @@ export default function ListingCard({ listing }: Props) {
         {listing.shortDescriptionHe}
       </p>
 
-      {/* Chips — quality badges (green) and specialties (gray outline) only.
-          Services are omitted: they repeat the category subtitle. */}
-      {(listing.badges.length > 0 || listing.specialties.length > 0) && (
+      {/* Chips: quality badges (green), specialties (gray outline), operational tag (blue) */}
+      {(listing.badges.length > 0 || listing.specialties.length > 0 || opChip) && (
         <div className="relative z-10 flex flex-wrap gap-1.5">
           {listing.badges.map((badge) => (
             <span
@@ -91,6 +101,11 @@ export default function ListingCard({ listing }: Props) {
               {specialty}
             </span>
           ))}
+          {opChip && (
+            <span className="text-[11px] text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-0.5 rounded-full">
+              {opChip}
+            </span>
+          )}
         </div>
       )}
 

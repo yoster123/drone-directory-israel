@@ -68,4 +68,14 @@ export interface Listing {
 export interface EnrichedListing extends Listing {
   badges: string[]
   specialties: string[]
+
+  // Operational drone profile — heuristic-enriched, always present
+  equipment: string[]           // drone hardware / gear used
+  industriesServed: string[]    // client industries (real estate, agriculture, …)
+  deliverables: string[]        // output formats provided
+  certifications: string[]      // regulatory / professional certifications
+  coverageArea: string          // human-readable geographic scope
+  operationalStrengths: string[] // what makes this operator distinct operationally
+  projectTypes: string[]        // types of projects they handle
+  verificationSignals: string[] // observable trust signals from public data
 }

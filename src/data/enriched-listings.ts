@@ -1,6 +1,6 @@
 // AUTO-GENERATED — do not edit manually
 // Source: src/data/generated-listings.ts
-// Generated: 2026-05-11T10:04:21.879Z
+// Generated: 2026-05-11T11:44:48.011Z
 // Run: npm run enrich:listings
 
 import type { EnrichedListing } from '../types/listing'
@@ -38,7 +38,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "אזור הצפון",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-am51xv",
@@ -70,7 +99,35 @@ export const enrichedListings: EnrichedListing[] = [
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fly%20photo%20%2C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D%20%D7%A6%D7%99%D7%9C%D7%95%D7%9E%D7%99%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20%D7%A4%D7%9C%D7%99%D7%99%20%D7%A4%D7%95%D7%98%D7%95&query_place_id=ChIJXRNkB-M1HRURUm2wpcJxTQg",
     "lastUpdated": "2026-05-11",
     "badges": [],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
   },
   {
     "id": "g-unf9fo",
@@ -105,7 +162,38 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "תל אביב והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-9kg39q",
@@ -141,7 +229,38 @@ export const enrichedListings: EnrichedListing[] = [
       "דירוג מצוין",
       "ביקורות רבות"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "חיפה והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל מצוינות"
+    ]
   },
   {
     "id": "g-tvjnbr",
@@ -176,7 +295,37 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-xyanbh",
@@ -215,6 +364,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -250,7 +423,37 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-gltfto",
@@ -285,6 +488,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [],
     "specialties": [
       "הדרכה ורישיון"
+    ],
+    "equipment": [
+      "ציוד הדרכה"
+    ],
+    "industriesServed": [
+      "חינוך מקצועי",
+      "הסמכות תעופתיות",
+      "עסקים"
+    ],
+    "deliverables": [
+      "תעודת הכשרה",
+      "רישיון טיס",
+      "תיק לימוד"
+    ],
+    "certifications": [
+      "קורסי הסמכה ע\"י רשות התעופה האזרחית"
+    ],
+    "coverageArea": "נתניה והסביבה",
+    "operationalStrengths": [
+      "מדריכים מנוסים",
+      "קורסים מוסמכים"
+    ],
+    "projectTypes": [
+      "קורס בסיסי",
+      "קורס מסחרי",
+      "חידוש רישיון"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
     ]
   },
   {
@@ -317,7 +550,35 @@ export const enrichedListings: EnrichedListing[] = [
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%95%D7%94%D7%A8%20%D7%96%D7%A0%D7%AA%D7%99-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%95%D7%A2%D7%A8%D7%99%D7%9B%D7%94&query_place_id=ChIJUdaRBgHPHRURNPYLp-h06ic",
     "lastUpdated": "2026-05-11",
     "badges": [],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
   },
   {
     "id": "g-u32rup",
@@ -352,7 +613,38 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-vbdlk6",
@@ -389,6 +681,35 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "סיורים וירטואליים"
+    ],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "אזור הדרום",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
     ]
   },
   {
@@ -425,7 +746,38 @@ export const enrichedListings: EnrichedListing[] = [
       "דירוג מצוין",
       "מעל 100 ביקורות"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "ראשון לציון והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל מצוינות"
+    ]
   },
   {
     "id": "g-v90fnf",
@@ -464,6 +816,31 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -500,7 +877,37 @@ export const enrichedListings: EnrichedListing[] = [
       "דירוג מצוין",
       "מעל 100 ביקורות"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "חיפה והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
+    ]
   },
   {
     "id": "g-tc9j4o",
@@ -538,6 +945,29 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -573,7 +1003,36 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "ראשון לציון והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-btnhcv",
@@ -607,7 +1066,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-qmu4nz",
@@ -642,6 +1130,28 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "אזור הדרום",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
     ]
   },
   {
@@ -679,6 +1189,29 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -718,6 +1251,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "הרצליה והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -753,7 +1310,37 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-9buv44",
@@ -789,7 +1376,38 @@ export const enrichedListings: EnrichedListing[] = [
       "דירוג גבוה",
       "ביקורות רבות"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "תל אביב והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-hzsrib",
@@ -824,7 +1442,37 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-hn3g0a",
@@ -858,7 +1506,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "אתר רשמי"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
   },
   {
     "id": "g-ub8a9j",
@@ -897,6 +1574,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "תל אביב והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -931,7 +1632,37 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-te4jey",
@@ -965,7 +1696,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "אתר רשמי"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
   },
   {
     "id": "g-wqk72n",
@@ -1003,6 +1763,29 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -1039,7 +1822,38 @@ export const enrichedListings: EnrichedListing[] = [
       "דירוג מצוין",
       "ביקורות רבות"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל מצוינות"
+    ]
   },
   {
     "id": "g-028v0n",
@@ -1078,6 +1892,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "תל אביב והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -1116,6 +1954,36 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "סיורים וירטואליים"
+    ],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -1150,7 +2018,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "אתר רשמי"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "תל אביב והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
   },
   {
     "id": "g-8kj2yx",
@@ -1184,7 +2081,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "אתר רשמי"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "ירושלים והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
   },
   {
     "id": "g-suq77i",
@@ -1219,7 +2145,37 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-mzotmv",
@@ -1253,7 +2209,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "ראשון לציון והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-rja2nb",
@@ -1288,7 +2273,37 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "ירושלים והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-024fim",
@@ -1327,6 +2342,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "תל אביב והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -1367,6 +2406,32 @@ export const enrichedListings: EnrichedListing[] = [
     "specialties": [
       "FPV",
       "ציוד ואביזרים"
+    ],
+    "equipment": [
+      "רחפן FPV"
+    ],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -1406,6 +2471,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -1443,7 +2532,38 @@ export const enrichedListings: EnrichedListing[] = [
       "דירוג מצוין",
       "ביקורות רבות"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן תעשייתי",
+      "מצלמה תרמית"
+    ],
+    "industriesServed": [
+      "תשתיות ואנרגיה",
+      "נדל\"ן מסחרי",
+      "ביטוח"
+    ],
+    "deliverables": [
+      "דוח בדיקה",
+      "תמונות תרמיות",
+      "וידאו תיעוד"
+    ],
+    "certifications": [],
+    "coverageArea": "פתח תקווה והסביבה",
+    "operationalStrengths": [
+      "גישה למקומות קשים",
+      "בדיקה לא פולשנית",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "בדיקות גגות",
+      "קווי חשמל",
+      "גשרים ומבנים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
+    ]
   },
   {
     "id": "g-xvjujz",
@@ -1482,6 +2602,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "ירושלים והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -1520,6 +2664,38 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "הדרכה ורישיון"
+    ],
+    "equipment": [
+      "ציוד הדרכה"
+    ],
+    "industriesServed": [
+      "חינוך מקצועי",
+      "הסמכות תעופתיות",
+      "עסקים"
+    ],
+    "deliverables": [
+      "תעודת הכשרה",
+      "רישיון טיס",
+      "תיק לימוד"
+    ],
+    "certifications": [
+      "קורסי הסמכה ע\"י רשות התעופה האזרחית"
+    ],
+    "coverageArea": "נתניה והסביבה",
+    "operationalStrengths": [
+      "מדריכים מנוסים",
+      "קורסים מוסמכים"
+    ],
+    "projectTypes": [
+      "קורס בסיסי",
+      "קורס מסחרי",
+      "חידוש רישיון"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -1557,6 +2733,28 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "נתניה והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -1595,6 +2793,38 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "הדרכה ורישיון"
+    ],
+    "equipment": [
+      "ציוד הדרכה"
+    ],
+    "industriesServed": [
+      "חינוך מקצועי",
+      "הסמכות תעופתיות",
+      "עסקים"
+    ],
+    "deliverables": [
+      "תעודת הכשרה",
+      "רישיון טיס",
+      "תיק לימוד"
+    ],
+    "certifications": [
+      "קורסי הסמכה ע\"י רשות התעופה האזרחית"
+    ],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מדריכים מנוסים",
+      "קורסים מוסמכים"
+    ],
+    "projectTypes": [
+      "קורס בסיסי",
+      "קורס מסחרי",
+      "חידוש רישיון"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -1632,6 +2862,29 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -1667,7 +2920,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "אתר רשמי"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן תעשייתי",
+      "מערכת ריסוס"
+    ],
+    "industriesServed": [
+      "חקלאות",
+      "ניהול שדות",
+      "אגרוטק"
+    ],
+    "deliverables": [
+      "מפת צמחייה",
+      "תמונות NDVI",
+      "דוח ניטור שדה"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "כיסוי שטח רחב",
+      "ריסוס מדויק"
+    ],
+    "projectTypes": [
+      "ניטור עונתי",
+      "ריסוס ממוקד",
+      "מיפוי יבולים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת"
+    ]
   },
   {
     "id": "g-9uk0dt",
@@ -1702,7 +2984,36 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-p9ifk1",
@@ -1739,6 +3050,29 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "אילת והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
     ]
   },
   {
@@ -1776,6 +3110,28 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "אילת והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת"
     ]
   },
   {
@@ -1815,6 +3171,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "פתח תקווה והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -1850,7 +3230,36 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "פתח תקווה והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-tb3tlc",
@@ -1889,6 +3298,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "פתח תקווה והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -1925,7 +3358,38 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "ציוד מיפוי אווירי",
+      "תוכנת עיבוד נתונים"
+    ],
+    "industriesServed": [
+      "בנייה ותשתיות",
+      "ממשלה ורשויות",
+      "ניהול קרקעות"
+    ],
+    "deliverables": [
+      "מפת אורתופוטו",
+      "מודל תלת-ממדי",
+      "נתוני GIS"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "דיוק גבוה",
+      "עיבוד נתונים מהיר",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "תכנון עירוני",
+      "סקרי קרקע",
+      "פרויקטי בנייה"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
   },
   {
     "id": "g-9dapiv",
@@ -1957,7 +3421,34 @@ export const enrichedListings: EnrichedListing[] = [
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=DRONZ%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%D7%99&query_place_id=ChIJ5_wrpt8THRURxIvBVZsCpk8",
     "lastUpdated": "2026-05-11",
     "badges": [],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת"
+    ]
   },
   {
     "id": "g-tag225",
@@ -1996,6 +3487,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "פתח תקווה והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -2035,6 +3550,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -2072,6 +3611,29 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
     ]
   },
   {
@@ -2110,6 +3672,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "אזור הצפון",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -2149,6 +3735,30 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "חיפה והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
     ]
   },
   {
@@ -2182,7 +3792,32 @@ export const enrichedListings: EnrichedListing[] = [
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A0%D7%97%D7%AA%20%D7%94%D7%91%D7%95%D7%A0%D7%99%D7%9D&query_place_id=ChIJaXtfasOgHRURwnIDD7fs60Q",
     "lastUpdated": "2026-05-11",
     "badges": [],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן FPV"
+    ],
+    "industriesServed": [
+      "ספורט ואקסטרים",
+      "מוזיקה ובידור",
+      "פרסום"
+    ],
+    "deliverables": [
+      "קליפ FPV דינמי",
+      "פוטג'ים גולמיים",
+      "עריכה מוכנה לפרסום"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "טיסה דינמית ואקרובטית",
+      "פוטג' קינמטי"
+    ],
+    "projectTypes": [
+      "קליפים מוזיקליים",
+      "ספורט ואקסטרים",
+      "פרסומות"
+    ],
+    "verificationSignals": []
   },
   {
     "id": "g-k2ds9k",
@@ -2221,6 +3856,37 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "חקלאות"
+    ],
+    "equipment": [
+      "רחפן תעשייתי",
+      "מערכת ריסוס"
+    ],
+    "industriesServed": [
+      "חקלאות",
+      "ניהול שדות",
+      "אגרוטק"
+    ],
+    "deliverables": [
+      "מפת צמחייה",
+      "תמונות NDVI",
+      "דוח ניטור שדה"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "כיסוי שטח רחב",
+      "ריסוס מדויק"
+    ],
+    "projectTypes": [
+      "ניטור עונתי",
+      "ריסוס ממוקד",
+      "מיפוי יבולים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -2256,7 +3922,36 @@ export const enrichedListings: EnrichedListing[] = [
     "badges": [
       "אתר רשמי"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "ציוד אבחון ותיקון"
+    ],
+    "industriesServed": [
+      "בעלי רחפנים",
+      "עסקים",
+      "חובבים"
+    ],
+    "deliverables": [
+      "תיקון ומסירה",
+      "דוח תקלות",
+      "אחריות על עבודה"
+    ],
+    "certifications": [],
+    "coverageArea": "אזור הצפון",
+    "operationalStrengths": [
+      "שירות מהיר",
+      "אבחון מקצועי"
+    ],
+    "projectTypes": [
+      "תיקון כנפיים",
+      "החלפת מנועים",
+      "שדרוג ציוד"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
   },
   {
     "id": "g-strefy",
@@ -2294,6 +3989,38 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "הדרכה ורישיון"
+    ],
+    "equipment": [
+      "ציוד הדרכה"
+    ],
+    "industriesServed": [
+      "חינוך מקצועי",
+      "הסמכות תעופתיות",
+      "עסקים"
+    ],
+    "deliverables": [
+      "תעודת הכשרה",
+      "רישיון טיס",
+      "תיק לימוד"
+    ],
+    "certifications": [
+      "קורסי הסמכה ע\"י רשות התעופה האזרחית"
+    ],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מדריכים מנוסים",
+      "קורסים מוסמכים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "קורס בסיסי",
+      "קורס מסחרי",
+      "חידוש רישיון"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -2332,6 +4059,31 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "specialties": [
       "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "אזור הצפון",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
     ]
   },
   {
@@ -2367,6 +4119,36 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר רשמי",
       "דירוג גבוה"
     ],
-    "specialties": []
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
   }
 ]

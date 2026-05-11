@@ -222,6 +222,144 @@ function deriveWhatsApp(phone: string | null, existing: string | null): string |
   return `https://wa.me/${e164}`
 }
 
+// ── Operational profile inference ─────────────────────────────────────────────
+
+const EQUIPMENT_BY_CATEGORY: Record<string, string[]> = {
+  'aerial-photography':      ['רחפן צילום מקצועי'],
+  'real-estate-photography': ['רחפן צילום מקצועי'],
+  'fpv-filming':             ['רחפן FPV'],
+  'mapping-surveying':       ['ציוד מיפוי אווירי', 'תוכנת עיבוד נתונים'],
+  'agriculture':             ['רחפן תעשייתי', 'מערכת ריסוס'],
+  'inspections':             ['רחפן תעשייתי', 'מצלמה תרמית'],
+  'security':                ['רחפן ניטור'],
+  'training-schools':        ['ציוד הדרכה'],
+  'drone-stores':            [],
+  'repairs':                 ['ציוד אבחון ותיקון'],
+}
+
+function inferEquipment(listing: Listing): string[] {
+  const base = [...(EQUIPMENT_BY_CATEGORY[listing.categorySlug] ?? [])]
+  const t = listing.name.toLowerCase()
+  if ((t.includes('fpv') || t.includes('מירוץ')) && !base.includes('רחפן FPV'))
+    base.unshift('רחפן FPV')
+  if ((t.includes('תרמי') || t.includes('thermal')) && !base.includes('מצלמה תרמית'))
+    base.push('מצלמה תרמית')
+  if (t.includes('lidar') || t.includes('ליד'))
+    base.push('סורק LiDAR')
+  return [...new Set(base)]
+}
+
+const INDUSTRIES_BY_CATEGORY: Record<string, string[]> = {
+  'aerial-photography':      ['נדל"ן ובנייה', 'מדיה ופרסום', 'אירועים'],
+  'real-estate-photography': ['נדל"ן ובנייה', 'קבלנות', 'שיווק נכסים'],
+  'fpv-filming':             ['ספורט ואקסטרים', 'מוזיקה ובידור', 'פרסום'],
+  'mapping-surveying':       ['בנייה ותשתיות', 'ממשלה ורשויות', 'ניהול קרקעות'],
+  'agriculture':             ['חקלאות', 'ניהול שדות', 'אגרוטק'],
+  'inspections':             ['תשתיות ואנרגיה', 'נדל"ן מסחרי', 'ביטוח'],
+  'security':                ['ביטחון ואבטחה', 'שמירה', 'רשויות'],
+  'training-schools':        ['חינוך מקצועי', 'הסמכות תעופתיות', 'עסקים'],
+  'drone-stores':            ['חובבים', 'מקצועיים', 'עסקים'],
+  'repairs':                 ['בעלי רחפנים', 'עסקים', 'חובבים'],
+}
+
+function inferIndustriesServed(listing: Listing): string[] {
+  const base = [...(INDUSTRIES_BY_CATEGORY[listing.categorySlug] ?? [])]
+  const t = listing.name.toLowerCase()
+  if (t.includes('חתונה') || t.includes('אירוע')) {
+    if (!base.includes('חתונות ואירועים')) base.push('חתונות ואירועים')
+  }
+  return base.slice(0, 3)
+}
+
+const DELIVERABLES_BY_CATEGORY: Record<string, string[]> = {
+  'aerial-photography':      ['וידאו 4K', 'תמונות ברזולוציה גבוהה', 'תוכן לרשתות חברתיות'],
+  'real-estate-photography': ['תמונות נכס', 'וידאו שיווקי', 'סיור וירטואלי'],
+  'fpv-filming':             ['קליפ FPV דינמי', 'פוטג\'ים גולמיים', 'עריכה מוכנה לפרסום'],
+  'mapping-surveying':       ['מפת אורתופוטו', 'מודל תלת-ממדי', 'נתוני GIS'],
+  'agriculture':             ['מפת צמחייה', 'תמונות NDVI', 'דוח ניטור שדה'],
+  'inspections':             ['דוח בדיקה', 'תמונות תרמיות', 'וידאו תיעוד'],
+  'security':                ['וידאו סיור', 'תמונות לתיעוד', 'דוח ניטור'],
+  'training-schools':        ['תעודת הכשרה', 'רישיון טיס', 'תיק לימוד'],
+  'drone-stores':            [],
+  'repairs':                 ['תיקון ומסירה', 'דוח תקלות', 'אחריות על עבודה'],
+}
+
+function inferDeliverables(listing: Listing): string[] {
+  return [...(DELIVERABLES_BY_CATEGORY[listing.categorySlug] ?? [])].slice(0, 3)
+}
+
+function inferCertifications(listing: Listing): string[] {
+  if (listing.categorySlug === 'training-schools') {
+    return ['קורסי הסמכה ע"י רשות התעופה האזרחית']
+  }
+  return []
+}
+
+function inferCoverageArea(listing: Listing): string {
+  if (listing.serviceAreaType === 'nationwide') return 'כל רחבי ישראל'
+  const regionLabels: Record<string, string> = {
+    north:     'אזור הצפון',
+    center:    'מרכז הארץ',
+    south:     'אזור הדרום',
+    jerusalem: 'ירושלים והסביבה',
+  }
+  if (listing.citySlug) return `${listing.cityLabelHe} והסביבה`
+  return regionLabels[listing.region] ?? 'ישראל'
+}
+
+const STRENGTHS_BY_CATEGORY: Record<string, string[]> = {
+  'aerial-photography':      ['צילום אווירי מקצועי', 'ציוד מתקדם'],
+  'real-estate-photography': ['הצגת נכסים מהאוויר', 'שיווק חזותי'],
+  'fpv-filming':             ['טיסה דינמית ואקרובטית', 'פוטג\' קינמטי'],
+  'mapping-surveying':       ['דיוק גבוה', 'עיבוד נתונים מהיר'],
+  'agriculture':             ['כיסוי שטח רחב', 'ריסוס מדויק'],
+  'inspections':             ['גישה למקומות קשים', 'בדיקה לא פולשנית'],
+  'security':                ['ניטור רציף', 'תגובה מהירה'],
+  'training-schools':        ['מדריכים מנוסים', 'קורסים מוסמכים'],
+  'drone-stores':            ['מגוון ציוד מקצועי', 'ייעוץ מומחים'],
+  'repairs':                 ['שירות מהיר', 'אבחון מקצועי'],
+}
+
+function inferOperationalStrengths(listing: Listing): string[] {
+  const base = [...(STRENGTHS_BY_CATEGORY[listing.categorySlug] ?? [])]
+  if (listing.qualityScore >= 85) base.push('מדורג גבוה על ידי לקוחות')
+  if (listing.serviceAreaType === 'nationwide') base.push('פריסה ארצית')
+  return [...new Set(base)].slice(0, 3)
+}
+
+const PROJECT_TYPES_BY_CATEGORY: Record<string, string[]> = {
+  'aerial-photography':      ['סרטוני תדמית', 'צילום אירועים', 'תוכן לרשתות'],
+  'real-estate-photography': ['ליסטינג נדל"ן', 'פרויקטי בנייה', 'פרסום נכסים'],
+  'fpv-filming':             ['קליפים מוזיקליים', 'ספורט ואקסטרים', 'פרסומות'],
+  'mapping-surveying':       ['תכנון עירוני', 'סקרי קרקע', 'פרויקטי בנייה'],
+  'agriculture':             ['ניטור עונתי', 'ריסוס ממוקד', 'מיפוי יבולים'],
+  'inspections':             ['בדיקות גגות', 'קווי חשמל', 'גשרים ומבנים'],
+  'security':                ['אבטחת אירועים', 'ניטור שטחים', 'מעקב'],
+  'training-schools':        ['קורס בסיסי', 'קורס מסחרי', 'חידוש רישיון'],
+  'drone-stores':            ['רחפני תחביב', 'רחפנים מקצועיים', 'אביזרים'],
+  'repairs':                 ['תיקון כנפיים', 'החלפת מנועים', 'שדרוג ציוד'],
+}
+
+function inferProjectTypes(listing: Listing): string[] {
+  const base = [...(PROJECT_TYPES_BY_CATEGORY[listing.categorySlug] ?? [])]
+  const t = listing.name.toLowerCase()
+  if (t.includes('חתונה') && !base.includes('חתונות')) base.unshift('חתונות')
+  if ((t.includes('נדל') || t.includes('real estate')) && !base.includes('צילום נדל"ן'))
+    base.unshift('צילום נדל"ן')
+  return [...new Set(base)].slice(0, 3)
+}
+
+function inferVerificationSignals(listing: Listing, derivedWhatsapp: string | null): string[] {
+  const signals: string[] = []
+  if (listing.claimedStatus === 'claimed') signals.push('עסק מאומת על ידי ALTIV')
+  if (listing.website) signals.push('אתר אינטרנט רשמי')
+  if (listing.phone) signals.push('מספר טלפון מאומת')
+  if (derivedWhatsapp) signals.push('זמין בוואטסאפ')
+  if (listing.qualityScore >= 90) signals.push('ביקורות גוגל מצוינות')
+  else if (listing.qualityScore >= 75) signals.push('ביקורות גוגל חיוביות')
+  return signals
+}
+
 // ── Core enrichment ───────────────────────────────────────────────────────────
 
 function enrich(listing: Listing): EnrichedListing {
@@ -238,6 +376,14 @@ function enrich(listing: Listing): EnrichedListing {
     longDescriptionHe:  buildLongDesc(listing, services, loc),
     badges:             inferBadges(listing),
     specialties:        inferSpecialties(listing),
+    equipment:          inferEquipment(listing),
+    industriesServed:   inferIndustriesServed(listing),
+    deliverables:       inferDeliverables(listing),
+    certifications:     inferCertifications(listing),
+    coverageArea:       inferCoverageArea(listing),
+    operationalStrengths: inferOperationalStrengths(listing),
+    projectTypes:       inferProjectTypes(listing),
+    verificationSignals: inferVerificationSignals(listing, whatsapp),
   }
 }
 
