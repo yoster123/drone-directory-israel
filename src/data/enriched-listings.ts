@@ -1,6 +1,6 @@
 // AUTO-GENERATED — do not edit manually
 // Source: src/data/generated-listings.ts
-// Generated: 2026-05-11T12:21:02.658Z
+// Generated: 2026-05-11T14:39:53.867Z
 // Run: npm run enrich:listings
 
 import type { EnrichedListing } from '../types/listing'
@@ -4355,69 +4355,6 @@ export const enrichedListings: EnrichedListing[] = [
     ]
   },
   {
-    "id": "g-fli8mv",
-    "name": "תחפושות לפורים 2026 - בית הצעצוע",
-    "slug": "tchpvshvt-lpvrym-2026-vyt-htsatsva-jerusalem",
-    "categorySlug": "drone-stores",
-    "categoryLabelHe": "חנויות רחפנים",
-    "services": [
-      "מכירת רחפנים",
-      "אביזרים ורכיבים",
-      "ייעוץ מקצועי"
-    ],
-    "citySlug": "jerusalem",
-    "cityLabelHe": "ירושלים",
-    "region": "jerusalem",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "jerusalem"
-    ],
-    "shortDescriptionHe": "ציוד רחפנים בירושלים — מכירת רחפנים ואביזרים ורכיבים.",
-    "longDescriptionHe": "מומחי ציוד רחפנים בירושלים. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
-    "phone": "026718282",
-    "whatsapp": null,
-    "website": "https://www.toyhouse.co.il/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 98,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%AA%D7%97%D7%A4%D7%95%D7%A9%D7%95%D7%AA%20%D7%9C%D7%A4%D7%95%D7%A8%D7%99%D7%9D%202026%20-%20%D7%91%D7%99%D7%AA%20%D7%94%D7%A6%D7%A2%D7%A6%D7%95%D7%A2&query_place_id=ChIJK6ydRx4oAxURTlUTXqOnSJo",
-    "lastUpdated": "2026-05-11",
-    "badges": [
-      "אתר רשמי",
-      "דירוג מצוין",
-      "מעל 100 ביקורות"
-    ],
-    "specialties": [
-      "ציוד ואביזרים"
-    ],
-    "equipment": [],
-    "industriesServed": [
-      "חובבים",
-      "מקצועיים",
-      "עסקים"
-    ],
-    "deliverables": [],
-    "certifications": [],
-    "coverageArea": "ירושלים והסביבה",
-    "operationalStrengths": [
-      "מגוון ציוד מקצועי",
-      "ייעוץ מומחים",
-      "מדורג גבוה על ידי לקוחות"
-    ],
-    "projectTypes": [
-      "רחפני תחביב",
-      "רחפנים מקצועיים",
-      "אביזרים"
-    ],
-    "verificationSignals": [
-      "אתר אינטרנט רשמי",
-      "מספר טלפון מאומת",
-      "ביקורות גוגל מצוינות"
-    ]
-  },
-  {
     "id": "g-5qmygq",
     "name": "ארסיזון",
     "slug": "arsyzvn-jerusalem",
@@ -4983,69 +4920,6 @@ export const enrichedListings: EnrichedListing[] = [
     ]
   },
   {
-    "id": "g-xb5rup",
-    "name": "לימור צבעים בע\"מ",
-    "slug": "lymvr-tsvaym-va-m-rishon-lezion",
-    "categorySlug": "drone-stores",
-    "categoryLabelHe": "חנויות רחפנים",
-    "services": [
-      "מכירת רחפנים",
-      "אביזרים ורכיבים",
-      "ייעוץ מקצועי"
-    ],
-    "citySlug": "rishon-lezion",
-    "cityLabelHe": "ראשון לציון",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "ציוד רחפנים בראשון לציון — מכירת רחפנים ואביזרים ורכיבים.",
-    "longDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים בראשון לציון. מבחר רחפנים ואביזרים ממותגים מובילים. שירות לפני ואחרי המכירה.",
-    "phone": "039690843",
-    "whatsapp": null,
-    "website": "http://www.limor.biz/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 91,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%99%D7%9E%D7%95%D7%A8%20%D7%A6%D7%91%D7%A2%D7%99%D7%9D%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJcx4CvS5KHRURADWxu8us8rc",
-    "lastUpdated": "2026-05-11",
-    "badges": [
-      "אתר רשמי",
-      "דירוג מצוין",
-      "ביקורות רבות"
-    ],
-    "specialties": [
-      "ציוד ואביזרים"
-    ],
-    "equipment": [],
-    "industriesServed": [
-      "חובבים",
-      "מקצועיים",
-      "עסקים"
-    ],
-    "deliverables": [],
-    "certifications": [],
-    "coverageArea": "ראשון לציון והסביבה",
-    "operationalStrengths": [
-      "מגוון ציוד מקצועי",
-      "ייעוץ מומחים",
-      "מדורג גבוה על ידי לקוחות"
-    ],
-    "projectTypes": [
-      "רחפני תחביב",
-      "רחפנים מקצועיים",
-      "אביזרים"
-    ],
-    "verificationSignals": [
-      "אתר אינטרנט רשמי",
-      "מספר טלפון מאומת",
-      "ביקורות גוגל מצוינות"
-    ]
-  },
-  {
     "id": "g-1hfiz1",
     "name": "קרן אלקטרוניקה",
     "slug": "krn-alktrvnykh-eilat",
@@ -5421,73 +5295,6 @@ export const enrichedListings: EnrichedListing[] = [
     ]
   },
   {
-    "id": "g-d7rkkh",
-    "name": "אלעד אוהב עצים",
-    "slug": "alad-avhv-atsym",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [
-      "צילום אווירי",
-      "וידאו אווירי"
-    ],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר, מרחפן בישראל.",
-    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
-    "phone": "0524375574",
-    "whatsapp": "https://wa.me/972524375574",
-    "website": "https://www.eladlovetrees.co.il/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 92,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%9C%D7%A2%D7%93%20%D7%90%D7%95%D7%94%D7%91%20%D7%A2%D7%A6%D7%99%D7%9D&query_place_id=ChIJd_kg9P-lFawRQNswJ46rQbQ",
-    "lastUpdated": "2026-05-11",
-    "badges": [
-      "אתר רשמי",
-      "דירוג מצוין",
-      "ביקורות רבות"
-    ],
-    "specialties": [],
-    "equipment": [
-      "רחפן צילום מקצועי"
-    ],
-    "industriesServed": [
-      "נדל\"ן ובנייה",
-      "מדיה ופרסום",
-      "אירועים"
-    ],
-    "deliverables": [
-      "וידאו 4K",
-      "תמונות ברזולוציה גבוהה",
-      "תוכן לרשתות חברתיות"
-    ],
-    "certifications": [],
-    "coverageArea": "מרכז הארץ",
-    "operationalStrengths": [
-      "צילום אווירי מקצועי",
-      "ציוד מתקדם",
-      "מדורג גבוה על ידי לקוחות"
-    ],
-    "projectTypes": [
-      "סרטוני תדמית",
-      "צילום אירועים",
-      "תוכן לרשתות"
-    ],
-    "verificationSignals": [
-      "אתר אינטרנט רשמי",
-      "מספר טלפון מאומת",
-      "זמין בוואטסאפ",
-      "ביקורות גוגל מצוינות"
-    ]
-  },
-  {
     "id": "g-3hag8j",
     "name": "הפיראט האדום",
     "slug": "hpyrat-hadvm-jerusalem",
@@ -5609,69 +5416,6 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
-    ]
-  },
-  {
-    "id": "g-hhs25j",
-    "name": "נמל התעופה ראש פינה",
-    "slug": "nml-htavph-rash-pynh",
-    "categorySlug": "aerial-photography",
-    "categoryLabelHe": "צילום אווירי",
-    "services": [
-      "צילום אווירי",
-      "וידאו אווירי"
-    ],
-    "citySlug": null,
-    "cityLabelHe": "ישראל",
-    "region": "center",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "center"
-    ],
-    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בישראל.",
-    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
-    "phone": null,
-    "whatsapp": null,
-    "website": "https://www.iaa.gov.il/en/airports/rosh-pina/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 79,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A0%D7%9E%D7%9C%20%D7%94%D7%AA%D7%A2%D7%95%D7%A4%D7%94%20%D7%A8%D7%90%D7%A9%20%D7%A4%D7%99%D7%A0%D7%94&query_place_id=ChIJHZtOWFkfHBURliyCErkbISw",
-    "lastUpdated": "2026-05-11",
-    "badges": [
-      "אתר רשמי",
-      "דירוג גבוה"
-    ],
-    "specialties": [],
-    "equipment": [
-      "רחפן צילום מקצועי"
-    ],
-    "industriesServed": [
-      "נדל\"ן ובנייה",
-      "מדיה ופרסום",
-      "אירועים"
-    ],
-    "deliverables": [
-      "וידאו 4K",
-      "תמונות ברזולוציה גבוהה",
-      "תוכן לרשתות חברתיות"
-    ],
-    "certifications": [],
-    "coverageArea": "מרכז הארץ",
-    "operationalStrengths": [
-      "צילום אווירי מקצועי",
-      "ציוד מתקדם"
-    ],
-    "projectTypes": [
-      "סרטוני תדמית",
-      "צילום אירועים",
-      "תוכן לרשתות"
-    ],
-    "verificationSignals": [
-      "אתר אינטרנט רשמי",
-      "ביקורות גוגל חיוביות"
     ]
   }
 ]

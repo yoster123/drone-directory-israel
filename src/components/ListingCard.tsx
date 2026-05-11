@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { EnrichedListing } from '@/src/types/listing'
+import ListingLogo from '@/src/components/ListingLogo'
 
 interface Props {
   listing: EnrichedListing
@@ -19,28 +20,6 @@ const CATEGORY_OP_CHIP: Record<string, string> = {
   'repairs':                 'תיקונים',
 }
 
-const AVATAR_COLORS = [
-  'bg-blue-100 text-blue-700',
-  'bg-violet-100 text-violet-700',
-  'bg-emerald-100 text-emerald-700',
-  'bg-amber-100 text-amber-700',
-  'bg-rose-100 text-rose-700',
-  'bg-sky-100 text-sky-700',
-]
-
-function getInitials(name: string): string {
-  const words = name.trim().split(/\s+/).filter(Boolean)
-  if (words.length === 0) return '?'
-  if (words.length === 1) return words[0].slice(0, 2)
-  return words[0][0] + words[1][0]
-}
-
-function avatarColor(id: string): string {
-  let h = 5381
-  for (let i = 0; i < id.length; i++) h = ((h << 5) + h) ^ id.charCodeAt(i)
-  return AVATAR_COLORS[(h >>> 0) % AVATAR_COLORS.length]
-}
-
 export default function ListingCard({ listing }: Props) {
   const locationLabel = listing.citySlug
     ? listing.cityLabelHe
@@ -57,11 +36,13 @@ export default function ListingCard({ listing }: Props) {
         aria-label={`${listing.name} — פרופיל מלא`}
       />
 
-      {/* Header: avatar + name + featured badge */}
+      {/* Header: avatar/logo + name + featured badge */}
       <div className="relative z-10 flex items-start gap-3">
-        <div className={`shrink-0 w-10 h-10 rounded-xl flex items-center justify-center text-sm font-bold select-none ${avatarColor(listing.id)}`}>
-          {getInitials(listing.name)}
-        </div>
+        <ListingLogo
+          name={listing.name}
+          id={listing.id}
+          logoUrl={listing.logoUrl}
+        />
         <div className="min-w-0 flex-1">
           <h3 className="font-semibold text-black text-base leading-snug">
             {listing.name}

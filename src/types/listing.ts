@@ -78,4 +78,9 @@ export interface EnrichedListing extends Listing {
   operationalStrengths: string[] // what makes this operator distinct operationally
   projectTypes: string[]        // types of projects they handle
   verificationSignals: string[] // observable trust signals from public data
+
+  // Logo — populated by fetch-listing-logos.ts or logo-overrides.json
+  logoUrl?: string | null
+  logoSource?: 'official-site' | 'favicon' | 'manual' | 'claimed-profile' | 'generated'
+  logoConfidence?: 'high' | 'medium' | 'low'
 }

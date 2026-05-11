@@ -38,6 +38,12 @@ g-4jsejx  # גאדג'טס — general electronics store, not drone-related
 g-3gb04w  # מינחת מצפה רמון — general aviation airfield, not drone services
 g-uh5um9  # Fix Drone צפון — 1.6 stars, poor quality
 
+# Misclassified / irrelevant listings found during logo audit
+g-fli8mv  # תחפושות לפורים - בית הצעצוע — toy/costume store, not a drone business
+g-xb5rup  # לימור צבעים בע"מ — paint supply company, not a drone business
+g-d7rkkh  # אלעד אוהב עצים — arborist/tree service, not a drone business
+g-hhs25j  # נמל התעופה ראש פינה — Rosh Pina Airport (IAA), a place not a drone services business
+
 # Template / example entries (also excluded by the apify*/scraped* file filter,
 # but listed here as a safety net in case listings.csv is accidentally re-added)
 g-9kkz28  # Sky Vision TLV — template placeholder

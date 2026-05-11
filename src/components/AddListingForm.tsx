@@ -126,6 +126,28 @@ export default function AddListingForm() {
         <p className="text-[12px] text-gray-400 mt-1">לפחות 30 תווים</p>
       </div>
 
+      <div className="pt-1">
+        <p className="text-sm font-semibold text-gray-700 mb-3">קישורים נוספים (אופציונלי)</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label htmlFor="add-logo" className={LABEL}>קישור ללוגו</label>
+            <input id="add-logo" name="קישור ללוגו" type="url" className={INPUT} placeholder="https://example.com/logo.png" dir="ltr" />
+          </div>
+          <div>
+            <label htmlFor="add-portfolio" className={LABEL}>תיק עבודות</label>
+            <input id="add-portfolio" name="תיק עבודות" type="url" className={INPUT} placeholder="https://example.com/portfolio" dir="ltr" />
+          </div>
+          <div>
+            <label htmlFor="add-instagram" className={LABEL}>אינסטגרם</label>
+            <input id="add-instagram" name="אינסטגרם" type="url" className={INPUT} placeholder="https://instagram.com/yourhandle" dir="ltr" />
+          </div>
+          <div>
+            <label htmlFor="add-youtube" className={LABEL}>יוטיוב</label>
+            <input id="add-youtube" name="יוטיוב" type="url" className={INPUT} placeholder="https://youtube.com/@yourchannel" dir="ltr" />
+          </div>
+        </div>
+      </div>
+
       {state === 'error' && (
         <p role="alert" className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-xl px-4 py-3">
           {errorMsg}

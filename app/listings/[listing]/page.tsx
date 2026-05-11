@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { listings, getListingBySlug, getSimilarListings } from '@/src/data/listings'
 import Breadcrumbs from '@/src/components/Breadcrumbs'
 import CategoryIcon from '@/src/components/CategoryIcon'
+import ListingLogo from '@/src/components/ListingLogo'
 import ListingGrid from '@/src/components/ListingGrid'
 import CTABox from '@/src/components/CTABox'
 import { SITE_URL } from '@/src/lib/config'
@@ -82,9 +83,20 @@ export default async function ListingPage({
 
       {/* Page header card */}
       <div className="rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100 px-6 py-7 mb-8 flex items-start gap-5">
-        <div className="shrink-0 w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white">
-          <CategoryIcon slug={listing.categorySlug} className="w-7 h-7" />
-        </div>
+        {listing.logoUrl ? (
+          <ListingLogo
+            name={listing.name}
+            id={listing.id}
+            logoUrl={listing.logoUrl}
+            sizeClass="w-14 h-14"
+            roundedClass="rounded-2xl"
+            textSizeClass="text-base"
+          />
+        ) : (
+          <div className="shrink-0 w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white">
+            <CategoryIcon slug={listing.categorySlug} className="w-7 h-7" />
+          </div>
+        )}
         <div className="min-w-0 flex-1">
           {(listing.featured || listing.claimedStatus === 'claimed') && (
             <div className="flex flex-wrap items-center gap-2 mb-2">

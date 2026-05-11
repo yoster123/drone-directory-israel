@@ -9,7 +9,8 @@
     "lint": "eslint",
     "import:listings": "npx tsx scripts/import-listings-from-csv.ts",
     "import:scraped": "npx tsx scripts/import-listings.ts",
-    "enrich:listings": "npx tsx scripts/enrich-listings.ts"
+    "enrich:listings": "npx tsx scripts/enrich-listings.ts",
+    "fetch:logos": "npx tsx scripts/fetch-listing-logos.ts"
   },
   "dependencies": {
     "next": "16.2.5",
