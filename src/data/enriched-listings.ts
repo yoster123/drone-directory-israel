@@ -1,6 +1,6 @@
 // AUTO-GENERATED — do not edit manually
 // Source: src/data/generated-listings.ts
-// Generated: 2026-05-11T11:44:48.011Z
+// Generated: 2026-05-11T12:21:02.658Z
 // Run: npm run enrich:listings
 
 import type { EnrichedListing } from '../types/listing'
@@ -3890,70 +3890,6 @@ export const enrichedListings: EnrichedListing[] = [
     ]
   },
   {
-    "id": "g-uh5um9",
-    "name": "Fix Drone צפון - מעבדת רחפנים DJI",
-    "slug": "fix-drone-tspvn-mavdt-rchpnym-dji",
-    "categorySlug": "repairs",
-    "categoryLabelHe": "תיקון ושירות",
-    "services": [
-      "תיקון רחפנים",
-      "החלפת חלקים",
-      "שדרוג ציוד"
-    ],
-    "citySlug": null,
-    "cityLabelHe": "אזור צפון",
-    "region": "north",
-    "serviceAreaType": "local",
-    "serviceRegions": [
-      "north"
-    ],
-    "shortDescriptionHe": "צלם רחפן מקצועי באזור צפון. מתמחה בתיקון רחפנים והחלפת חלקים.",
-    "longDescriptionHe": "שירותי תיקון רחפנים והחלפת חלקים מהאוויר באזור צפון. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. זמינות גבוהה לכל פרויקט.",
-    "phone": "0522613173",
-    "whatsapp": "https://wa.me/972522613173",
-    "website": "https://fixdrone.coi.co.il/",
-    "email": null,
-    "imageUrl": null,
-    "claimedStatus": "unclaimed",
-    "featured": false,
-    "qualityScore": 48,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fix%20Drone%20%D7%A6%D7%A4%D7%95%D7%9F%20-%20%D7%9E%D7%A2%D7%91%D7%93%D7%AA%20%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D%20DJI&query_place_id=ChIJHcAYALtNHBURdpbfemx2p3Q",
-    "lastUpdated": "2026-05-11",
-    "badges": [
-      "אתר רשמי"
-    ],
-    "specialties": [],
-    "equipment": [
-      "ציוד אבחון ותיקון"
-    ],
-    "industriesServed": [
-      "בעלי רחפנים",
-      "עסקים",
-      "חובבים"
-    ],
-    "deliverables": [
-      "תיקון ומסירה",
-      "דוח תקלות",
-      "אחריות על עבודה"
-    ],
-    "certifications": [],
-    "coverageArea": "אזור הצפון",
-    "operationalStrengths": [
-      "שירות מהיר",
-      "אבחון מקצועי"
-    ],
-    "projectTypes": [
-      "תיקון כנפיים",
-      "החלפת מנועים",
-      "שדרוג ציוד"
-    ],
-    "verificationSignals": [
-      "אתר אינטרנט רשמי",
-      "מספר טלפון מאומת",
-      "זמין בוואטסאפ"
-    ]
-  },
-  {
     "id": "g-strefy",
     "name": "אלטה אינוביישן",
     "slug": "alth-aynvvyyshn",
@@ -4090,6 +4026,781 @@ export const enrichedListings: EnrichedListing[] = [
     "id": "g-pcm1fa",
     "name": "S.A צילום אוויר והדרכת מטיסים",
     "slug": "s-a-tsylvm-avvyr-vhdrkt-mtysym",
+    "categorySlug": "training-schools",
+    "categoryLabelHe": "בתי ספר והכשרה",
+    "services": [
+      "קורסי טיס",
+      "הדרכת רחפנים",
+      "רישיון טיס"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "קורסי טיס והדרכת רחפנים בישראל. קבלת רישיון טיס מוסמך.",
+    "longDescriptionHe": "בית ספר לרחפנים בישראל המציע קורסי טיס והדרכת רחפנים. קורסים מוסמכים לקבלת רישיון טיס על פי תקנות רשות התעופה.",
+    "phone": "0507336218",
+    "whatsapp": "https://wa.me/972507336218",
+    "website": "https://sa-drone.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 84,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=S.A%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20%D7%95%D7%94%D7%93%D7%A8%D7%9B%D7%AA%20%D7%9E%D7%98%D7%99%D7%A1%D7%99%D7%9D&query_place_id=ChIJP4f62Uc1mGkRnVcoSSQA5mA",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [
+      "הדרכה ורישיון"
+    ],
+    "equipment": [
+      "ציוד הדרכה"
+    ],
+    "industriesServed": [
+      "חינוך מקצועי",
+      "הסמכות תעופתיות",
+      "עסקים"
+    ],
+    "deliverables": [
+      "תעודת הכשרה",
+      "רישיון טיס",
+      "תיק לימוד"
+    ],
+    "certifications": [
+      "קורסי הסמכה ע\"י רשות התעופה האזרחית"
+    ],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מדריכים מנוסים",
+      "קורסים מוסמכים"
+    ],
+    "projectTypes": [
+      "קורס בסיסי",
+      "קורס מסחרי",
+      "חידוש רישיון"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-tq5r1f",
+    "name": "לגעת במרחב בע\"מ",
+    "slug": "lgat-vmrchv-va-m",
+    "categorySlug": "mapping-surveying",
+    "categoryLabelHe": "מיפוי וסקר",
+    "services": [
+      "מיפוי שטחים",
+      "סקר קרקע",
+      "פוטוגרמטריה"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "מיפוי וסקר קרקע בישראל באמצעות רחפן. מיפוי שטחים.",
+    "longDescriptionHe": "שירותי מיפוי שטחים וסקר קרקע בישראל באמצעות טכנולוגיית רחפן מתקדמת. מדויק, מהיר וחסכוני בהשוואה לשיטות מסורתיות.",
+    "phone": "033036278",
+    "whatsapp": null,
+    "website": "http://www.geo-touch.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 20,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%92%D7%A2%D7%AA%20%D7%91%D7%9E%D7%A8%D7%97%D7%91%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJQ8jQ-TrLAhUR5ASszaZFtQg",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [],
+    "equipment": [
+      "ציוד מיפוי אווירי",
+      "תוכנת עיבוד נתונים"
+    ],
+    "industriesServed": [
+      "בנייה ותשתיות",
+      "ממשלה ורשויות",
+      "ניהול קרקעות"
+    ],
+    "deliverables": [
+      "מפת אורתופוטו",
+      "מודל תלת-ממדי",
+      "נתוני GIS"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "דיוק גבוה",
+      "עיבוד נתונים מהיר"
+    ],
+    "projectTypes": [
+      "תכנון עירוני",
+      "סקרי קרקע",
+      "פרויקטי בנייה"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת"
+    ]
+  },
+  {
+    "id": "g-w33u86",
+    "name": "מודד מוסמך",
+    "slug": "mvdd-mvsmk",
+    "categorySlug": "mapping-surveying",
+    "categoryLabelHe": "מיפוי וסקר",
+    "services": [
+      "מיפוי שטחים",
+      "סקר קרקע",
+      "פוטוגרמטריה"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "מיפוי וסקר קרקע בישראל באמצעות רחפן. מיפוי שטחים.",
+    "longDescriptionHe": "מיפוי שטחים וסקר קרקע בישראל. נתונים מדויקים לענף הנדל\"ן, הבנייה והתכנון. ציוד מתקדם לתוצאות אמינות.",
+    "phone": "0535350341",
+    "whatsapp": "https://wa.me/972535350341",
+    "website": "https://top-surveyor.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 88,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%95%D7%93%D7%93%20%D7%9E%D7%95%D7%A1%D7%9E%D7%9A&query_place_id=ChIJyZjRshDNOa8Rh8SS3BSTENY",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה",
+      "ביקורות רבות"
+    ],
+    "specialties": [],
+    "equipment": [
+      "ציוד מיפוי אווירי",
+      "תוכנת עיבוד נתונים"
+    ],
+    "industriesServed": [
+      "בנייה ותשתיות",
+      "ממשלה ורשויות",
+      "ניהול קרקעות"
+    ],
+    "deliverables": [
+      "מפת אורתופוטו",
+      "מודל תלת-ממדי",
+      "נתוני GIS"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "דיוק גבוה",
+      "עיבוד נתונים מהיר",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "תכנון עירוני",
+      "סקרי קרקע",
+      "פרויקטי בנייה"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-siujix",
+    "name": "חברת י.ש מודד מוסמך | מדידות הנדסיות | צילום אוירי",
+    "slug": "chvrt-y-sh-mvdd-mvsmk-mdydvt-hndsyvt-tsy",
+    "categorySlug": "mapping-surveying",
+    "categoryLabelHe": "מיפוי וסקר",
+    "services": [
+      "מיפוי שטחים",
+      "סקר קרקע",
+      "פוטוגרמטריה"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "שירותי מיפוי שטחים וסקר קרקע באזור מרכז.",
+    "longDescriptionHe": "מיפוי שטחים וסקר קרקע באזור מרכז. נתונים מדויקים לענף הנדל\"ן, הבנייה והתכנון. ציוד מתקדם לתוצאות אמינות.",
+    "phone": "0507661562",
+    "whatsapp": "https://wa.me/972507661562",
+    "website": null,
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 64,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%97%D7%91%D7%A8%D7%AA%20%D7%99.%D7%A9%20%D7%9E%D7%95%D7%93%D7%93%20%D7%9E%D7%95%D7%A1%D7%9E%D7%9A%20%7C%20%D7%9E%D7%93%D7%99%D7%93%D7%95%D7%AA%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%D7%95%D7%AA%20%7C%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%99%D7%A8%D7%99&query_place_id=ChIJi6x95bu3AhUR0A4RIAkVBaE",
+    "lastUpdated": "2026-05-11",
+    "badges": [],
+    "specialties": [],
+    "equipment": [
+      "ציוד מיפוי אווירי",
+      "תוכנת עיבוד נתונים"
+    ],
+    "industriesServed": [
+      "בנייה ותשתיות",
+      "ממשלה ורשויות",
+      "ניהול קרקעות"
+    ],
+    "deliverables": [
+      "מפת אורתופוטו",
+      "מודל תלת-ממדי",
+      "נתוני GIS"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "דיוק גבוה",
+      "עיבוד נתונים מהיר"
+    ],
+    "projectTypes": [
+      "תכנון עירוני",
+      "סקרי קרקע",
+      "פרויקטי בנייה"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
+  },
+  {
+    "id": "g-ttck31",
+    "name": "פלקסי-ג'ט מיפוי אדריכלי בע\"מ",
+    "slug": "plksy-g-t-mypvy-adrykly-va-m",
+    "categorySlug": "mapping-surveying",
+    "categoryLabelHe": "מיפוי וסקר",
+    "services": [
+      "מיפוי שטחים",
+      "סקר קרקע",
+      "פוטוגרמטריה"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "שירותי מיפוי שטחים וסקר קרקע באזור מרכז.",
+    "longDescriptionHe": "מיפוי שטחים וסקר קרקע באזור מרכז. נתונים מדויקים לענף הנדל\"ן, הבנייה והתכנון. ציוד מתקדם לתוצאות אמינות.",
+    "phone": "0522308565",
+    "whatsapp": "https://wa.me/972522308565",
+    "website": "http://www.flexijet.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 20,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%9C%D7%A7%D7%A1%D7%99-%D7%92'%D7%98%20%D7%9E%D7%99%D7%A4%D7%95%D7%99%20%D7%90%D7%93%D7%A8%D7%99%D7%9B%D7%9C%D7%99%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJHzDverW2AhUR9bAcVe8tZ8M",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [
+      "מיפוי"
+    ],
+    "equipment": [
+      "ציוד מיפוי אווירי",
+      "תוכנת עיבוד נתונים"
+    ],
+    "industriesServed": [
+      "בנייה ותשתיות",
+      "ממשלה ורשויות",
+      "ניהול קרקעות"
+    ],
+    "deliverables": [
+      "מפת אורתופוטו",
+      "מודל תלת-ממדי",
+      "נתוני GIS"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "דיוק גבוה",
+      "עיבוד נתונים מהיר"
+    ],
+    "projectTypes": [
+      "תכנון עירוני",
+      "סקרי קרקע",
+      "פרויקטי בנייה"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
+  },
+  {
+    "id": "g-fli8mv",
+    "name": "תחפושות לפורים 2026 - בית הצעצוע",
+    "slug": "tchpvshvt-lpvrym-2026-vyt-htsatsva-jerusalem",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": "jerusalem",
+    "cityLabelHe": "ירושלים",
+    "region": "jerusalem",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "jerusalem"
+    ],
+    "shortDescriptionHe": "ציוד רחפנים בירושלים — מכירת רחפנים ואביזרים ורכיבים.",
+    "longDescriptionHe": "מומחי ציוד רחפנים בירושלים. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
+    "phone": "026718282",
+    "whatsapp": null,
+    "website": "https://www.toyhouse.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 98,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%AA%D7%97%D7%A4%D7%95%D7%A9%D7%95%D7%AA%20%D7%9C%D7%A4%D7%95%D7%A8%D7%99%D7%9D%202026%20-%20%D7%91%D7%99%D7%AA%20%D7%94%D7%A6%D7%A2%D7%A6%D7%95%D7%A2&query_place_id=ChIJK6ydRx4oAxURTlUTXqOnSJo",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "מעל 100 ביקורות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "ירושלים והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
+    ]
+  },
+  {
+    "id": "g-5qmygq",
+    "name": "ארסיזון",
+    "slug": "arsyzvn-jerusalem",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": "jerusalem",
+    "cityLabelHe": "ירושלים",
+    "region": "jerusalem",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "jerusalem"
+    ],
+    "shortDescriptionHe": "מומחי רחפנים בירושלים. מכירת רחפנים, אביזרים ורכיבים ויועצים מנוסים.",
+    "longDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים בירושלים. מבחר רחפנים ואביזרים ממותגים מובילים. שירות לפני ואחרי המכירה.",
+    "phone": "0547200722",
+    "whatsapp": "https://wa.me/972547200722",
+    "website": "http://www.rczone.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 89,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%A8%D7%A1%D7%99%D7%96%D7%95%D7%9F&query_place_id=ChIJIzibsx8oAxURjxu8hNtOurA",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה",
+      "ביקורות רבות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "ירושלים והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-rb1upm",
+    "name": "קובי dji מעבדת תיקונים לרחפנים",
+    "slug": "kvvy-dji-mavdt-tykvnym-lrchpnym-tel-aviv",
+    "categorySlug": "repairs",
+    "categoryLabelHe": "תיקון ושירות",
+    "services": [
+      "תיקון רחפנים",
+      "החלפת חלקים",
+      "שדרוג ציוד"
+    ],
+    "citySlug": "tel-aviv",
+    "cityLabelHe": "תל אביב",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "תיקון רחפנים והחלפת חלקים מהאוויר, מרחפן בתל אביב.",
+    "longDescriptionHe": "צלם רחפן מקצועי בתל אביב המתמחה בתיקון רחפנים והחלפת חלקים. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. פנו לקבלת הצעת מחיר.",
+    "phone": "0507462441",
+    "whatsapp": "https://wa.me/972507462441",
+    "website": null,
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 88,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%95%D7%91%D7%99%20dji%20%D7%9E%D7%A2%D7%91%D7%93%D7%AA%20%D7%AA%D7%99%D7%A7%D7%95%D7%A0%D7%99%D7%9D%20%D7%9C%D7%A8%D7%97%D7%A4%D7%A0%D7%99%D7%9D&query_place_id=ChIJ1VmUVsxLHRURnJG6KlGhgqg",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "דירוג גבוה"
+    ],
+    "specialties": [],
+    "equipment": [
+      "ציוד אבחון ותיקון"
+    ],
+    "industriesServed": [
+      "בעלי רחפנים",
+      "עסקים",
+      "חובבים"
+    ],
+    "deliverables": [
+      "תיקון ומסירה",
+      "דוח תקלות",
+      "אחריות על עבודה"
+    ],
+    "certifications": [],
+    "coverageArea": "תל אביב והסביבה",
+    "operationalStrengths": [
+      "שירות מהיר",
+      "אבחון מקצועי",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "תיקון כנפיים",
+      "החלפת מנועים",
+      "שדרוג ציוד"
+    ],
+    "verificationSignals": [
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-h31qo5",
+    "name": "COPTERPIX PRO",
+    "slug": "copterpix-pro",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "אזור דרום",
+    "region": "south",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "south"
+    ],
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר באזור דרום.",
+    "longDescriptionHe": "פעיל באזור דרום בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
+    "phone": "0546698000",
+    "whatsapp": "https://wa.me/972546698000",
+    "website": "https://www.copterpix.pro/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 82,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=COPTERPIX%20PRO&query_place_id=ChIJT7z3bGmDAhURz9JcnNmt4r4",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "אזור הדרום",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-b5o1nz",
+    "name": "Almo-GIS",
+    "slug": "almo-gis",
+    "categorySlug": "mapping-surveying",
+    "categoryLabelHe": "מיפוי וסקר",
+    "services": [
+      "מיפוי שטחים",
+      "סקר קרקע",
+      "פוטוגרמטריה"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "מיפוי שטחים וסקר קרקע מדויקים בישראל.",
+    "longDescriptionHe": "שירותי מיפוי שטחים וסקר קרקע בישראל באמצעות טכנולוגיית רחפן מתקדמת. מדויק, מהיר וחסכוני בהשוואה לשיטות מסורתיות.",
+    "phone": "0523784566",
+    "whatsapp": "https://wa.me/972523784566",
+    "website": "http://www.almogis.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 20,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Almo-GIS&query_place_id=ChIJTYPpAH0LHRURUpCtv1vk_s0",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [],
+    "equipment": [
+      "ציוד מיפוי אווירי",
+      "תוכנת עיבוד נתונים"
+    ],
+    "industriesServed": [
+      "בנייה ותשתיות",
+      "ממשלה ורשויות",
+      "ניהול קרקעות"
+    ],
+    "deliverables": [
+      "מפת אורתופוטו",
+      "מודל תלת-ממדי",
+      "נתוני GIS"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "דיוק גבוה",
+      "עיבוד נתונים מהיר"
+    ],
+    "projectTypes": [
+      "תכנון עירוני",
+      "סקרי קרקע",
+      "פרויקטי בנייה"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ"
+    ]
+  },
+  {
+    "id": "g-x1ffhj",
+    "name": "גלקסיה - טיסני ראשון",
+    "slug": "glksyh-tysny-rashvn-rishon-lezion",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": "rishon-lezion",
+    "cityLabelHe": "ראשון לציון",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים בראשון לציון. מבחר ציוד מקצועי.",
+    "longDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים בראשון לציון. מבחר רחפנים ואביזרים ממותגים מובילים. שירות לפני ואחרי המכירה.",
+    "phone": "039677101",
+    "whatsapp": null,
+    "website": "http://www.galaxia.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 59,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%92%D7%9C%D7%A7%D7%A1%D7%99%D7%94%20-%20%D7%98%D7%99%D7%A1%D7%A0%D7%99%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F&query_place_id=ChIJo53LbhS0AhURS66DTrMbFjA",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "ראשון לציון והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת"
+    ]
+  },
+  {
+    "id": "g-yxqbsy",
+    "name": "טיסן פתח תקווה",
+    "slug": "tysn-ptch-tkvvh",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "ציוד רחפנים בישראל — מכירת רחפנים ואביזרים ורכיבים.",
+    "longDescriptionHe": "מומחי ציוד רחפנים בישראל. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
+    "phone": "0508989266",
+    "whatsapp": "https://wa.me/972508989266",
+    "website": "http://www.citysound.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 79,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%A1%D7%9F%20%D7%A4%D7%AA%D7%97%20%D7%AA%D7%A7%D7%95%D7%95%D7%94&query_place_id=ChIJkR02RDA1HRUR_EnfLAqHePc",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "זמין בוואטסאפ",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-64qnov",
+    "name": "רובוטיכאן",
+    "slug": "rvvvtykan",
     "categorySlug": "aerial-photography",
     "categoryLabelHe": "צילום אווירי",
     "services": [
@@ -4103,17 +4814,17 @@ export const enrichedListings: EnrichedListing[] = [
     "serviceRegions": [
       "center"
     ],
-    "shortDescriptionHe": "פעיל בישראל בתחום צילום אווירי ווידאו אווירי.",
-    "longDescriptionHe": "צילום אווירי בישראל — צילום אווירי, וידאו אווירי ועוד. שירות אישי, מהיר ומקצועי. זמינים לשיחה בכל שעה.",
-    "phone": "0507336218",
-    "whatsapp": "https://wa.me/972507336218",
-    "website": "https://sa-drone.co.il/",
+    "shortDescriptionHe": "צילום אווירי עם רחפן בישראל — צילום אווירי, וידאו אווירי ועוד.",
+    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
+    "phone": "086609234",
+    "whatsapp": null,
+    "website": "http://www.robotican.net/",
     "email": null,
     "imageUrl": null,
     "claimedStatus": "unclaimed",
     "featured": false,
-    "qualityScore": 84,
-    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=S.A%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%95%D7%99%D7%A8%20%D7%95%D7%94%D7%93%D7%A8%D7%9B%D7%AA%20%D7%9E%D7%98%D7%99%D7%A1%D7%99%D7%9D&query_place_id=ChIJP4f62Uc1mGkRnVcoSSQA5mA",
+    "qualityScore": 76,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99%D7%9B%D7%90%D7%9F&query_place_id=ChIJ8Vzva5xoAhUR6wi4Uf8ulM0",
     "lastUpdated": "2026-05-11",
     "badges": [
       "אתר רשמי",
@@ -4147,7 +4858,819 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-e5uml3",
+    "name": "מנחת הבונים",
+    "slug": "mncht-hvvnym-2",
+    "categorySlug": "fpv-filming",
+    "categoryLabelHe": "צילום FPV",
+    "services": [
+      "FPV",
+      "צילום ספורט",
+      "וידאו אקרובטי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "FPV וצילום ספורט מהאוויר, מרחפן בישראל.",
+    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בFPV וצילום ספורט. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. פנו לקבלת הצעת מחיר.",
+    "phone": null,
+    "whatsapp": null,
+    "website": null,
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 58,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A0%D7%97%D7%AA%20%D7%94%D7%91%D7%95%D7%A0%D7%99%D7%9D&query_place_id=ChIJaXtfasOgHRURwnIDD7fs60Q",
+    "lastUpdated": "2026-05-11",
+    "badges": [],
+    "specialties": [],
+    "equipment": [
+      "רחפן FPV"
+    ],
+    "industriesServed": [
+      "ספורט ואקסטרים",
+      "מוזיקה ובידור",
+      "פרסום"
+    ],
+    "deliverables": [
+      "קליפ FPV דינמי",
+      "פוטג'ים גולמיים",
+      "עריכה מוכנה לפרסום"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "טיסה דינמית ואקרובטית",
+      "פוטג' קינמטי"
+    ],
+    "projectTypes": [
+      "קליפים מוזיקליים",
+      "ספורט ואקסטרים",
+      "פרסומות"
+    ],
+    "verificationSignals": []
+  },
+  {
+    "id": "g-8nmobl",
+    "name": "קפטן טוי - kepten toy",
+    "slug": "kptn-tvy-kepten-toy",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "מומחי רחפנים באזור מרכז. מכירת רחפנים, אביזרים ורכיבים ויועצים מנוסים.",
+    "longDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים באזור מרכז. מבחר רחפנים ואביזרים ממותגים מובילים. שירות לפני ואחרי המכירה.",
+    "phone": "086234100",
+    "whatsapp": null,
+    "website": "http://www.keptentoy.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 91,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%98%D7%9F%20%D7%98%D7%95%D7%99%20-%20kepten%20toy&query_place_id=ChIJvWaLYH-6AhURBCSDtflWu68",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
+    ]
+  },
+  {
+    "id": "g-xb5rup",
+    "name": "לימור צבעים בע\"מ",
+    "slug": "lymvr-tsvaym-va-m-rishon-lezion",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": "rishon-lezion",
+    "cityLabelHe": "ראשון לציון",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "ציוד רחפנים בראשון לציון — מכירת רחפנים ואביזרים ורכיבים.",
+    "longDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים בראשון לציון. מבחר רחפנים ואביזרים ממותגים מובילים. שירות לפני ואחרי המכירה.",
+    "phone": "039690843",
+    "whatsapp": null,
+    "website": "http://www.limor.biz/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 91,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%99%D7%9E%D7%95%D7%A8%20%D7%A6%D7%91%D7%A2%D7%99%D7%9D%20%D7%91%D7%A2%22%D7%9E&query_place_id=ChIJcx4CvS5KHRURADWxu8us8rc",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "ראשון לציון והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
+    ]
+  },
+  {
+    "id": "g-1hfiz1",
+    "name": "קרן אלקטרוניקה",
+    "slug": "krn-alktrvnykh-eilat",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": "eilat",
+    "cityLabelHe": "אילת",
+    "region": "south",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "south"
+    ],
+    "shortDescriptionHe": "חנות רחפנים באילת. מכירת רחפנים, אביזרים ורכיבים ועוד.",
+    "longDescriptionHe": "מומחי ציוד רחפנים באילת. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
+    "phone": "035036702",
+    "whatsapp": null,
+    "website": "https://www.kerenel.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 86,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A8%D7%9F%20%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%A0%D7%99%D7%A7%D7%94&query_place_id=ChIJuQykE12zAhURKKfdR4zscy8",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "אילת והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-txze7v",
+    "name": "המכון למחקר ביולוגי בישראל",
+    "slug": "hmkvn-lmchkr-vyvlvgy-vyshral",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר באזור מרכז.",
+    "longDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר באזור מרכז. עבודה עם ציוד מתקדם ותוצאות באיכות גבוהה. מדורג גבוה על ידי לקוחות.",
+    "phone": "089381656",
+    "whatsapp": null,
+    "website": "http://www.iibr.gov.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 86,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%9E%D7%9B%D7%95%D7%9F%20%D7%9C%D7%9E%D7%97%D7%A7%D7%A8%20%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%20%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C&query_place_id=ChIJJ9x2A8G2AhURe_N-ylVPk40",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-5gtj71",
+    "name": "המעיין - ציוד משרדי",
+    "slug": "hmayyn-tsyvd-mshrdy",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "אזור דרום",
+    "region": "south",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "south"
+    ],
+    "shortDescriptionHe": "מומחי רחפנים באזור דרום. מכירת רחפנים, אביזרים ורכיבים ויועצים מנוסים.",
+    "longDescriptionHe": "מומחי ציוד רחפנים באזור דרום. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
+    "phone": "086719744",
+    "whatsapp": null,
+    "website": "http://www.hamaayan-am.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 93,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%9E%D7%A2%D7%99%D7%99%D7%9F%20-%20%D7%A6%D7%99%D7%95%D7%93%20%D7%9E%D7%A9%D7%A8%D7%93%D7%99&query_place_id=ChIJQc7Q77CdAhURVZWaj_nTQpM",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "אזור הדרום",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
+    ]
+  },
+  {
+    "id": "g-m9apks",
+    "name": "יאסו סרטוני הזמנות לאירועים",
+    "slug": "yasv-srtvny-hzmnvt-layrvaym-rishon-lezion",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי",
+      "צילום אירועים"
+    ],
+    "citySlug": "rishon-lezion",
+    "cityLabelHe": "ראשון לציון",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי עם רחפן בראשון לציון — צילום אווירי, וידאו אווירי ועוד.",
+    "longDescriptionHe": "פעיל בראשון לציון בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "http://www.yaso.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 79,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%99%D7%90%D7%A1%D7%95%20%D7%A1%D7%A8%D7%98%D7%95%D7%A0%D7%99%20%D7%94%D7%96%D7%9E%D7%A0%D7%95%D7%AA%20%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A2%D7%99%D7%9D&query_place_id=ChIJcYzC3rWzAhURgKzb4Prs0ak",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "ראשון לציון והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-q75es4",
+    "name": "סקיילוק איתור לוויני",
+    "slug": "skyylvk-aytvr-lvvyny",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר באזור מרכז.",
+    "longDescriptionHe": "צלם רחפן מקצועי באזור מרכז המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. פנו לקבלת הצעת מחיר.",
+    "phone": null,
+    "whatsapp": null,
+    "website": null,
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 54,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%A7%D7%99%D7%99%D7%9C%D7%95%D7%A7%20%D7%90%D7%99%D7%AA%D7%95%D7%A8%20%D7%9C%D7%95%D7%95%D7%99%D7%A0%D7%99&query_place_id=ChIJ9zzmrmm6AhURQJD7iDx81CY",
+    "lastUpdated": "2026-05-11",
+    "badges": [],
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": []
+  },
+  {
+    "id": "g-038wp9",
+    "name": "ניסטק צפון",
+    "slug": "nystk-tspvn",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "אזור מרכז",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "פעיל באזור מרכז בתחום צילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר באזור מרכז. ניסיון עם לקוחות עסקיים, יזמים ותקשורת. ניתן לצפות בגלריית עבודות באתר.",
+    "phone": "0732688899",
+    "whatsapp": null,
+    "website": "http://www.nistec.com/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 79,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A0%D7%99%D7%A1%D7%98%D7%A7%20%D7%A6%D7%A4%D7%95%D7%9F&query_place_id=ChIJ_3sB8rYtHBURuzRSSPYty7E",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-d7rkkh",
+    "name": "אלעד אוהב עצים",
+    "slug": "alad-avhv-atsym",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "צילום אווירי ווידאו אווירי מהאוויר, מרחפן בישראל.",
+    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
+    "phone": "0524375574",
+    "whatsapp": "https://wa.me/972524375574",
+    "website": "https://www.eladlovetrees.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 92,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%9C%D7%A2%D7%93%20%D7%90%D7%95%D7%94%D7%91%20%D7%A2%D7%A6%D7%99%D7%9D&query_place_id=ChIJd_kg9P-lFawRQNswJ46rQbQ",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
       "זמין בוואטסאפ",
+      "ביקורות גוגל מצוינות"
+    ]
+  },
+  {
+    "id": "g-3hag8j",
+    "name": "הפיראט האדום",
+    "slug": "hpyrat-hadvm-jerusalem",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": "jerusalem",
+    "cityLabelHe": "ירושלים",
+    "region": "jerusalem",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "jerusalem"
+    ],
+    "shortDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים בירושלים. מבחר ציוד מקצועי.",
+    "longDescriptionHe": "מכירת רחפנים ואביזרים ורכיבים בירושלים. מבחר רחפנים ואביזרים ממותגים מובילים. שירות לפני ואחרי המכירה.",
+    "phone": "025326600",
+    "whatsapp": null,
+    "website": "https://pirat.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 83,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A4%D7%99%D7%A8%D7%90%D7%98%20%D7%94%D7%90%D7%93%D7%95%D7%9D&query_place_id=ChIJkQqnfTDWAhURbhD5EQxL9Co",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "ירושלים והסביבה",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ]
+  },
+  {
+    "id": "g-r8m27s",
+    "name": "הפיראט האדום שילת/מודיעין",
+    "slug": "hpyrat-hadvm-shylt-mvdyayn",
+    "categorySlug": "drone-stores",
+    "categoryLabelHe": "חנויות רחפנים",
+    "services": [
+      "מכירת רחפנים",
+      "אביזרים ורכיבים",
+      "ייעוץ מקצועי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "חנות רחפנים בישראל. מכירת רחפנים, אביזרים ורכיבים ועוד.",
+    "longDescriptionHe": "מומחי ציוד רחפנים בישראל. מכירת רחפנים ואביזרים ורכיבים. ניתן לעיין במלאי באתר.",
+    "phone": "089760085",
+    "whatsapp": null,
+    "website": "http://hapiratmodiin.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 93,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A4%D7%99%D7%A8%D7%90%D7%98%20%D7%94%D7%90%D7%93%D7%95%D7%9D%20%D7%A9%D7%99%D7%9C%D7%AA%2F%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F&query_place_id=ChIJ-03_-2rNAhURHUhhvzbjWr8",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג מצוין",
+      "ביקורות רבות"
+    ],
+    "specialties": [
+      "ציוד ואביזרים"
+    ],
+    "equipment": [],
+    "industriesServed": [
+      "חובבים",
+      "מקצועיים",
+      "עסקים"
+    ],
+    "deliverables": [],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "מגוון ציוד מקצועי",
+      "ייעוץ מומחים",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "רחפני תחביב",
+      "רחפנים מקצועיים",
+      "אביזרים"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל מצוינות"
+    ]
+  },
+  {
+    "id": "g-hhs25j",
+    "name": "נמל התעופה ראש פינה",
+    "slug": "nml-htavph-rash-pynh",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
+    "citySlug": null,
+    "cityLabelHe": "ישראל",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "שירותי צילום אווירי ווידאו אווירי מהאוויר בישראל.",
+    "longDescriptionHe": "צלם רחפן מקצועי בישראל המתמחה בצילום אווירי ווידאו אווירי. ניסיון רב בעבודה עם לקוחות פרטיים ועסקיים. ניתן לצפות בגלריית עבודות באתר.",
+    "phone": null,
+    "whatsapp": null,
+    "website": "https://www.iaa.gov.il/en/airports/rosh-pina/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 79,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%A0%D7%9E%D7%9C%20%D7%94%D7%AA%D7%A2%D7%95%D7%A4%D7%94%20%D7%A8%D7%90%D7%A9%20%D7%A4%D7%99%D7%A0%D7%94&query_place_id=ChIJHZtOWFkfHBURliyCErkbISw",
+    "lastUpdated": "2026-05-11",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה"
+    ],
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "מרכז הארץ",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
       "ביקורות גוגל חיוביות"
     ]
   }

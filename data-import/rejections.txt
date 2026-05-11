@@ -25,6 +25,19 @@ g-z4x2oh  # גאדג'טשופ — generic gadget/gift shop
 g-53e3wm  # סלתק חיפה — appliance/electronics chain
 g-7gpvhn  # ביספיי — spy gadget shop, not a drone services business
 
+# Non-drone businesses from apify-mapping-professional.csv
+g-4x7y4d  # Tony3d — 3D printing shop, contaminates mapping-surveying
+g-k79fkw  # 3DClick — signage/3D printing, contaminates mapping-surveying
+g-sy6td6  # IC3D המרכז הישראלי לתלת מימד — 3D education, contaminates mapping-surveying
+g-xahzgo  # פרינט תלת מימד בע"מ — 3D printing, not drone-related
+g-b72b9x  # לייזר מודלינג ישראל בע"מ — laser/plastic manufacturing, not drone-related
+g-8b1dxx  # Impact labs — makerspace, not drone-related
+g-pui9gl  # צילום ארועים טל אורון — event photographer, not drone-related
+g-uns3b5  # אור פרו מוצרי מגנט וקד"מ בע"מ — promotional magnets, not drone-related
+g-4jsejx  # גאדג'טס — general electronics store, not drone-related
+g-3gb04w  # מינחת מצפה רמון — general aviation airfield, not drone services
+g-uh5um9  # Fix Drone צפון — 1.6 stars, poor quality
+
 # Template / example entries (also excluded by the apify*/scraped* file filter,
 # but listed here as a safety net in case listings.csv is accidentally re-added)
 g-9kkz28  # Sky Vision TLV — template placeholder
