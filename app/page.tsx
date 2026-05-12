@@ -46,19 +46,19 @@ export default function HomePage() {
     <main>
 
       {/* ── Hero ── */}
-      <section className="bg-white border-b border-gray-100 overflow-hidden">
+      <section className="bg-white border-b border-[#E2E8F0] overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-stretch min-h-[580px] gap-8 lg:gap-12">
 
             {/* ── Content — right side in RTL ── */}
             <div className="flex-1 flex flex-col justify-center py-16 lg:pl-8">
-              <p className="text-[11px] font-semibold tracking-[0.22em] text-blue-600 uppercase mb-5">
+              <p className="text-[11px] font-semibold tracking-[0.22em] text-[#1E5DFF] uppercase mb-5">
                 Israeli Drone Ecosystem
               </p>
-              <h1 className="text-[2.8rem] lg:text-[3.6rem] xl:text-[4.2rem] font-black text-[#0a1628] leading-[1.0] tracking-[-0.03em] mb-5">
+              <h1 className="text-[2.8rem] lg:text-[3.6rem] xl:text-[4.2rem] font-black text-[#0A0E1A] leading-[1.0] tracking-[-0.03em] mb-5">
                 אינדקס שירותי<br />
                 הרחפן{' '}
-                <span className="text-blue-600">בישראל</span>
+                <span className="text-[#1E5DFF]">בישראל</span>
               </h1>
               <p className="text-[15px] text-gray-500 leading-[1.7] mb-8 max-w-[400px]">
                 מצאו ספקים מקצועיים לצילום אווירי, מיפוי, בדיקות תשתית,
@@ -76,7 +76,7 @@ export default function HomePage() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="px-3 py-1.5 text-[12px] border border-gray-200 rounded-full text-gray-500 bg-white shadow-sm hover:border-blue-300 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 text-[12px] border border-[#E2E8F0] rounded-full text-[#64748B] bg-white shadow-sm hover:border-[#1E5DFF]/40 hover:text-[#1E5DFF] transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -208,7 +208,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Industry trust strip ── */}
-      <section className="bg-white border-b border-gray-100">
+      <section className="bg-white border-b border-[#E2E8F0]">
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex flex-col sm:flex-row items-center gap-5">
             <p className="text-[11px] font-medium text-gray-300 whitespace-nowrap sm:ml-8">
@@ -226,20 +226,20 @@ export default function HomePage() {
       </section>
 
       {/* ── Service Sectors ── */}
-      <section className="bg-[#f8fafc] border-b border-gray-100 py-20 px-6">
+      <section className="bg-[#F8F9FB] border-b border-[#E2E8F0] py-20 px-6">
         <div className="max-w-7xl mx-auto">
 
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="text-[11px] font-semibold tracking-[0.22em] text-blue-600 uppercase mb-2">
+              <p className="text-[11px] font-semibold tracking-[0.22em] text-[#1E5DFF] uppercase mb-2">
                 יכולות
               </p>
-              <h2 className="text-2xl font-black text-[#0a1628] tracking-tight">תחומי שירות</h2>
-              <p className="text-sm text-gray-400 mt-1">כל פתרונות הרחפן לעסק שלך במקום אחד</p>
+              <h2 className="text-2xl font-black text-[#0A0E1A] tracking-tight">תחומי שירות</h2>
+              <p className="text-sm text-[#64748B] mt-1">כל פתרונות הרחפן לעסק שלך במקום אחד</p>
             </div>
             <Link
               href="/services"
-              className="text-[13px] font-medium text-blue-600 hover:text-blue-700 transition-colors whitespace-nowrap"
+              className="text-[13px] font-medium text-[#1E5DFF] hover:text-[#1650e8] transition-colors whitespace-nowrap"
             >
               כל הספקים ←
             </Link>
@@ -250,28 +250,28 @@ export default function HomePage() {
               <Link
                 key={category.slug}
                 href={`/services/${category.slug}`}
-                className="group relative bg-[#0a1628] rounded-2xl p-5 flex flex-col gap-0 hover:bg-[#0f2038] border border-[#162944] hover:border-blue-500/30 transition-all overflow-hidden"
+                className="group relative bg-white rounded-xl p-5 flex flex-col gap-0 border border-[#E2E8F0] hover:border-[#1E5DFF] hover:shadow-[0_4px_8px_0_rgba(30,93,255,0.08)] transition-all overflow-hidden shadow-[0_2px_4px_0_rgba(0,0,0,0.04)]"
               >
-                {/* Subtle radar texture */}
-                <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden opacity-[0.055]" aria-hidden="true">
+                {/* Subtle technical underlay */}
+                <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden opacity-[0.04]" aria-hidden="true">
                   <svg viewBox="0 0 160 160" className="absolute -top-8 -left-8 w-36 h-36">
-                    <circle cx="80" cy="80" r="70" stroke="white" strokeWidth="0.8" fill="none" />
-                    <circle cx="80" cy="80" r="48" stroke="white" strokeWidth="0.6" fill="none" strokeDasharray="3 2" />
-                    <circle cx="80" cy="80" r="28" stroke="white" strokeWidth="0.5" fill="none" />
-                    <line x1="10" y1="80" x2="150" y2="80" stroke="white" strokeWidth="0.4" />
-                    <line x1="80" y1="10" x2="80" y2="150" stroke="white" strokeWidth="0.4" />
+                    <circle cx="80" cy="80" r="70" stroke="#0A0E1A" strokeWidth="0.8" fill="none" />
+                    <circle cx="80" cy="80" r="48" stroke="#0A0E1A" strokeWidth="0.6" fill="none" strokeDasharray="3 2" />
+                    <circle cx="80" cy="80" r="28" stroke="#0A0E1A" strokeWidth="0.5" fill="none" />
+                    <line x1="10" y1="80" x2="150" y2="80" stroke="#0A0E1A" strokeWidth="0.4" />
+                    <line x1="80" y1="10" x2="80" y2="150" stroke="#0A0E1A" strokeWidth="0.4" />
                   </svg>
                 </div>
 
                 {/* Card top row */}
                 <div className="flex items-start justify-between mb-5 relative">
-                  <div className="w-10 h-10 rounded-xl border border-blue-500/25 bg-blue-500/10 flex items-center justify-center">
+                  <div className="w-10 h-10 rounded-xl border border-[#E2E8F0] bg-[#F8F9FB] flex items-center justify-center group-hover:border-[#1E5DFF]/30 group-hover:bg-[#EEF3FF] transition-colors">
                     <CategoryIcon
                       slug={category.slug}
-                      className="w-5 h-5 text-blue-400 group-hover:text-blue-300 transition-colors"
+                      className="w-5 h-5 text-[#64748B] group-hover:text-[#1E5DFF] transition-colors"
                     />
                   </div>
-                  <div className="w-6 h-6 rounded-full border border-[#243d5a] flex items-center justify-center text-[#3d5e7a] group-hover:border-blue-500/50 group-hover:text-blue-400 transition-colors">
+                  <div className="w-6 h-6 rounded-full border border-[#E2E8F0] flex items-center justify-center text-[#64748B] group-hover:border-[#1E5DFF] group-hover:text-[#1E5DFF] transition-colors">
                     <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                       <line x1="7" y1="17" x2="17" y2="7" />
                       <polyline points="7 7 17 7 17 17" />
@@ -280,10 +280,10 @@ export default function HomePage() {
                 </div>
 
                 {/* Title and description */}
-                <h3 className="text-[14px] font-bold text-white mb-2 leading-snug group-hover:text-blue-50 transition-colors relative">
+                <h3 className="text-[14px] font-bold text-[#0A0E1A] mb-2 leading-snug group-hover:text-[#1E5DFF] transition-colors relative">
                   {category.labelHe}
                 </h3>
-                <p className="text-[12px] text-[#4a6a8a] leading-relaxed group-hover:text-[#5a7a9a] transition-colors relative line-clamp-2">
+                <p className="text-[12px] text-[#64748B] leading-relaxed transition-colors relative line-clamp-2">
                   {category.descriptionHe}
                 </p>
               </Link>
@@ -294,20 +294,20 @@ export default function HomePage() {
       </section>
 
       {/* ── Featured Providers ── */}
-      <section className="bg-white border-b border-gray-100 py-20 px-6">
+      <section className="bg-white border-b border-[#E2E8F0] py-20 px-6">
         <div className="max-w-7xl mx-auto">
 
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="text-[11px] font-semibold tracking-[0.22em] text-blue-600 uppercase mb-2">
+              <p className="text-[11px] font-semibold tracking-[0.22em] text-[#1E5DFF] uppercase mb-2">
                 ספקים נבחרים
               </p>
-              <h2 className="text-2xl font-black text-[#0a1628] tracking-tight">ספקים מובילים</h2>
-              <p className="text-sm text-gray-400 mt-1">ספקים מורשים ומקצועיים ברחבי ישראל</p>
+              <h2 className="text-2xl font-black text-[#0A0E1A] tracking-tight">ספקים מובילים</h2>
+              <p className="text-sm text-[#64748B] mt-1">ספקים מורשים ומקצועיים ברחבי ישראל</p>
             </div>
             <Link
               href="/services"
-              className="text-[13px] font-medium text-blue-600 hover:text-blue-700 transition-colors whitespace-nowrap"
+              className="text-[13px] font-medium text-[#1E5DFF] hover:text-[#1650e8] transition-colors whitespace-nowrap"
             >
               כל הספקים ←
             </Link>
@@ -323,18 +323,18 @@ export default function HomePage() {
               return (
                 <div
                   key={listing.id}
-                  className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 flex flex-col gap-4"
+                  className="bg-white rounded-xl border border-[#E2E8F0] shadow-[0_2px_4px_0_rgba(0,0,0,0.04)] hover:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.08)] transition-shadow p-6 flex flex-col gap-4"
                 >
                   {/* Avatar */}
-                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-100 flex items-center justify-center shrink-0">
-                    <span className="text-2xl font-black text-blue-600 leading-none select-none">
+                  <div className="w-14 h-14 rounded-xl bg-[#F8F9FB] border border-[#E2E8F0] flex items-center justify-center shrink-0">
+                    <span className="text-2xl font-black text-[#1E5DFF] leading-none select-none">
                       {initial}
                     </span>
                   </div>
 
                   {/* Info */}
                   <div className="flex-1 flex flex-col gap-2 min-w-0">
-                    <h3 className="font-bold text-[#0a1628] text-[15px] leading-snug">
+                    <h3 className="font-bold text-[#0A0E1A] text-[15px] leading-snug">
                       {listing.name}
                     </h3>
                     <p className="text-[12px] text-gray-400">
@@ -348,7 +348,7 @@ export default function HomePage() {
                   {/* CTA */}
                   <Link
                     href={`/listings/${listing.slug}`}
-                    className="mt-auto block w-full text-center px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-[13px] font-semibold rounded-xl transition-colors"
+                    className="mt-auto block w-full text-center px-4 py-2.5 bg-[#1E5DFF] hover:bg-[#1650e8] text-white text-[13px] font-semibold rounded-lg transition-colors"
                   >
                     לצפייה בפרופיל
                   </Link>
@@ -392,27 +392,27 @@ export default function HomePage() {
       </section>
 
       {/* ── Provider CTA ── */}
-      <section className="bg-white border-t border-gray-100 py-24 px-6">
+      <section className="bg-white border-t border-[#E2E8F0] py-24 px-6">
         <div className="max-w-7xl mx-auto">
-          <p className="text-[11px] font-semibold tracking-[0.22em] text-blue-600 uppercase mb-5">
+          <p className="text-[11px] font-semibold tracking-[0.22em] text-[#1E5DFF] uppercase mb-5">
             לבעלי עסקים
           </p>
-          <h2 className="text-3xl sm:text-[2.6rem] font-black text-[#0a1628] leading-[1.05] tracking-[-0.02em] mb-5 max-w-lg">
+          <h2 className="text-3xl sm:text-[2.6rem] font-black text-[#0A0E1A] leading-[1.05] tracking-[-0.02em] mb-5 max-w-lg">
             הצטרפו לאינדקס<br />שירותי הרחפן
           </h2>
-          <p className="text-[15px] text-gray-500 leading-relaxed mb-8 max-w-sm">
+          <p className="text-[15px] text-[#64748B] leading-relaxed mb-8 max-w-sm">
             הרשמו את החברה שלכם ותגיעו ללקוחות מסחריים שמחפשים ספקים כמוכם.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a
               href="/add-listing"
-              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm rounded-xl transition-colors text-center"
+              className="px-6 py-3 bg-[#1E5DFF] hover:bg-[#1650e8] text-white font-semibold text-sm rounded-lg transition-colors text-center"
             >
               הוסיפו את החברה שלכם
             </a>
             <a
               href="/claim-listing"
-              className="px-6 py-3 border border-gray-200 hover:border-gray-300 text-[#0a1628] font-semibold text-sm rounded-xl transition-colors text-center"
+              className="px-6 py-3 border border-[#E2E8F0] hover:border-[#0A0E1A]/20 text-[#0A0E1A] font-semibold text-sm rounded-lg transition-colors text-center"
             >
               דרשו פרופיל קיים
             </a>

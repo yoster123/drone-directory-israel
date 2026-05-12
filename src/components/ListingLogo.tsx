@@ -4,12 +4,12 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 const AVATAR_COLORS = [
-  'bg-blue-100 text-blue-700',
-  'bg-violet-100 text-violet-700',
-  'bg-emerald-100 text-emerald-700',
-  'bg-amber-100 text-amber-700',
-  'bg-rose-100 text-rose-700',
-  'bg-sky-100 text-sky-700',
+  'bg-[#EEF3FF] text-[#1E5DFF]',
+  'bg-[#F8F9FB] text-[#64748B]',
+  'bg-[#EEF3FF] text-[#1E5DFF]',
+  'bg-[#F8F9FB] text-[#64748B]',
+  'bg-[#EEF3FF] text-[#1E5DFF]',
+  'bg-[#F8F9FB] text-[#64748B]',
 ]
 
 function getInitials(name: string): string {
@@ -47,7 +47,7 @@ export default function ListingLogo({
 
   if (logoUrl && !imgFailed) {
     return (
-      <div className={`shrink-0 ${sizeClass} ${roundedClass} relative overflow-hidden bg-white border border-gray-100`}>
+      <div className={`shrink-0 ${sizeClass} ${roundedClass} relative overflow-hidden bg-white border border-[#E2E8F0]`}>
         <Image
           src={logoUrl}
           alt={`לוגו ${name}`}

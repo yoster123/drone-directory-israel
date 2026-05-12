@@ -78,7 +78,7 @@ export default async function ServicePage({
                 <Link
                   key={citySlug}
                   href={`/services/${service}/${citySlug}`}
-                  className="px-4 py-2 rounded-full border border-gray-300 text-sm text-gray-700 hover:border-blue-400 hover:text-blue-700 hover:bg-blue-50 transition-colors"
+                  className="px-4 py-2 rounded-full border border-[#E2E8F0] text-sm text-[#64748B] hover:border-[#1E5DFF] hover:text-[#1E5DFF] hover:bg-[#EEF3FF] transition-colors"
                 >
                   {category.labelHe} ב{location.labelHe}
                 </Link>

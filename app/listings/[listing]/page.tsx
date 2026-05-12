@@ -82,7 +82,7 @@ export default async function ListingPage({
       />
 
       {/* Page header card */}
-      <div className="rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100 px-6 py-7 mb-8 flex items-start gap-5">
+      <div className="rounded-xl bg-[#F8F9FB] border border-[#E2E8F0] px-6 py-7 mb-8 flex items-start gap-5">
         {listing.logoUrl ? (
           <ListingLogo
             name={listing.name}
@@ -93,7 +93,7 @@ export default async function ListingPage({
             textSizeClass="text-base"
           />
         ) : (
-          <div className="shrink-0 w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white">
+          <div className="shrink-0 w-14 h-14 rounded-2xl bg-[#1E5DFF] flex items-center justify-center text-white">
             <CategoryIcon slug={listing.categorySlug} className="w-7 h-7" />
           </div>
         )}
@@ -112,16 +112,16 @@ export default async function ListingPage({
               )}
             </div>
           )}
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-900 leading-tight">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-[#0A0E1A] leading-tight">
             {listing.name}
           </h1>
-          <p className="text-gray-500 mt-1.5 text-[15px]">
-            <Link href={`/services/${listing.categorySlug}`} className="hover:text-blue-600 transition-colors">
+          <p className="text-[#64748B] mt-1.5 text-[15px]">
+            <Link href={`/services/${listing.categorySlug}`} className="hover:text-[#1E5DFF] transition-colors">
               {listing.categoryLabelHe}
             </Link>
             {' · '}
             {listing.citySlug ? (
-              <Link href={`/cities/${listing.citySlug}`} className="hover:text-blue-600 transition-colors">
+              <Link href={`/cities/${listing.citySlug}`} className="hover:text-[#1E5DFF] transition-colors">
                 {listing.cityLabelHe}
               </Link>
             ) : listing.cityLabelHe}
@@ -136,17 +136,17 @@ export default async function ListingPage({
         <div className="flex-1 min-w-0">
 
           <section className="mb-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-3">אודות</h2>
-            <p className="text-gray-600 leading-relaxed">{listing.longDescriptionHe}</p>
+            <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">אודות</h2>
+            <p className="text-[#64748B] leading-relaxed">{listing.longDescriptionHe}</p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-3">שירותים</h2>
+            <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">שירותים</h2>
             <div className="flex flex-wrap gap-2">
               {listing.services.map((service) => (
                 <span
                   key={service}
-                  className="px-3 py-1.5 bg-blue-50 text-blue-700 text-sm font-medium rounded-full"
+                  className="px-3 py-1.5 bg-[#EEF3FF] text-[#1E5DFF] text-sm font-medium rounded-full"
                 >
                   {service}
                 </span>
@@ -156,12 +156,12 @@ export default async function ListingPage({
 
           {listing.equipment.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">ציוד ויכולות</h2>
+              <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">ציוד ויכולות</h2>
               <div className="flex flex-wrap gap-2">
                 {listing.equipment.map((item) => (
                   <span
                     key={item}
-                    className="px-3 py-1.5 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200"
+                    className="px-3 py-1.5 bg-[#F8F9FB] text-[#64748B] text-sm font-medium rounded-full border border-[#E2E8F0]"
                   >
                     {item}
                   </span>
@@ -172,12 +172,12 @@ export default async function ListingPage({
 
           {listing.operationalStrengths.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">תחומי התמחות</h2>
+              <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">תחומי התמחות</h2>
               <div className="flex flex-wrap gap-2">
                 {listing.operationalStrengths.map((strength) => (
                   <span
                     key={strength}
-                    className="px-3 py-1.5 bg-indigo-50 text-indigo-700 text-sm font-medium rounded-full"
+                    className="px-3 py-1.5 bg-[#EEF3FF] text-[#1E5DFF] text-sm font-medium rounded-full"
                   >
                     {strength}
                   </span>
@@ -188,12 +188,12 @@ export default async function ListingPage({
 
           {listing.deliverables.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">תוצרים אפשריים</h2>
+              <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">תוצרים אפשריים</h2>
               <div className="flex flex-wrap gap-2">
                 {listing.deliverables.map((item) => (
                   <span
                     key={item}
-                    className="px-3 py-1.5 bg-teal-50 text-teal-700 text-sm font-medium rounded-full"
+                    className="px-3 py-1.5 bg-[#F8F9FB] text-[#64748B] text-sm font-medium rounded-full border border-[#E2E8F0]"
                   >
                     {item}
                   </span>
@@ -204,12 +204,12 @@ export default async function ListingPage({
 
           {listing.industriesServed.length > 0 && (
             <section className="mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">תעשיות רלוונטיות</h2>
+              <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">תעשיות רלוונטיות</h2>
               <div className="flex flex-wrap gap-2">
                 {listing.industriesServed.map((industry) => (
                   <span
                     key={industry}
-                    className="px-3 py-1.5 bg-amber-50 text-amber-700 text-sm font-medium rounded-full"
+                    className="px-3 py-1.5 bg-[#F8F9FB] text-[#64748B] text-sm font-medium rounded-full border border-[#E2E8F0]"
                   >
                     {industry}
                   </span>
@@ -219,13 +219,13 @@ export default async function ListingPage({
           )}
 
           <section className="mb-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-3">אזור פעילות</h2>
-            <p className="text-gray-600 text-sm">{listing.coverageArea}</p>
+            <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">אזור פעילות</h2>
+            <p className="text-[#64748B] text-sm">{listing.coverageArea}</p>
           </section>
 
           {(listing.verificationSignals.length > 0 || listing.certifications.length > 0) && (
             <section className="mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">אמון ואימות</h2>
+              <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">אמון ואימות</h2>
               <div className="flex flex-wrap gap-2">
                 {listing.certifications.map((cert) => (
                   <span
@@ -238,7 +238,7 @@ export default async function ListingPage({
                 {listing.verificationSignals.map((signal) => (
                   <span
                     key={signal}
-                    className="px-3 py-1.5 bg-gray-50 text-gray-600 text-sm font-medium rounded-full border border-gray-200"
+                    className="px-3 py-1.5 bg-[#F8F9FB] text-[#64748B] text-sm font-medium rounded-full border border-[#E2E8F0]"
                   >
                     {signal}
                   </span>
@@ -248,31 +248,31 @@ export default async function ListingPage({
           )}
 
           <section>
-            <h2 className="text-lg font-bold text-gray-900 mb-3">פרטים נוספים</h2>
+            <h2 className="text-lg font-bold text-[#0A0E1A] mb-3">פרטים נוספים</h2>
             <dl className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-sm">
               <div className="flex gap-2">
-                <dt className="font-medium text-gray-500 shrink-0">קטגוריה:</dt>
+                <dt className="font-medium text-[#64748B] shrink-0">קטגוריה:</dt>
                 <dd>
-                  <Link href={`/services/${listing.categorySlug}`} className="text-gray-700 hover:text-blue-600 transition-colors">
+                  <Link href={`/services/${listing.categorySlug}`} className="text-[#0A0E1A] hover:text-[#1E5DFF] transition-colors">
                     {listing.categoryLabelHe}
                   </Link>
                 </dd>
               </div>
               <div className="flex gap-2">
-                <dt className="font-medium text-gray-500 shrink-0">עיר:</dt>
+                <dt className="font-medium text-[#64748B] shrink-0">עיר:</dt>
                 <dd>
                   {listing.citySlug ? (
-                    <Link href={`/cities/${listing.citySlug}`} className="text-gray-700 hover:text-blue-600 transition-colors">
+                    <Link href={`/cities/${listing.citySlug}`} className="text-[#0A0E1A] hover:text-[#1E5DFF] transition-colors">
                       {listing.cityLabelHe}
                     </Link>
                   ) : (
-                    <span className="text-gray-700">{listing.cityLabelHe}</span>
+                    <span className="text-[#0A0E1A]">{listing.cityLabelHe}</span>
                   )}
                 </dd>
               </div>
               <div className="flex gap-2">
-                <dt className="font-medium text-gray-500 shrink-0">עודכן:</dt>
-                <dd className="text-gray-700">{formatDate(listing.lastUpdated)}</dd>
+                <dt className="font-medium text-[#64748B] shrink-0">עודכן:</dt>
+                <dd className="text-[#0A0E1A]">{formatDate(listing.lastUpdated)}</dd>
               </div>
             </dl>
           </section>
@@ -281,15 +281,15 @@ export default async function ListingPage({
 
         {/* Sidebar — contact card */}
         <aside className="lg:w-76 shrink-0">
-          <div className="bg-white border border-gray-200 rounded-xl p-6 sticky top-20">
-            <h2 className="font-bold text-gray-900 text-lg mb-1">בקשת שירות מספק זה</h2>
-            <p className="text-[13px] text-gray-500 mb-5">פנו ישירות לספק לתיאום ומחיר</p>
+          <div className="bg-white border border-[#E2E8F0] rounded-xl p-6 sticky top-20">
+            <h2 className="font-bold text-[#0A0E1A] text-lg mb-1">בקשת שירות מספק זה</h2>
+            <p className="text-[13px] text-[#64748B] mb-5">פנו ישירות לספק לתיאום ומחיר</p>
             <div className="flex flex-col gap-3">
 
               {listing.phone && (
                 <a
                   href={`tel:${listing.phone.replace(/-/g, '')}`}
-                  className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-bold transition-colors"
+                  className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-[#1E5DFF] hover:bg-[#1650e8] text-white rounded-lg font-bold transition-colors"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.6 3.4 2 2 0 0 1 3.57 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.54a16 16 0 0 0 6.55 6.55l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
@@ -317,7 +317,7 @@ export default async function ListingPage({
                   href={listing.website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-gray-300 hover:bg-gray-50 text-gray-700 rounded-lg font-medium transition-colors"
+                  className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-[#E2E8F0] hover:bg-[#F8F9FB] text-[#0A0E1A] rounded-lg font-medium transition-colors"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <circle cx="12" cy="12" r="10"/>
@@ -331,7 +331,7 @@ export default async function ListingPage({
               {listing.email && (
                 <a
                   href={`mailto:${listing.email}`}
-                  className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-gray-300 hover:bg-gray-50 text-gray-700 rounded-lg font-medium transition-colors"
+                  className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-[#E2E8F0] hover:bg-[#F8F9FB] text-[#0A0E1A] rounded-lg font-medium transition-colors"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
@@ -344,11 +344,11 @@ export default async function ListingPage({
             </div>
 
             {listing.claimedStatus !== 'claimed' && (
-              <div className="mt-5 pt-5 border-t border-gray-100 text-center">
-                <p className="text-[13px] text-gray-500 mb-1">בעל העסק?</p>
+              <div className="mt-5 pt-5 border-t border-[#E2E8F0] text-center">
+                <p className="text-[13px] text-[#64748B] mb-1">בעל העסק?</p>
                 <a
                   href="/claim-listing"
-                  className="text-[13px] font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+                  className="text-[13px] font-semibold text-[#1E5DFF] hover:text-[#1650e8] transition-colors"
                 >
                   דרשו את הפרופיל שלכם ←
                 </a>
@@ -362,7 +362,7 @@ export default async function ListingPage({
       {/* Similar listings */}
       {similar.length > 0 && (
         <section className="mt-16">
-          <h2 className="text-xl font-bold text-gray-900 mb-6">
+          <h2 className="text-xl font-bold text-[#0A0E1A] mb-6">
             ספקים דומים בתחום {listing.categoryLabelHe}
           </h2>
           <ListingGrid listings={similar} />

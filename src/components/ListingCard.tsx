@@ -10,7 +10,6 @@ const REGION_LABELS: Record<string, string> = {
   north: 'צפון', center: 'מרכז', south: 'דרום', jerusalem: 'ירושלים',
 }
 
-// One concise chip for categories whose operational use-case is non-obvious from the label alone
 const CATEGORY_OP_CHIP: Record<string, string> = {
   'mapping-surveying':       'מיפוי',
   'agriculture':             'חקלאות',
@@ -27,16 +26,14 @@ export default function ListingCard({ listing }: Props) {
   const opChip = CATEGORY_OP_CHIP[listing.categorySlug] ?? null
 
   return (
-    <article className="relative bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3 hover:border-blue-200 hover:shadow-sm transition-all cursor-pointer">
+    <article className="relative bg-white rounded-xl border border-[#E2E8F0] p-5 flex flex-col gap-3 hover:border-[#1E5DFF]/30 hover:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.05)] transition-all cursor-pointer">
 
-      {/* Full-card link overlay — behind all interactive elements */}
       <Link
         href={`/listings/${listing.slug}`}
         className="absolute inset-0 rounded-xl"
         aria-label={`${listing.name} — פרופיל מלא`}
       />
 
-      {/* Header: avatar/logo + name + featured badge */}
       <div className="relative z-10 flex items-start gap-3">
         <ListingLogo
           name={listing.name}
@@ -44,10 +41,10 @@ export default function ListingCard({ listing }: Props) {
           logoUrl={listing.logoUrl}
         />
         <div className="min-w-0 flex-1">
-          <h3 className="font-semibold text-black text-base leading-snug">
+          <h3 className="font-semibold text-[#0A0E1A] text-base leading-snug">
             {listing.name}
           </h3>
-          <p className="text-[13px] text-gray-400 mt-0.5">
+          <p className="text-[13px] text-[#64748B] mt-0.5">
             {listing.categoryLabelHe} · {locationLabel}
           </p>
         </div>
@@ -58,12 +55,10 @@ export default function ListingCard({ listing }: Props) {
         )}
       </div>
 
-      {/* Description */}
-      <p className="relative z-10 text-sm text-gray-600 leading-relaxed line-clamp-2">
+      <p className="relative z-10 text-sm text-[#64748B] leading-relaxed line-clamp-2">
         {listing.shortDescriptionHe}
       </p>
 
-      {/* Chips: quality badges (green), specialties (gray outline), operational tag (blue) */}
       {(listing.badges.length > 0 || listing.specialties.length > 0 || opChip) && (
         <div className="relative z-10 flex flex-wrap gap-1.5">
           {listing.badges.map((badge) => (
@@ -77,26 +72,25 @@ export default function ListingCard({ listing }: Props) {
           {listing.specialties.map((specialty) => (
             <span
               key={specialty}
-              className="text-[11px] text-gray-500 border border-gray-200 px-2.5 py-0.5 rounded-full"
+              className="text-[11px] text-[#64748B] border border-[#E2E8F0] px-2.5 py-0.5 rounded-full"
             >
               {specialty}
             </span>
           ))}
           {opChip && (
-            <span className="text-[11px] text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-0.5 rounded-full">
+            <span className="text-[11px] text-[#1E5DFF] bg-[#EEF3FF] border border-[#C7D7FF] px-2.5 py-0.5 rounded-full">
               {opChip}
             </span>
           )}
         </div>
       )}
 
-      {/* Footer: phone + WhatsApp on left, website or profile CTA on right */}
-      <div className="relative z-10 flex items-center justify-between pt-3 mt-auto border-t border-gray-100">
+      <div className="relative z-10 flex items-center justify-between pt-3 mt-auto border-t border-[#E2E8F0]">
         <div className="flex flex-col gap-0.5">
           {listing.phone && (
             <a
               href={`tel:${listing.phone.replace(/-/g, '')}`}
-              className="flex items-center gap-1.5 text-sm font-medium text-gray-800 hover:text-blue-600 transition-colors"
+              className="flex items-center gap-1.5 text-sm font-medium text-[#0A0E1A] hover:text-[#1E5DFF] transition-colors"
               dir="ltr"
             >
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0" aria-hidden="true">
@@ -121,12 +115,12 @@ export default function ListingCard({ listing }: Props) {
             href={listing.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[13px] text-gray-400 hover:text-gray-700 transition-colors"
+            className="text-[13px] text-[#64748B] hover:text-[#0A0E1A] transition-colors"
           >
             אתר האינטרנט ↗
           </a>
         ) : (
-          <span className="text-[12px] text-blue-500 pointer-events-none select-none">
+          <span className="text-[12px] text-[#1E5DFF] pointer-events-none select-none">
             לפרופיל ←
           </span>
         )}
