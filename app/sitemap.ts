@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: SitemapEntry[] = [
     { url: SITE_URL,                    lastModified: NOW, changeFrequency: 'daily',   priority: 1.0 },
     { url: `${SITE_URL}/services`,      lastModified: NOW, changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${SITE_URL}/pilots`,        lastModified: NOW, changeFrequency: 'weekly',  priority: 0.85 },
     { url: `${SITE_URL}/add-listing`,   lastModified: NOW, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE_URL}/about`,         lastModified: NOW, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${SITE_URL}/contact`,       lastModified: NOW, changeFrequency: 'monthly', priority: 0.3 },

@@ -14,9 +14,9 @@ export default function SiteFooter() {
           </div>
           <div className="flex gap-12">
             <nav className="flex flex-col gap-3" aria-label="Footer navigation primary">
-              <Link href="/services" className="text-[#64748B] hover:text-white transition-colors text-sm">אינדקס</Link>
+              <Link href="/services" className="text-[#64748B] hover:text-white transition-colors text-sm">מצא שירותי רחפן</Link>
+              <Link href="/pilots" className="text-[#64748B] hover:text-white transition-colors text-sm">לטייסי רחפנים</Link>
               <Link href="/about" className="text-[#64748B] hover:text-white transition-colors text-sm">אודות</Link>
-              <Link href="/blog" className="text-[#64748B] hover:text-white transition-colors text-sm">בלוג</Link>
             </nav>
             <nav className="flex flex-col gap-3" aria-label="Footer navigation secondary">
               <Link href="/add-listing" className="text-[#64748B] hover:text-white transition-colors text-sm">הוספת חברה</Link>

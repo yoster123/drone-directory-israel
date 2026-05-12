@@ -7,12 +7,12 @@ import SearchForm from '@/src/components/SearchForm'
 import CategoryIcon from '@/src/components/CategoryIcon'
 
 export const metadata: Metadata = {
-  title: 'ALTIV — אינדקס שירותי הרחפן בישראל',
+  title: 'ALTIV — פלטפורמת הרחפנים של ישראל',
   description:
-    'מצאו ספקים מקצועיים לצילום אווירי, מיפוי, בדיקות תשתית, FPV, חקלאות ופתרונות רחפן לעסקים.',
+    'מצא אנשי מקצוע, גלה שירותים, וקבל כלים לצמיחה בעולם הרחפנים. אינדקס ספקי הרחפן המקצועי של ישראל.',
   openGraph: {
-    title: 'ALTIV — אינדקס שירותי הרחפן בישראל',
-    description: 'מצאו ספקים מקצועיים לצילום אווירי, מיפוי, בדיקות תשתית, FPV, חקלאות ופתרונות רחפן לעסקים.',
+    title: 'ALTIV — פלטפורמת הרחפנים של ישראל',
+    description: 'מצא אנשי מקצוע, גלה שירותים, וקבל כלים לצמיחה בעולם הרחפנים.',
     locale: 'he_IL',
     type: 'website',
   },
@@ -56,13 +56,12 @@ export default function HomePage() {
                 Israeli Drone Ecosystem
               </p>
               <h1 className="text-[2.8rem] lg:text-[3.6rem] xl:text-[4.2rem] font-black text-[#0A0E1A] leading-[1.0] tracking-[-0.03em] mb-5">
-                אינדקס שירותי<br />
-                הרחפן{' '}
-                <span className="text-[#1E5DFF]">בישראל</span>
+                פלטפורמת הרחפנים<br />
+                <span className="text-[#1E5DFF]">של ישראל</span>
               </h1>
               <p className="text-[15px] text-gray-500 leading-[1.7] mb-8 max-w-[400px]">
-                מצאו ספקים מקצועיים לצילום אווירי, מיפוי, בדיקות תשתית,
-                FPV, חקלאות ופתרונות רחפן לעסקים.
+                מצא אנשי מקצוע, גלה שירותים, וקבל כלים לצמיחה
+                בעולם הרחפנים.
               </p>
 
               <SearchForm
@@ -202,6 +201,88 @@ export default function HomePage() {
                 </svg>
               </div>
             </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ── Dual-audience paths ── */}
+      <section className="bg-white border-b border-[#E2E8F0] py-14 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+            {/* Customer card */}
+            <Link
+              href="/services"
+              className="group relative flex flex-col gap-5 p-8 bg-white border border-[#E2E8F0] rounded-2xl hover:border-[#1E5DFF] hover:shadow-[0_4px_16px_rgba(30,93,255,0.08)] transition-all overflow-hidden"
+            >
+              <div className="absolute top-0 right-0 w-32 h-32 pointer-events-none" aria-hidden="true">
+                <svg viewBox="0 0 128 128" fill="none" className="w-full h-full opacity-[0.04]">
+                  <circle cx="128" cy="0" r="80" stroke="#1E5DFF" strokeWidth="1" />
+                  <circle cx="128" cy="0" r="50" stroke="#1E5DFF" strokeWidth="0.8" />
+                  <circle cx="128" cy="0" r="24" stroke="#1E5DFF" strokeWidth="0.6" />
+                </svg>
+              </div>
+              <div className="w-12 h-12 rounded-xl bg-[#EEF3FF] flex items-center justify-center shrink-0">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E5DFF" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+              </div>
+              <div className="flex-1">
+                <h2 className="text-xl font-black text-[#0A0E1A] mb-2 group-hover:text-[#1E5DFF] transition-colors">
+                  מחפשים שירותי רחפן?
+                </h2>
+                <p className="text-[14px] text-[#64748B] leading-relaxed">
+                  מצאו מפעילי רחפן מקצועיים לצילום, מיפוי, בדיקות, נדל״ן, חקלאות ועוד.
+                </p>
+              </div>
+              <span className="inline-flex items-center gap-2 text-[13px] font-semibold text-[#1E5DFF]">
+                מצא שירות
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <line x1="19" y1="12" x2="5" y2="12" />
+                  <polyline points="12 5 5 12 12 19" />
+                </svg>
+              </span>
+            </Link>
+
+            {/* Pilot card */}
+            <Link
+              href="/pilots"
+              className="group relative flex flex-col gap-5 p-8 bg-[#0A0E1A] rounded-2xl hover:shadow-[0_4px_24px_rgba(0,0,0,0.3)] transition-all overflow-hidden"
+            >
+              <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
+                <svg viewBox="0 0 520 260" fill="none" className="absolute bottom-0 left-0 w-full h-full opacity-[0.06]">
+                  <circle cx="520" cy="260" r="220" stroke="#1E5DFF" strokeWidth="1" />
+                  <circle cx="520" cy="260" r="140" stroke="#1E5DFF" strokeWidth="0.8" />
+                  <circle cx="520" cy="260" r="70" stroke="#1E5DFF" strokeWidth="0.6" />
+                </svg>
+              </div>
+              <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0 relative">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="2" />
+                  <line x1="12" y1="10" x2="8.5" y2="6.5" /><line x1="12" y1="10" x2="15.5" y2="6.5" />
+                  <line x1="12" y1="14" x2="8.5" y2="17.5" /><line x1="12" y1="14" x2="15.5" y2="17.5" />
+                  <circle cx="8.5" cy="6.5" r="2" /><circle cx="15.5" cy="6.5" r="2" />
+                  <circle cx="8.5" cy="17.5" r="2" /><circle cx="15.5" cy="17.5" r="2" />
+                </svg>
+              </div>
+              <div className="flex-1 relative">
+                <h2 className="text-xl font-black text-white mb-2">
+                  לטייסי רחפנים ועסקים
+                </h2>
+                <p className="text-[14px] text-white/60 leading-relaxed">
+                  כלים, מדריכים, חשיפה, לידים ומשאבים שיעזרו לכם לצמוח.
+                </p>
+              </div>
+              <span className="relative inline-flex items-center gap-2 text-[13px] font-semibold text-[#60a5fa] group-hover:text-white transition-colors">
+                כניסה למרכז הטייסים
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <line x1="19" y1="12" x2="5" y2="12" />
+                  <polyline points="12 5 5 12 12 19" />
+                </svg>
+              </span>
+            </Link>
 
           </div>
         </div>
