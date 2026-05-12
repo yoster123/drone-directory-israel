@@ -49,3 +49,46 @@ g-hhs25j  # נמל התעופה ראש פינה — Rosh Pina Airport (IAA), a p
 g-9kkz28  # Sky Vision TLV — template placeholder
 g-7ujqdk  # מיפוי מדויק — template placeholder
 g-0sv8yx  # DroneSchool IL — template placeholder
+
+# Medical cluster from apify-agriculture-professional.csv
+g-u1jfgy  # ד"ר טיסונה אריאל — plastic surgeon, not a drone business
+g-bzw7ea  # פרופ' גיא בן סימון — eyelid surgeon, not a drone business
+g-4z7e4m  # המרכז לכירורגיה פלסטית — plastic surgery center, not a drone business
+g-v9tlzd  # Infomed — Israeli medical portal, not a drone business
+g-p533bu  # אסיא מדיקל — medical company, not a drone business
+
+# Actual farms / agricultural education from apify-agriculture-professional.csv
+g-l2s39b  # ארגון עובדי הפלחה אגש"ח ארצית — agricultural workers union, no drone services
+g-wp6vot  # חווה חקלאית תלמי אברהם — physical farm, no drone services
+g-5f9ysv  # חווה לחינוך חקלאי — agricultural education farm, no drone services
+g-0qtzhn  # החווה לחינוך חקלאי ואיכות הסביבה — ag education farm, no drone services
+g-lrkbdp  # DAIRY COURSE Israeli Dairy School — dairy training school, no drone services
+g-so5z7x  # חוות בין השיטין — physical farm, no drone services
+g-dep90u  # חוות נוודים NAVADIM — physical farm, no drone services
+g-ceb0pi  # חוות מטעים מועצה אזורית גליל עליון — regional orchard cooperative, no drone services
+g-2cu9gn  # א.מ.ב. חווה חקלאית ירדן — physical farm, no drone services
+
+# Non-drone agriculture companies from apify-agriculture-professional.csv
+g-g19njv  # ג'ון דיר ישראל — John Deere farm equipment dealer, no drone services
+g-3nvi10  # ציוד ומיכון חקלאי-דויטץ ישראל — farm machinery dealer, no drone services
+g-z5emgk  # Friendly Robotics — robotic lawnmowers, no drone services
+g-x3cv9g  # המכון להדברה ביולוגית — biological pest control institute, no drone services
+g-dlkfk0  # Beewise technologies — robotic beehives, no drone services
+
+# Irrelevant stores and services from apify-agriculture-professional.csv
+g-l6g4vm  # מ.אש מכניקה מדויקת — precision mechanics shop, not drone-related
+g-q0rt6e  # מנחת טיסנים ארסוף — Arsuf model aircraft airstrip, not a drone services business
+g-te49hk  # יניר מערכות — industrial systems, not drone-related
+g-tcwshs  # טאצ' תיקונים חכמים — smartphone/device repair shop, not drone-related
+g-e2j727  # הום סנטר עפולה — Home Center hardware store, not drone-related
+g-7wtfkq  # LIAD Weighing and Control Systems — industrial weighing systems, not drone-related
+g-i1bi45  # החנות החכמה - THE SMART SHOP — generic electronics store, not drone-related
+g-1yplai  # יציל פיננסים — financial services company, not drone-related
+g-ukc35t  # מכללת אין ליין — professional training courses (non-drone), not drone-related
+
+# Drone-adjacent companies not suitable as service provider listings
+g-djjqif  # SpearUAV — drone manufacturer/defense startup, not a service provider
+g-y3fb58  # Growing-Smart — agri-tech startup, no drone aerial services
+
+# Duplicate map pins from apify-agriculture-professional.csv
+g-pvyy2u  # אגרוסקאוט (יראון pin) — duplicate of g-aozbk4 (Agroscout canonical entry)
