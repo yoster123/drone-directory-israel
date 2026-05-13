@@ -68,7 +68,7 @@ export default async function CityPage({
 
       {categorySlugs.length > 0 && (
         <section className="mt-12">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">שירותים זמינים</h2>
+          <h2 className="text-lg font-bold text-[#1d1d1f] mb-4">שירותים זמינים</h2>
           <div className="flex flex-wrap gap-2">
             {categorySlugs.map((catSlug) => {
               const category = getCategoryBySlug(catSlug)
@@ -77,7 +77,7 @@ export default async function CityPage({
                 <Link
                   key={catSlug}
                   href={`/services/${catSlug}/${city}`}
-                  className="px-4 py-2 rounded-full border border-[#E2E8F0] text-sm text-[#64748B] hover:border-[#1E5DFF] hover:text-[#1E5DFF] hover:bg-[#EEF3FF] transition-colors"
+                  className="px-4 py-2 rounded-full bg-white border border-[#e0e0e0] text-sm text-[#1d1d1f] hover:border-[#0066cc] hover:text-[#0066cc] transition-colors"
                 >
                   {category.labelHe} ב{location.labelHe}
                 </Link>

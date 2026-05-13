@@ -4,12 +4,12 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 const AVATAR_COLORS = [
-  'bg-[#EEF3FF] text-[#1E5DFF]',
-  'bg-[#F8F9FB] text-[#64748B]',
-  'bg-[#EEF3FF] text-[#1E5DFF]',
-  'bg-[#F8F9FB] text-[#64748B]',
-  'bg-[#EEF3FF] text-[#1E5DFF]',
-  'bg-[#F8F9FB] text-[#64748B]',
+  'bg-[#e8f0fb] text-[#0066cc]',
+  'bg-[#f5f5f7] text-[#7a7a7a]',
+  'bg-[#e8f0fb] text-[#0066cc]',
+  'bg-[#f5f5f7] text-[#7a7a7a]',
+  'bg-[#e8f0fb] text-[#0066cc]',
+  'bg-[#f5f5f7] text-[#7a7a7a]',
 ]
 
 function getInitials(name: string): string {
@@ -29,7 +29,6 @@ interface Props {
   name: string
   id: string
   logoUrl?: string | null
-  // Tailwind size classes, e.g. "w-10 h-10" or "w-14 h-14"
   sizeClass?: string
   roundedClass?: string
   textSizeClass?: string
@@ -47,7 +46,7 @@ export default function ListingLogo({
 
   if (logoUrl && !imgFailed) {
     return (
-      <div className={`shrink-0 ${sizeClass} ${roundedClass} relative overflow-hidden bg-white border border-[#E2E8F0]`}>
+      <div className={`shrink-0 ${sizeClass} ${roundedClass} relative overflow-hidden bg-white border border-[#e0e0e0]`}>
         <Image
           src={logoUrl}
           alt={`לוגו ${name}`}

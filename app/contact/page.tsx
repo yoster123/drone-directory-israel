@@ -8,13 +8,13 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
-      <h1 className="text-3xl font-extrabold text-gray-900 mb-2">צור קשר</h1>
+      <h1 className="text-3xl font-extrabold text-[#1d1d1f] mb-2">צור קשר</h1>
       <p className="text-gray-500 text-lg mb-10">שאלות, הצעות, דיווחים או כל נושא אחר.</p>
 
       <div className="flex flex-col lg:flex-row gap-10">
         {/* Contact details */}
         <aside className="lg:w-64 shrink-0">
-          <h2 className="text-base font-bold text-gray-900 mb-4">פרטי קשר</h2>
+          <h2 className="text-base font-bold text-[#1d1d1f] mb-4">פרטי קשר</h2>
           <ul className="space-y-4 text-sm text-gray-600">
             <li>
               <p className="font-medium text-gray-800">אימייל</p>

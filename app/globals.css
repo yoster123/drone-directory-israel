@@ -1,23 +1,189 @@
 @import "tailwindcss";
 
+/* ── ALTIV Design System — Core Tokens ─────────────────────── */
+
 :root {
-  --background: #ffffff;
-  --foreground: #0A0E1A;
-  --color-electric-blue: #1E5DFF;
-  --color-deep-navy: #0A0E1A;
-  --color-off-white: #F8F9FB;
-  --color-border-gray: #E2E8F0;
-  --color-text-gray: #64748B;
+  /* Colors */
+  --color-primary:          #0066cc;
+  --color-primary-focus:    #0071e3;
+  --color-primary-on-dark:  #2997ff;
+
+  --color-canvas:           #ffffff;
+  --color-canvas-parchment: #f5f5f7;
+  --color-surface-tile-1:   #272729;
+  --color-surface-tile-2:   #2a2a2c;
+  --color-surface-tile-3:   #252527;
+  --color-surface-black:    #000000;
+
+  --color-ink:              #1d1d1f;
+  --color-body-on-dark:     #ffffff;
+  --color-body-muted:       #cccccc;
+  --color-ink-muted-80:     #333333;
+  --color-ink-muted-48:     #7a7a7a;
+
+  --color-divider-soft:     rgba(0, 0, 0, 0.04);
+  --color-hairline:         #e0e0e0;
+  --color-hairline-strong:  rgba(0, 0, 0, 0.08);
+
+  /* Fonts */
+  --font-display: var(--font-heebo), var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-text:    var(--font-heebo), var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Type ladder */
+  --type-hero-display-size:   56px;  --type-hero-display-weight:   600; --type-hero-display-lh:   1.07; --type-hero-display-track:   -0.28px;
+  --type-display-lg-size:     40px;  --type-display-lg-weight:     600; --type-display-lg-lh:     1.10; --type-display-lg-track:     0px;
+  --type-display-md-size:     34px;  --type-display-md-weight:     600; --type-display-md-lh:     1.18; --type-display-md-track:     -0.374px;
+  --type-lead-size:           28px;  --type-lead-weight:           400; --type-lead-lh:           1.14; --type-lead-track:           0.196px;
+  --type-lead-airy-size:      24px;  --type-lead-airy-weight:      300; --type-lead-airy-lh:      1.5;  --type-lead-airy-track:      0px;
+  --type-tagline-size:        21px;  --type-tagline-weight:        600; --type-tagline-lh:        1.19; --type-tagline-track:        0.231px;
+  --type-body-strong-size:    17px;  --type-body-strong-weight:    600; --type-body-strong-lh:    1.24; --type-body-strong-track:    -0.374px;
+  --type-body-size:           17px;  --type-body-weight:           400; --type-body-lh:           1.47; --type-body-track:           -0.374px;
+  --type-dense-link-size:     17px;  --type-dense-link-weight:     400; --type-dense-link-lh:     2.41; --type-dense-link-track:     0px;
+  --type-caption-size:        14px;  --type-caption-weight:        400; --type-caption-lh:        1.43; --type-caption-track:        -0.224px;
+  --type-caption-strong-size: 14px;  --type-caption-strong-weight: 600; --type-caption-strong-lh: 1.29; --type-caption-strong-track: -0.224px;
+  --type-button-large-size:   18px;  --type-button-large-weight:   300; --type-button-large-lh:   1.0;  --type-button-large-track:   0px;
+  --type-button-utility-size: 14px;  --type-button-utility-weight: 400; --type-button-utility-lh: 1.29; --type-button-utility-track: -0.224px;
+  --type-fine-print-size:     12px;  --type-fine-print-weight:     400; --type-fine-print-lh:     1.0;  --type-fine-print-track:     -0.12px;
+  --type-micro-legal-size:    10px;  --type-micro-legal-weight:    400; --type-micro-legal-lh:    1.3;  --type-micro-legal-track:    -0.08px;
+  --type-nav-link-size:       12px;  --type-nav-link-weight:       400; --type-nav-link-lh:       1.0;  --type-nav-link-track:       -0.12px;
+
+  /* Spacing */
+  --space-xxs: 4px; --space-xs: 8px;  --space-sm: 12px; --space-md: 17px;
+  --space-lg: 24px; --space-xl: 32px; --space-xxl: 48px; --space-section: 80px;
+
+  /* Radii */
+  --radius-xs: 5px; --radius-sm: 8px; --radius-md: 11px; --radius-lg: 18px; --radius-pill: 9999px;
+
+  /* Motion */
+  --press-scale: 0.95;
+  --press-ease:  cubic-bezier(0.4, 0, 0.6, 1);
+  --press-dur:   120ms;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-assistant), system-ui, sans-serif;
+  --color-background: var(--color-canvas);
+  --color-foreground: var(--color-ink);
+  --font-sans: var(--font-display);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  line-height: 1.7;
+/* ── Base & semantic type — inside @layer base so Tailwind ──
+   utility classes always win in the cascade.               ── */
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: var(--font-text);
+    font-size:      var(--type-body-size);
+    font-weight:    var(--type-body-weight);
+    line-height:    var(--type-body-lh);
+    letter-spacing: var(--type-body-track);
+    color:          var(--color-ink);
+    background:     var(--color-canvas);
+  }
+
+  /* Element defaults — give every heading/para the right size/weight/
+     tracking. Tailwind utility classes (text-*, font-*) override these. */
+
+  h1, .t-display-lg {
+    font-family:    var(--font-display);
+    font-size:      var(--type-display-lg-size);
+    font-weight:    var(--type-display-lg-weight);
+    line-height:    var(--type-display-lg-lh);
+    letter-spacing: var(--type-display-lg-track);
+    color:          var(--color-ink);
+    margin: 0;
+  }
+
+  h1.t-hero, .t-hero {
+    font-size:      var(--type-hero-display-size);
+    font-weight:    var(--type-hero-display-weight);
+    line-height:    var(--type-hero-display-lh);
+    letter-spacing: var(--type-hero-display-track);
+  }
+
+  h2, .t-display-md {
+    font-family:    var(--font-text);
+    font-size:      var(--type-display-md-size);
+    font-weight:    var(--type-display-md-weight);
+    line-height:    var(--type-display-md-lh);
+    letter-spacing: var(--type-display-md-track);
+    color:          var(--color-ink);
+    margin: 0;
+  }
+
+  h3, .t-tagline {
+    font-family:    var(--font-text);
+    font-size:      var(--type-tagline-size);
+    font-weight:    var(--type-tagline-weight);
+    line-height:    var(--type-tagline-lh);
+    letter-spacing: var(--type-tagline-track);
+    color:          var(--color-ink);
+    margin: 0;
+  }
+
+  p, .t-body {
+    font-family:    var(--font-text);
+    font-size:      var(--type-body-size);
+    font-weight:    var(--type-body-weight);
+    line-height:    var(--type-body-lh);
+    letter-spacing: var(--type-body-track);
+    color:          var(--color-ink);
+    margin: 0;
+  }
+
+  strong, .t-body-strong {
+    font-size:      var(--type-body-strong-size);
+    font-weight:    var(--type-body-strong-weight);
+    line-height:    var(--type-body-strong-lh);
+    letter-spacing: var(--type-body-strong-track);
+  }
+
+  small, .t-caption {
+    font-size:      var(--type-caption-size);
+    font-weight:    var(--type-caption-weight);
+    line-height:    var(--type-caption-lh);
+    letter-spacing: var(--type-caption-track);
+  }
+
+  .t-caption-strong {
+    font-size:      var(--type-caption-strong-size);
+    font-weight:    var(--type-caption-strong-weight);
+    line-height:    var(--type-caption-strong-lh);
+    letter-spacing: var(--type-caption-strong-track);
+  }
+
+  /* Lead variants — semantic classes for large sub-heads */
+  .t-lead {
+    font-size:      var(--type-lead-size);
+    font-weight:    var(--type-lead-weight);
+    line-height:    var(--type-lead-lh);
+    letter-spacing: var(--type-lead-track);
+  }
+
+  .t-lead-airy {
+    font-family:    var(--font-display);
+    font-size:      var(--type-lead-airy-size);
+    font-weight:    var(--type-lead-airy-weight);
+    line-height:    var(--type-lead-airy-lh);
+    letter-spacing: var(--type-lead-airy-track);
+  }
+
+  /* Dense-link, fine-print, micro-legal, nav */
+  .t-dense-link  { font-size: var(--type-dense-link-size);  font-weight: var(--type-dense-link-weight);  line-height: var(--type-dense-link-lh);  letter-spacing: var(--type-dense-link-track); }
+  .t-fine-print  { font-size: var(--type-fine-print-size);  font-weight: var(--type-fine-print-weight);  line-height: var(--type-fine-print-lh);  letter-spacing: var(--type-fine-print-track); }
+  .t-micro-legal { font-size: var(--type-micro-legal-size); font-weight: var(--type-micro-legal-weight); line-height: var(--type-micro-legal-lh); letter-spacing: var(--type-micro-legal-track); }
+  .t-nav-link    { font-size: var(--type-nav-link-size);    font-weight: var(--type-nav-link-weight);    line-height: var(--type-nav-link-lh);    letter-spacing: var(--type-nav-link-track); }
+
+  /* Press interaction */
+  button, [role="button"] {
+    transition: transform var(--press-dur) var(--press-ease);
+  }
+  button:active, [role="button"]:active {
+    transform: scale(var(--press-scale));
+  }
 }

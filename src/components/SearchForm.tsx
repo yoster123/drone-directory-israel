@@ -36,7 +36,7 @@ export default function SearchForm({ categories, locations, className }: Props) 
       role="search"
       aria-label="חיפוש שירותי רחפן"
     >
-      <div className="flex flex-col sm:flex-row items-stretch rounded-xl border border-[#E2E8F0] bg-white overflow-hidden shadow-[0_4px_24px_rgba(0,0,0,0.06)]">
+      <div className="flex flex-col sm:flex-row items-stretch rounded-2xl sm:rounded-full border border-[#e0e0e0] bg-white overflow-hidden shadow-[0_4px_24px_rgba(0,0,0,0.06)]">
 
         <label htmlFor="search-service" className="sr-only">בחרו שירות</label>
         <select
@@ -44,7 +44,7 @@ export default function SearchForm({ categories, locations, className }: Props) 
           value={service}
           onChange={(e) => setService(e.target.value)}
           disabled={isPending}
-          className="flex-1 px-5 py-4 bg-transparent text-[#0A0E1A] text-[15px] focus:outline-none focus:bg-[#F8F9FB]/60 disabled:opacity-60 border-b sm:border-b-0 border-[#E2E8F0] cursor-pointer appearance-none"
+          className="flex-1 px-5 py-4 bg-transparent text-[#1d1d1f] text-[15px] focus:outline-none disabled:opacity-60 border-b sm:border-b-0 border-[#e0e0e0] cursor-pointer appearance-none"
         >
           <option value="">בחרו שירות</option>
           {categories.map((c) => (
@@ -52,7 +52,7 @@ export default function SearchForm({ categories, locations, className }: Props) 
           ))}
         </select>
 
-        <span className="hidden sm:block w-px bg-gray-100 self-stretch" aria-hidden="true" />
+        <span className="hidden sm:block w-px bg-[#e0e0e0] self-stretch" aria-hidden="true" />
 
         <label htmlFor="search-city" className="sr-only">בחרו עיר</label>
         <select
@@ -60,7 +60,7 @@ export default function SearchForm({ categories, locations, className }: Props) 
           value={city}
           onChange={(e) => setCity(e.target.value)}
           disabled={isPending}
-          className="sm:w-44 px-5 py-4 bg-transparent text-[#64748B] text-[15px] focus:outline-none focus:bg-[#F8F9FB]/60 disabled:opacity-60 border-b sm:border-b-0 border-[#E2E8F0] cursor-pointer appearance-none"
+          className="sm:w-44 px-5 py-4 bg-transparent text-[#7a7a7a] text-[15px] focus:outline-none disabled:opacity-60 border-b sm:border-b-0 border-[#e0e0e0] cursor-pointer appearance-none"
         >
           <option value="">כל הארץ</option>
           {locations.map((l) => (
@@ -72,7 +72,7 @@ export default function SearchForm({ categories, locations, className }: Props) 
           type="submit"
           disabled={isPending}
           aria-busy={isPending}
-          className="px-8 py-4 bg-[#1E5DFF] hover:bg-[#1650e8] text-white font-bold text-[15px] transition-colors disabled:opacity-60 disabled:cursor-not-allowed whitespace-nowrap"
+          className="px-8 py-4 bg-[#0066cc] text-white font-semibold text-[15px] disabled:opacity-60 disabled:cursor-not-allowed whitespace-nowrap"
         >
           {isPending ? 'טוען...' : 'חפש ספקים'}
         </button>
