@@ -43,11 +43,27 @@ export const categories: Category[] = [
   },
   {
     slug: 'inspections',
-    labelHe: 'בדיקות ובדק בית',
-    descriptionHe: 'בדיקת גגות, מבנים, תשתיות ומתקנים תעשייתיים',
+    labelHe: 'בדיקות תשתיות ומבנים',
+    descriptionHe: 'בדיקת גגות, מבנים, קווי מתח, צינורות וגשרים',
     emoji: '🔍',
     icon: 'search',
     order: 6,
+  },
+  {
+    slug: 'solar',
+    labelHe: 'אנרגיה סולרית',
+    descriptionHe: 'בדיקה תרמוגרפית של פאנלים, תחזוקה וניהול שדות סולריים',
+    emoji: '☀️',
+    icon: 'sun',
+    order: 7,
+  },
+  {
+    slug: 'insurance',
+    labelHe: 'ביטוח ותביעות',
+    descriptionHe: 'תיעוד נזקי אסון, שריפה, ברד ושיטפון לצרכי תביעה',
+    emoji: '📄',
+    icon: 'file',
+    order: 8,
   },
   {
     slug: 'security',
@@ -55,7 +71,7 @@ export const categories: Category[] = [
     descriptionHe: 'סיור, ניטור ואבטחת מתחמים ואירועים',
     emoji: '🛡️',
     icon: 'shield',
-    order: 7,
+    order: 9,
   },
   {
     slug: 'training-schools',
@@ -63,7 +79,7 @@ export const categories: Category[] = [
     descriptionHe: 'קורסי טייס, הכשרה מקצועית והסמכה רשמית',
     emoji: '🎓',
     icon: 'graduation-cap',
-    order: 8,
+    order: 10,
   },
   {
     slug: 'drone-stores',
@@ -71,7 +87,7 @@ export const categories: Category[] = [
     descriptionHe: 'מכירת רחפנים, אביזרים וציוד נלווה',
     emoji: '🛒',
     icon: 'shopping-cart',
-    order: 9,
+    order: 11,
   },
   {
     slug: 'repairs',
@@ -79,15 +95,15 @@ export const categories: Category[] = [
     descriptionHe: 'תיקון רחפנים, החלפת חלקים ושדרוג מערכות',
     emoji: '🔧',
     icon: 'wrench',
-    order: 10,
+    order: 12,
   },
   {
     slug: 'drone-technology',
     labelHe: 'טכנולוגיות רחפן ומערכות אוטונומיות',
-    descriptionHe: 'חברות המפתחות מערכות רחפן, תפעול אוטונומי, ניהול ציי רחפנים, UTM, מערכות שליטה, תשתיות תוכנה וטכנולוגיות מתקדמות לתעשיית הרחפנים.',
+    descriptionHe: 'חברות המפתחות מערכות רחפן, תפעול אוטונומי וניהול ציי רחפנים',
     emoji: '🤖',
     icon: 'cpu',
-    order: 11,
+    order: 13,
   },
 ]
 

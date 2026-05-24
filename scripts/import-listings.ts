@@ -103,7 +103,7 @@ const CATEGORY_WEIGHTS: Array<{
   },
   {
     slug: 'inspections',
-    labelHe: 'בדיקות ובדק בית',
+    labelHe: 'בדיקות תשתיות ומבנים',
     keywords: [
       { term: 'בדיקה', weight: 8 }, { term: 'בדק', weight: 8 },
       { term: 'inspection', weight: 10 }, { term: 'תשתית', weight: 7 },
@@ -152,6 +152,26 @@ const CATEGORY_WEIGHTS: Array<{
       { term: 'fix', weight: 9 }, { term: 'maintenance', weight: 10 },
       { term: 'טכנאי', weight: 10 }, { term: 'מוסך', weight: 8 },
       // "שירות" intentionally absent — too generic
+    ],
+  },
+  {
+    slug: 'solar',
+    labelHe: 'אנרגיה סולרית',
+    keywords: [
+      { term: 'סולרי', weight: 10 }, { term: 'פאנל', weight: 9 },
+      { term: 'solar', weight: 10 }, { term: 'photovoltaic', weight: 10 },
+      { term: 'pv', weight: 8 }, { term: 'תרמוגרפי', weight: 9 },
+      { term: 'thermographic', weight: 9 }, { term: 'אנרגיה מתחדשת', weight: 8 },
+    ],
+  },
+  {
+    slug: 'insurance',
+    labelHe: 'ביטוח ותביעות',
+    keywords: [
+      { term: 'ביטוח', weight: 10 }, { term: 'תביעה', weight: 10 },
+      { term: 'insurance', weight: 10 }, { term: 'claim', weight: 10 },
+      { term: 'נזק', weight: 7 }, { term: 'שריפה', weight: 7 },
+      { term: 'ברד', weight: 8 }, { term: 'שיטפון', weight: 8 },
     ],
   },
   {
