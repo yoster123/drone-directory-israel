@@ -11,7 +11,8 @@
 import fs from 'fs'
 import path from 'path'
 import { generatedListings } from '../src/data/generated-listings'
-import type { Listing, EnrichedListing } from '../src/types/listing'
+import type { Listing, EnrichedListing, ClassificationEvidence } from '../src/types/listing'
+import { SIGNAL_RULES, BUYER_INTENT_TAGS } from '../src/lib/capabilities'
 
 // ── Service inference ─────────────────────────────────────────────────────────
 
@@ -179,6 +180,60 @@ function buildLongDesc(listing: Listing, services: string[], loc: string): strin
     `${s0} ו${s1} מהאוויר ב${loc}. ניסיון עם לקוחות עסקיים, יזמים ותקשורת. ${webNote}`,
   ]
   return opts[pick(listing.id, 'long', opts.length)]
+}
+
+// ── Multi-service secondary classification ────────────────────────────────────
+//
+// Uses SIGNAL_RULES from src/lib/capabilities.ts to match listing text against
+// known service signals. Each matched rule that isn't the primary category
+// produces a secondary category slug, a capability tag, and evidence.
+//
+// Text searched: name + services + shortDescriptionHe + longDescriptionHe.
+// For scraped listings (empty services, generic descriptions) only the name
+// carries reliable signal. CSV-imported listings benefit from richer text.
+
+interface SecondaryClassification {
+  secondaryCategorySlugs: string[]
+  capabilities: string[]
+  buyerIntentTags: string[]
+  classificationEvidence: ClassificationEvidence[]
+}
+
+function inferSecondaryCategories(listing: Listing): SecondaryClassification {
+  // Intentionally excludes shortDescriptionHe and longDescriptionHe.
+  // Scraped listings carry generic placeholder text ("צילום אווירי בישראל.")
+  // that doesn't reflect what the business actually does — searching it
+  // causes false-positive secondary-category matches.
+  const text = [listing.name, ...listing.services].join(' ').toLowerCase()
+
+  const secondarySlugs: string[] = []
+  const capabilities: string[] = []
+  const evidence: ClassificationEvidence[] = []
+
+  for (const rule of SIGNAL_RULES) {
+    if (rule.categorySlug === listing.categorySlug) continue
+
+    const matched = rule.terms.filter((t) => text.includes(t))
+    if (matched.length === 0) continue
+
+    if (!secondarySlugs.includes(rule.categorySlug)) {
+      secondarySlugs.push(rule.categorySlug)
+    }
+    if (!capabilities.includes(rule.capability)) {
+      capabilities.push(rule.capability)
+    }
+    evidence.push({
+      categorySlug: rule.categorySlug,
+      evidence: matched.slice(0, 2).join(', '),
+      source: 'name+description',
+    })
+  }
+
+  const buyerIntentTags = BUYER_INTENT_TAGS.filter((t) =>
+    capabilities.includes(t.capability),
+  ).map((t) => t.tag)
+
+  return { secondaryCategorySlugs: secondarySlugs, capabilities, buyerIntentTags, classificationEvidence: evidence }
 }
 
 // ── City slug normalization ───────────────────────────────────────────────────
@@ -375,6 +430,7 @@ function enrich(listing: Listing): EnrichedListing {
   const whatsapp = deriveWhatsApp(listing.phone, listing.whatsapp)
   const services = inferServices(listing)
   const loc = locLabel({ ...listing, citySlug })
+  const secondary = inferSecondaryCategories(listing)
   return {
     ...listing,
     citySlug,
@@ -392,6 +448,7 @@ function enrich(listing: Listing): EnrichedListing {
     operationalStrengths: inferOperationalStrengths(listing),
     projectTypes:       inferProjectTypes(listing),
     verificationSignals: inferVerificationSignals(listing, whatsapp),
+    ...secondary,
   }
 }
 
@@ -458,30 +515,57 @@ function main() {
   fs.writeFileSync(OUTPUT, output, 'utf-8')
 
   // Stats
-  const withBadges      = enriched.filter((l) => l.badges.length > 0).length
-  const withSpecialties = enriched.filter((l) => l.specialties.length > 0).length
-  const avgServices     = (enriched.reduce((acc, l) => acc + l.services.length, 0) / enriched.length).toFixed(1)
-  const avgBadges       = (enriched.reduce((acc, l) => acc + l.badges.length, 0) / enriched.length).toFixed(1)
-  const withCitySlug    = enriched.filter((l) => l.citySlug !== null).length
-  const wasNormalized   = enriched.filter((l) => {
+  const withBadges        = enriched.filter((l) => l.badges.length > 0).length
+  const withSpecialties   = enriched.filter((l) => l.specialties.length > 0).length
+  const avgServices       = (enriched.reduce((acc, l) => acc + l.services.length, 0) / enriched.length).toFixed(1)
+  const avgBadges         = (enriched.reduce((acc, l) => acc + l.badges.length, 0) / enriched.length).toFixed(1)
+  const withCitySlug      = enriched.filter((l) => l.citySlug !== null).length
+  const withSecondary     = enriched.filter((l) => (l.secondaryCategorySlugs?.length ?? 0) > 0).length
+  const wasNormalized     = enriched.filter((l) => {
     const orig = (generatedListings as unknown as Listing[]).find((g) => g.id === l.id)
     return !orig?.citySlug && !!l.citySlug
   }).length
-  const withWhatsApp    = enriched.filter((l) => !!l.whatsapp).length
-  const skippedPhone    = (generatedListings as unknown as Listing[]).filter(
+  const withWhatsApp      = enriched.filter((l) => !!l.whatsapp).length
+  const skippedPhone      = (generatedListings as unknown as Listing[]).filter(
     (l) => l.phone && !deriveWhatsApp(l.phone, l.whatsapp),
   ).length
 
   console.log(`
 📊  סיכום:
-   עסקים עובדו:      ${enriched.length}
-   עם וואטסאפ:      ${withWhatsApp} (מספרים לא-נייד שדולגו: ${skippedPhone})
-   עם עיר מזוהה:    ${withCitySlug} (נורמל חדש: ${wasNormalized})
-   עם תגיות אמון:   ${withBadges} (ממוצע ${avgBadges} לעסק)
-   עם התמחויות:     ${withSpecialties}
-   ממוצע שירותים:   ${avgServices} לעסק
+   עסקים עובדו:          ${enriched.length}
+   עם קטגוריות משניות:   ${withSecondary}
+   עם וואטסאפ:           ${withWhatsApp} (מספרים לא-נייד שדולגו: ${skippedPhone})
+   עם עיר מזוהה:         ${withCitySlug} (נורמל חדש: ${wasNormalized})
+   עם תגיות אמון:        ${withBadges} (ממוצע ${avgBadges} לעסק)
+   עם התמחויות:          ${withSpecialties}
+   ממוצע שירותים:        ${avgServices} לעסק
 
-📋  לפני/אחרי — 5 דוגמאות:
+🔀  עסקים מרובי-שירות — 5 דוגמאות:
+`)
+
+  // Show 5 listings that received secondary categories, for review
+  const multiServiceExamples = enriched
+    .filter((l) => (l.secondaryCategorySlugs?.length ?? 0) > 0)
+    .slice(0, 5)
+
+  multiServiceExamples.forEach((l, i) => {
+    console.log(`${i + 1}. ${l.name}`)
+    console.log(`   קטגוריה ראשית:    ${l.categorySlug}`)
+    console.log(`   קטגוריות משניות: ${JSON.stringify(l.secondaryCategorySlugs)}`)
+    console.log(`   יכולות:          ${JSON.stringify(l.capabilities)}`)
+    if (l.classificationEvidence?.length) {
+      l.classificationEvidence.forEach((ev) => {
+        console.log(`   ← ${ev.categorySlug}: "${ev.evidence}"`)
+      })
+    }
+    console.log()
+  })
+
+  if (multiServiceExamples.length === 0) {
+    console.log('   (אין עסקים עם קטגוריות משניות בנתוני הדגימה הנוכחיים)\n')
+  }
+
+  console.log(`📋  לפני/אחרי — 5 דוגמאות:
 `)
 
   // Pick 5 varied examples across quality/category spectrum

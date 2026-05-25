@@ -1,6 +1,6 @@
 // AUTO-GENERATED — do not edit manually
 // Source: src/data/generated-listings.ts
-// Generated: 2026-05-12T09:03:19.646Z
+// Generated: 2026-05-24T11:10:22.290Z
 // Run: npm run enrich:listings
 
 import type { EnrichedListing } from '../types/listing'
@@ -68,6 +68,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/lvl-ty-vy.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -135,6 +139,10 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/a-m-alvmvt-ptrvnvt-avvyrym-va-m.ico",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -200,7 +208,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-xfxiga",
@@ -264,6 +276,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/propeller-drones-prvplvr-drvns.png",
     "logoSource": "official-site",
     "logoConfidence": "high"
@@ -337,6 +353,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/pvrtl-hchklavt-hyshraly.ico",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -402,6 +422,22 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "verificationSignals": [
       "אתר אינטרנט רשמי"
+    ],
+    "secondaryCategorySlugs": [
+      "agriculture"
+    ],
+    "capabilities": [
+      "agriculture-spraying"
+    ],
+    "buyerIntentTags": [
+      "שירותי חקלאות"
+    ],
+    "classificationEvidence": [
+      {
+        "categorySlug": "agriculture",
+        "evidence": "agro",
+        "source": "name+description"
+      }
     ]
   },
   {
@@ -470,6 +506,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/g-y-am-aks-markvt-va-m.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -532,7 +572,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-v90fnf",
@@ -597,6 +641,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/avlm-hrchpnym.ico",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -667,6 +715,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/al-dy-ayy-hpkvt-vydav-tel-aviv.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -736,6 +788,22 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [
+      "fpv-filming"
+    ],
+    "capabilities": [
+      "fpv-racing"
+    ],
+    "buyerIntentTags": [
+      "צילום FPV"
+    ],
+    "classificationEvidence": [
+      {
+        "categorySlug": "fpv-filming",
+        "evidence": "fpv, race drone",
+        "source": "name+description"
+      }
+    ],
     "logoUrl": "/listing-logos/race-drones-rchpny-fpv.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -803,7 +871,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-hi8drx",
@@ -867,7 +939,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-tvjnbr",
@@ -932,7 +1008,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-gltfto",
@@ -997,6 +1077,22 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
+    ],
+    "secondaryCategorySlugs": [
+      "aerial-photography"
+    ],
+    "capabilities": [
+      "aerial-photo"
+    ],
+    "buyerIntentTags": [
+      "צילום אווירי"
+    ],
+    "classificationEvidence": [
+      {
+        "categorySlug": "aerial-photography",
+        "evidence": "צילומי אוויר",
+        "source": "name+description"
+      }
     ]
   },
   {
@@ -1064,6 +1160,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/may-fly-shyrvty-tsylvm-avvyryym.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -1129,7 +1229,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-7hv1wg",
@@ -1198,6 +1302,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/hargvn-hyshraly-lrv-lhv-rchpnym-netanya.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -1263,7 +1371,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-9uk0dt",
@@ -1328,6 +1440,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/sytydrvns-rchpnym-city-drones-uav.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -1396,7 +1512,93 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
+    ],
+    "secondaryCategorySlugs": [
+      "mapping-surveying"
+    ],
+    "capabilities": [
+      "gis-mapping"
+    ],
+    "buyerIntentTags": [
+      "מיפוי וסקר"
+    ],
+    "classificationEvidence": [
+      {
+        "categorySlug": "mapping-surveying",
+        "evidence": "mapic",
+        "source": "name+description"
+      }
     ]
+  },
+  {
+    "id": "g-uvonvz",
+    "name": "ד\"ר רם סילפן - מרכז תל אביב לכירורגיה פלסטית",
+    "slug": "d-r-rm-sylpn-mrkz-tl-avyv-lkyrvrgyh-plst-tel-aviv",
+    "categorySlug": "aerial-photography",
+    "categoryLabelHe": "צילום אווירי",
+    "services": [
+      "צילום אווירי",
+      "וידאו אווירי"
+    ],
+    "citySlug": "tel-aviv",
+    "cityLabelHe": "תל אביב",
+    "region": "center",
+    "serviceAreaType": "local",
+    "serviceRegions": [
+      "center"
+    ],
+    "shortDescriptionHe": "פעיל בתל אביב בתחום צילום אווירי ווידאו אווירי.",
+    "longDescriptionHe": "פעיל בתל אביב בתחום צילום אווירי ווידאו אווירי. ציוד רחפנים מתקדם ועריכה מקצועית. מתאים לפרויקטים גדולים וקטנים.",
+    "phone": "01700501035",
+    "whatsapp": null,
+    "website": "https://telavivplastic.co.il/",
+    "email": null,
+    "imageUrl": null,
+    "claimedStatus": "unclaimed",
+    "featured": false,
+    "qualityScore": 88,
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%D7%93%22%D7%A8%20%D7%A8%D7%9D%20%D7%A1%D7%99%D7%9C%D7%A4%D7%9F%20-%20%D7%9E%D7%A8%D7%9B%D7%96%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%9C%D7%9B%D7%99%D7%A8%D7%95%D7%A8%D7%92%D7%99%D7%94%20%D7%A4%D7%9C%D7%A1%D7%98%D7%99%D7%AA&query_place_id=ChIJg6IF6l1JHRURBsWod320IF8",
+    "lastUpdated": "2026-05-12",
+    "badges": [
+      "אתר רשמי",
+      "דירוג גבוה",
+      "ביקורות רבות"
+    ],
+    "specialties": [],
+    "equipment": [
+      "רחפן צילום מקצועי"
+    ],
+    "industriesServed": [
+      "נדל\"ן ובנייה",
+      "מדיה ופרסום",
+      "אירועים"
+    ],
+    "deliverables": [
+      "וידאו 4K",
+      "תמונות ברזולוציה גבוהה",
+      "תוכן לרשתות חברתיות"
+    ],
+    "certifications": [],
+    "coverageArea": "תל אביב והסביבה",
+    "operationalStrengths": [
+      "צילום אווירי מקצועי",
+      "ציוד מתקדם",
+      "מדורג גבוה על ידי לקוחות"
+    ],
+    "projectTypes": [
+      "סרטוני תדמית",
+      "צילום אירועים",
+      "תוכן לרשתות"
+    ],
+    "verificationSignals": [
+      "אתר אינטרנט רשמי",
+      "מספר טלפון מאומת",
+      "ביקורות גוגל חיוביות"
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-strefy",
@@ -1467,6 +1669,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/alth-aynvvyyshn.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -1537,6 +1743,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/drone-options-rishon-lezion.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -1604,7 +1814,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-98sp0l",
@@ -1664,7 +1878,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-5scc20",
@@ -1729,7 +1947,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-a69gxj",
@@ -1791,7 +2013,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-umw10w",
@@ -1856,7 +2082,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-ssyx3l",
@@ -1918,7 +2148,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-7zpbro",
@@ -1985,7 +2219,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-xpqzt4",
@@ -2047,7 +2285,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-p777of",
@@ -2111,7 +2353,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-8jip5g",
@@ -2174,7 +2420,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-am51xv",
@@ -2234,7 +2484,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-unf9fo",
@@ -2301,6 +2555,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/skyyshvt-tsylvm-avvyry-vazrt-rchpnym-tel-aviv.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -2371,6 +2629,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/rvaym-mlmalh-mtslmym-mkl-zvvyt-haifa.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -2439,6 +2701,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/creative-mind-hpkvt-vydav-tsylvmy-rchpn-.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -2501,7 +2767,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-vbdlk6",
@@ -2567,7 +2837,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-91s6uf",
@@ -2634,6 +2908,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/ktvm-tslmym-haifa.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -2698,6 +2976,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/hvvyz-va-m.ico",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -2763,7 +3045,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-qmu4nz",
@@ -2820,7 +3106,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-ajjukk",
@@ -2885,7 +3175,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-hzsrib",
@@ -2951,6 +3245,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/siri-ariel-photography-syry-tsylvm-avyr.png",
     "logoSource": "official-site",
     "logoConfidence": "medium"
@@ -3017,6 +3315,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/hachym-yvgnd-tel-aviv.ico",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -3083,7 +3385,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-te4jey",
@@ -3147,6 +3453,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/ysavr-dvrvn.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -3211,6 +3521,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/ayy-rnt.png",
     "logoSource": "official-site",
     "logoConfidence": "high"
@@ -3281,6 +3595,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/tsylvm-varykt-vydav-stvdyv-edital.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -3347,6 +3665,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/arlyk-mrkz-htsylvm-tel-aviv.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -3417,7 +3739,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-049prr",
@@ -3481,6 +3807,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/tsylvm-avvyry-digitalsky-tel-aviv.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -3547,6 +3877,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/tsylvmy-avvyr-ornir-jerusalem.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -3614,7 +3948,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-mzotmv",
@@ -3677,7 +4015,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-rja2nb",
@@ -3743,6 +4085,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/shmavn-kts-vydav-shimon-katz-videography.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -3809,6 +4155,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/vnd-prv-pylm-vydav-aynk-tel-aviv.ico",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -3880,6 +4230,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/airobotics-petah-tikva.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -3946,6 +4300,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/tysny-chvlvn-jerusalem.ico",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -4007,7 +4365,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-roxsg2",
@@ -4078,6 +4440,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/pryplyyt-preflight.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -4141,6 +4507,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/ptkvm-eilat.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -4203,6 +4573,10 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/ptkvm-aksprs-eilat.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -4269,6 +4643,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/camera-city-yvva-vshyvvk-tsyvd-tsylvm-petah-tikva.png",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -4336,6 +4714,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/ayrv-svl-ptrvnvt-tavptyym-aerosol-compos-petah-tikva.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -4402,6 +4784,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/tysny-dvr-dvr-hmchshvv-petah-tikva.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -4463,7 +4849,11 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "verificationSignals": [
       "מספר טלפון מאומת"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-tag225",
@@ -4527,6 +4917,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/rvaym-avlm-tsylvm-valktrvnykh-va-m-petah-tikva.ico",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -4593,6 +4987,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/kamrh-plvs.png",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -4655,6 +5053,22 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
+    ],
+    "secondaryCategorySlugs": [
+      "fpv-filming"
+    ],
+    "capabilities": [
+      "fpv-racing"
+    ],
+    "buyerIntentTags": [
+      "צילום FPV"
+    ],
+    "classificationEvidence": [
+      {
+        "categorySlug": "fpv-filming",
+        "evidence": "race drone",
+        "source": "name+description"
+      }
     ]
   },
   {
@@ -4718,6 +5132,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/rc-pilot.ico",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -4784,6 +5202,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/tysn-chyph-haifa.ico",
     "logoSource": "favicon",
     "logoConfidence": "low"
@@ -4844,7 +5266,11 @@ export const enrichedListings: EnrichedListing[] = [
       "ספורט ואקסטרים",
       "פרסומות"
     ],
-    "verificationSignals": []
+    "verificationSignals": [],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-8db1q8",
@@ -4908,6 +5334,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/xflight.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -4980,7 +5410,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-tq5r1f",
@@ -5045,6 +5479,10 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/lgat-vmrchv-va-m.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -5117,6 +5555,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/mvdd-mvsmk.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -5181,7 +5623,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-ttck31",
@@ -5249,6 +5695,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/plksy-g-t-mypvy-adrykly-va-m.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -5316,6 +5766,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/arsyzvn-jerusalem.ico",
     "logoSource": "favicon",
     "logoConfidence": "low"
@@ -5384,6 +5838,10 @@ export const enrichedListings: EnrichedListing[] = [
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/copterpix-pro.png",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -5452,6 +5910,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/almo-gis.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -5513,7 +5975,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-yxqbsy",
@@ -5575,7 +6041,11 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "זמין בוואטסאפ",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-64qnov",
@@ -5642,6 +6112,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/rvvvtykan.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -5702,7 +6176,11 @@ export const enrichedListings: EnrichedListing[] = [
       "ספורט ואקסטרים",
       "פרסומות"
     ],
-    "verificationSignals": []
+    "verificationSignals": [],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-8nmobl",
@@ -5766,6 +6244,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/kptn-tvy-kepten-toy.ico",
     "logoSource": "favicon",
     "logoConfidence": "medium"
@@ -5831,6 +6313,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/krn-alktrvnykh-eilat.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -5898,7 +6384,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-5gtj71",
@@ -5961,7 +6451,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-m9apks",
@@ -6025,7 +6519,11 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-q75es4",
@@ -6082,7 +6580,11 @@ export const enrichedListings: EnrichedListing[] = [
       "צילום אירועים",
       "תוכן לרשתות"
     ],
-    "verificationSignals": []
+    "verificationSignals": [],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-038wp9",
@@ -6147,6 +6649,10 @@ export const enrichedListings: EnrichedListing[] = [
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/nystk-tspvn.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -6210,7 +6716,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל חיוביות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-r8m27s",
@@ -6273,7 +6783,11 @@ export const enrichedListings: EnrichedListing[] = [
       "אתר אינטרנט רשמי",
       "מספר טלפון מאומת",
       "ביקורות גוגל מצוינות"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-w4skh2",
@@ -6337,6 +6851,10 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/cando-drones.jpg",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -6402,7 +6920,11 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "verificationSignals": [
       "אתר אינטרנט רשמי"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-iubany",
@@ -6466,6 +6988,10 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/high-lander.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -6532,6 +7058,10 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/kronos-group.ico",
     "logoSource": "favicon",
     "logoConfidence": "high"
@@ -6597,7 +7127,11 @@ export const enrichedListings: EnrichedListing[] = [
     ],
     "verificationSignals": [
       "אתר אינטרנט רשמי"
-    ]
+    ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": []
   },
   {
     "id": "g-3wrdkn",
@@ -6660,6 +7194,10 @@ export const enrichedListings: EnrichedListing[] = [
     "verificationSignals": [
       "אתר אינטרנט רשמי"
     ],
+    "secondaryCategorySlugs": [],
+    "capabilities": [],
+    "buyerIntentTags": [],
+    "classificationEvidence": [],
     "logoUrl": "/listing-logos/defensync.png",
     "logoSource": "favicon",
     "logoConfidence": "high"
